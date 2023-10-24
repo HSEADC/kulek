@@ -1,22 +1,78 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>static-site-boilerplate index</title>
-    <analytics></analytics>
-  </head>
+<html lang="en">
 
-  <body class="index">
-    <div class="images">
-      <div class="image" id="bgPNG"></div>
-      <div class="image" id="bgJPG"></div>
-      <div class="image" id="bgSVG"></div>
-      <img src="images/image.png" />
-      <img src="images/image.jpg" />
-      <img src="images/image.svg" />
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медиа о поколениях</title>
+    <!-- <analytics></analytics> -->
+</head>
 
-    <div>This is a landing page</div>
-    <a href="./pages/page.html">Go to an internal page</a>
-  </body>
+<body class="index">
+    <!-- <h1>О космосе</h1>
+    <h2>Разделы</h2> -->
+    <ul>
+        <li><a href="/">На главную</a></li>
+        <li><a href="../about.html">О нас</a></li>
+        <li><a href="../dictionary.html">Словарик</a></li>
+        <li><a href="../market.html">Барахолка</a></li>
+    </ul>
+
+    <!-- <h2>О нас</h2>
+    <ul>
+        <li><a href="../about.html">О нас</a></li>
+    </ul>
+
+    <h2>Словарик</h2>
+    <ul>
+        <li><a href="../dictionary.html">Словарик</a></li>
+    </ul>
+
+    <h2>Барахолка</h2>
+    <ul>
+        <li><a href="spaceships/buran.html">Буран</a></li>
+    </ul> -->
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form id="my-form" action="https://formspree.io/f/meqbvygg" method="POST">
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <button id="my-form-button">Submit</button>
+        <p id="my-form-status"></p>
+    </form>
+    <!-- Place this script at the end of the body tag -->
+    <script>
+        var form = document.getElementById("my-form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    status.innerHTML = "Thanks for your submission!";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                            status.innerHTML = "Oops! There was a problem submitting your form"
+                        }
+                    })
+                }
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+</body>
+
 </html>
