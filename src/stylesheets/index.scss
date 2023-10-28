@@ -36,7 +36,6 @@ a {
     position: relative;
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 24px;
     background-color: #94A7FF;
     height: 605px;
     border-radius: 5px;
@@ -169,12 +168,12 @@ a {
 
 
 }
-.screen {
-    position: absolute;
-    opacity: 25%;
-    z-index: 1;
-    top: 0px;
-}
+// .screen {
+//     position: absolute;
+//     opacity: 25%;
+//     z-index: 1;
+//     top: 0px;
+// }
 .footer {
     position: relative;
     height: 101px;
