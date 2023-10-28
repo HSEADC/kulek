@@ -1,6 +1,199 @@
 body.index {
     background-color: var(--white);
     font-family: "PP Radio Grotesk";
-    font-size: 20px;
-  
+    font-size: 18px;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.logo {
+    width: 88px;
+    height: 38px;          
+}
+
+.aboutbutton {
+    background-color: none;
+    border: 1.2px solid black;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+}
+
+.content {
+    position: relative;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 24px;
+    background-color: #94A7FF;
+    height: 605px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pictures {
+    position: absolute;
+}
+#texture {
+    z-index: 0;
+    width: 1359px;
+    height: 605px;
+ 
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine
+{
+    z-index: 2;
+}
+#ten {
+    z-index: 3;
+}
+#one {
+    width: 492px;
+    height: 492px;
+    top: 15px;
+    left: 34px;
+}
+#two {
+    width: 372px;
+    height: 372px;
+    top: -103px;
+    left: 240px;
+}
+#three {
+    width: 557px;
+    height: 557px;
+    top: -253px;
+    left: 534px;
+}
+#four {
+    width: 387px;
+    height: 387px;
+    top: -105px;
+    left: 913px;
+}
+#five {
+    width: 419px;
+    height: 419px;
+    top: 103px;
+    left:1006px;
+}
+#six {
+    width: 549px;
+    height: 549px;
+    top: 344px;
+    left: 753px;
+}
+#seven {
+    width: 608px;
+    height: 608px;
+    top: 260px;
+    left: 436px;
+}
+#eight {
+    width: 566px;
+    height: 566px;
+    top: 197px;
+    left: 61px;
+}
+#nine {
+    width: 383px;
+    height: 383px;
+    top: 215px;
+    left: -61px;
+}
+#ten {
+    width: 751px;
+    height: 208px;
+    top: 139px;
+    left: 312px;
+}
+.description {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1.2px solid black;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    z-index: 4;
+    border-radius: 20px;
+    top: 340px;
+    left: 567px;
+}
+.learn {
+    position: absolute;
+    font-size: 32px;
+    top: 441px;
+    left: 524px;
+}
+
+// стили формы
+#my-form {
+    position: absolute;
+    top: 484px;
+    left: 478px;
+    z-index: 5;
+    
+}
+#my-form-button {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 18px;
+}
+#input {
+   color: #4C4C4C;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-bottom: 6px;
+    border: 1.2px solid black;
+    width: 283px;
+    font-size: 18px;
+    border-radius: 20px;
+
+
+}
+.screen {
+    position: absolute;
+    opacity: 25%;
+    z-index: 1;
+    top: 0px;
+}
+.footer {
+    position: relative;
+    height: 101px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.rightblock {
+    display: flex;
+    justify-content: space-between;
+    width: 372px;
+}
+#text {
+    margin-top: 8px;
+    color: #4C4C4C;
+}
+#inst, #tg {
+    margin-right: 8px;
 }

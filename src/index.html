@@ -10,70 +10,113 @@
 </head>
 
 <body class="index">
-    <!-- <h1>О космосе</h1>
-    <h2>Разделы</h2> -->
-    <ul>
+   
+    <!-- перелинковка наших страничек -->
+    <!-- <ul>
         <li><a href="/">На главную...</a></li>
         <li><a href="../about.html">О нас</a></li>
         <li><a href="../dictionary.html">Словарик</a></li>
         <li><a href="../market.html">Барахолка</a></li>
     </ul>
+     -->
+
+     <!-- код страницы заглушки -->
+    <!-- <img class="screen" src="images/screen.png" alt=""> -->
+     <section class="header">
+        <img class="logo" src="images/logo.svg" alt="">
+        <div class="aboutbutton">
+            <a clas href="../about.html">о нас</a>
+        </div>
+        
+     </section>
+     <section class="content">
+        <img id="texture" class="pictures" src="images/texture.png" alt="">
+        <img id="one" class="pictures" src="images/one.png" alt="">
+        <img id="two" class="pictures" src="images/two.png" alt="">
+        <img id="three" class="pictures" src="images/three.png" alt="">
+        <img id="four" class="pictures" src="images/four.png" alt="">
+        <img id="five" class="pictures" src="images/five.png" alt="">
+        <img id="six" class="pictures" src="images/six.png" alt="">
+        <img id="seven" class="pictures" src="images/seven.png" alt="">
+        <img id="eight" class="pictures" src="images/eight.png" alt="">
+        <img id="nine" class="pictures" src="images/nine.png" alt="">
+        <img id="ten" class="pictures" src="images/10.svg" alt="">
+        <div class="description">
+            помогаем людям <br> из разных поколений <br> лучше понимать друг друга
+        </div>
+        <div class="learn">узнай о запуске первым</div>
+
+        <!-- код для подключения формочки -->
+        <form id="my-form" action="https://formspree.io/f/meqbvygg" method="POST">
+            <!-- <label>ваш email</label> -->
+            <input id="input" type="email" placeholder="ваш email" />
+            <button id="my-form-button">подписаться</button>
+            <p id="my-form-status"></p>
+        </form>
+        <!-- Place this script at the end of the body tag -->
+        <script>
+            var form = document.getElementById("my-form");
+
+            async function handleSubmit(event) {
+                event.preventDefault();
+                var status = document.getElementById("my-form-status");
+                var data = new FormData(event.target);
+                fetch(event.target.action, {
+                    method: form.method,
+                    body: data,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                }).then(response => {
+                    if (response.ok) {
+                        status.innerHTML = "Thanks for your submission!";
+                        form.reset()
+                    } else {
+                        response.json().then(data => {
+                            if (Object.hasOwn(data, 'errors')) {
+                                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                            } else {
+                                status.innerHTML = "Oops! There was a problem submitting your form"
+                            }
+                        })
+                    }
+                }).catch(error => {
+                    status.innerHTML = "Oops! There was a problem submitting your form"
+                });
+            }
+            form.addEventListener("submit", handleSubmit)
+        </script>
+
+     </section>
+     <section class="footer">
+        <div class="block1">
+            <div class="head">Мы в социальных сетях</div>
+            <div id="text" class="inst"><img id="inst" src="images/inst.svg" alt="">eto. kulek</div>
+            <div id="text" class="tg"><img id="tg" src="images/tg.svg" alt="">eto. kulek</div>
+        </div>
+        <div class="rightblock">
+            <div class="block2">
+                <div class="head">Cоздатели</div>
+                <div id="text">Климова Ксения</div>
+                <div id="text">Орехова Софья</div>
+            </div>
+            <div class="block3">
+                <div class="head">Контакты</div>
+                <div id="text">Telegram: @artxksu</div>
+                <div id="text">Telegram: @sonyerikson</div>
+            </div>
+        </div>
+        
+     </section>
+    
     
 
-    <!-- <h2>О нас</h2>
-    <ul>
-        <li><a href="../about.html">О нас</a></li>
-    </ul>
 
-    <h2>Словарик</h2>
-    <ul>
-        <li><a href="../dictionary.html">Словарик</a></li>
-    </ul>
 
-    <h2>Барахолка</h2>
-    <ul>
-        <li><a href="spaceships/buran.html">Буран</a></li>
-    </ul> -->
-    <!-- modify this form HTML and place wherever you want your form -->
-    <form id="my-form" action="https://formspree.io/f/meqbvygg" method="POST">
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <button id="my-form-button">Submit</button>
-        <p id="my-form-status"></p>
-    </form>
-    <!-- Place this script at the end of the body tag -->
-    <script>
-        var form = document.getElementById("my-form");
 
-        async function handleSubmit(event) {
-            event.preventDefault();
-            var status = document.getElementById("my-form-status");
-            var data = new FormData(event.target);
-            fetch(event.target.action, {
-                method: form.method,
-                body: data,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            }).then(response => {
-                if (response.ok) {
-                    status.innerHTML = "Thanks for your submission!";
-                    form.reset()
-                } else {
-                    response.json().then(data => {
-                        if (Object.hasOwn(data, 'errors')) {
-                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                        } else {
-                            status.innerHTML = "Oops! There was a problem submitting your form"
-                        }
-                    })
-                }
-            }).catch(error => {
-                status.innerHTML = "Oops! There was a problem submitting your form"
-            });
-        }
-        form.addEventListener("submit", handleSubmit)
-    </script>
+
+
+
 </body>
 
 </html>
