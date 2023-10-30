@@ -132,6 +132,7 @@ a {
     left: 567px;
 }
 .learn {
+    color: #ffffff;
     position: absolute;
     font-size: 32px;
     top: 441px;
@@ -165,8 +166,14 @@ a {
     width: 283px;
     font-size: 18px;
     border-radius: 20px;
-
-
+}
+#my-form-status {
+        color: #ffffff;
+        padding-top: 11px;
+        padding-left: 100px;
+        padding-bottom: 6px;
+        width: 283px;
+        font-size: 22px;
 }
 // .screen {
 //     position: absolute;

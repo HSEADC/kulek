@@ -48,8 +48,7 @@
 
         <!-- код для подключения формочки -->
         <form id="my-form" action="https://formspree.io/f/meqbvygg" method="POST">
-            <label></label>
-            <input id="input" type="email" placeholder="ваш email" />
+            <input id="input" type="email" name="email" placeholder="ваш email"/>
             <button id="my-form-button">подписаться</button>
             <p id="my-form-status"></p>
         </form>
@@ -69,23 +68,26 @@
                     }
                 }).then(response => {
                     if (response.ok) {
-                        status.innerHTML = "Thanks for your submission!";
+                        status.innerHTML = "спасибо за ваш ответ!";
                         form.reset()
                     } else {
                         response.json().then(data => {
                             if (Object.hasOwn(data, 'errors')) {
                                 status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
                             } else {
-                                status.innerHTML = "Oops! There was a problem submitting your form"
+                                status.innerHTML = "упси, что-то пошло не так :()"
                             }
                         })
                     }
                 }).catch(error => {
-                    status.innerHTML = "Oops! There was a problem submitting your form"
+                    status.innerHTML = "упси, что-то пошло не так :("
                 });
             }
             form.addEventListener("submit", handleSubmit)
         </script>
+
+
+       
 
      </section>
      <section class="footer">
