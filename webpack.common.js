@@ -114,6 +114,11 @@ module.exports = {
       filename: './market.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/teaser.html',
+      filename: './teaser.html'
+    }),
+
     // Article
     new HtmlWebpackPlugin({
       template: './src/market/fashion.html',
