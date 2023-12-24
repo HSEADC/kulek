@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) {
+
+.about-project {
+    padding: 0 30px;
+    .title {
+        width: 45vw;
+        margin-bottom: 2vw;
+        img {
+            width: 100%;
+        }
+    }
+
+    .about-part-one {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .about-part-one-b1 {
+            width: 40vw;
+            
+            .about-first-par {
+                font-size: 2vw;
+                font-style: italic;
+                margin-bottom: 2vw;
+                line-height: 1.25;
+            }
+
+            .about-second-par {
+                width: 60%;
+                font-size: 1vw;
+                margin-left: 7vw;
+                line-height: 1.25;
+            }
+
+            .align-left {
+                margin-left: 0;
+            }
+        }
+        .about-part-one-b2 {
+            width: 40vw;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+}
