@@ -132,6 +132,14 @@ module.exports = {
       template: './src/market/things.html',
       filename: './market/things.html'
     }),
+      new HtmlWebpackPlugin({
+      template: './src/fashion.html',
+      filename: './fashion.html'
+    }),
+      new HtmlWebpackPlugin({
+      template: './src/acca.html',
+      filename: './acca.html'
+    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
