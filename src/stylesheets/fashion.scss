@@ -179,6 +179,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 5vw;
     .acc-title {
         margin-bottom: 2vw;
         h1 {
@@ -254,6 +255,46 @@ body {
 
             .fifty {
                 width: 46%;
+            }
+        }
+    }
+}
+
+.haircuts {
+    padding: 0 30px;
+    width: 100%;
+    h1 {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .hair-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 30vw);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+
+        .h-span-2 {
+            grid-column: span 2;
+
+            p {
+                font-size: 1.5vw;
+                width: 80%;
+                margin-bottom: 1vw;
+                line-height: 1.25;
+            }
+        }
+
+        .hair-cell {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            // justify-content: space-between;
+            width: 100%;
+
+            img {
+                width: 100%;
+                margin-bottom: 1vw;
             }
         }
     }
