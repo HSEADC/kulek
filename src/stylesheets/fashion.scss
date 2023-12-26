@@ -299,3 +299,92 @@ body {
         }
     }
 }
+
+
+.makeup {
+    padding: 0 30px;
+    margin-bottom: 5vw;
+    .makeup-title {
+        h1 {
+            font-size: 3vw;
+            margin-bottom: 2vw;
+        }
+
+        p {
+            font-size: 2vw;
+            width: 80%;
+            margin-bottom: 1vw;
+            line-height: 1.25;
+        }
+    }
+
+    .makeup-desc {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        .makeup-img {
+            width: 50%;
+            img {
+                width: 100%;
+                margin-bottom: 1vw;
+            }
+        }
+
+        .makeup-text {
+            width: 45%;
+
+            p {
+                margin-bottom: 1vw;
+                font-size: 1.5vw;
+                line-height: 1.25;
+            }
+        }
+    }
+}
+
+
+footer {
+    background-color: #E7E6E0;
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: space-between;
+    padding: 30px 30px;
+
+    .creators {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    p {
+        font-size: .95vw;
+        margin-top: .25vw;
+        line-height: 1.25;
+    }
+
+    .footer-title {
+        font-size: 1.5vw;
+        margin-bottom: .75vw;
+        margin-top: 0;
+    }
+
+    .socials {
+
+        .social-contacts {
+            width: 40%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            img {
+                width: 2vw;
+            }
+        }
+    }
+}
