@@ -338,3 +338,288 @@ footer {
         }
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px 30px;
+        height: min-content;
+    
+        .menu-logo {
+            width: 3vw;
+    
+            img {
+                width: 100%;
+            }
+        }
+    
+        .about-us {
+            padding: 7px 20px;
+            border: 1px solid var(--black);
+            border-radius: 20px;
+            background-color: var(--white);
+        }
+    }
+
+    .hero {
+
+        .hero-background {
+            width: 120vw;
+
+            .hero-img-10 {
+                width: 100%;
+            }
+        }
+    
+        .title {
+            width: 60%;
+            margin-top: 4vw;
+            .kulek-img {
+                width: 75vw;
+                img {
+                    width: 100%;
+                }
+            }
+    
+            h3 {
+                    align-self: flex-start;
+                    font-size: 5vw;
+                    margin-bottom: -8vw;
+                    
+            }
+    
+            .title-par {
+                width: 100%;
+                font-size: 4vw;
+                padding: 10px 15px;
+                border: 1px solid var(--black);
+                align-self: center;
+                margin-top: 0;
+                p {
+                    text-align: center;
+                    width: 100%;
+                }
+                
+            }
+        }
+
+    
+    }
+
+    .about-movie {
+        padding: 0 30px;
+        margin-bottom: 5vw;
+        h1 {
+            font-size: 10vw;
+            margin-bottom: 2vw;
+        }
+        .movie-desc {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+    
+            
+            .movie-text {
+                width: 100%;
+                h4 {
+                    font-size: 4vw;
+                    line-height: 1.25;
+                    margin-bottom: 1vw;
+                }
+    
+                p {
+                    font-size: 4vw;
+                    line-height: 1.25;
+                    margin-bottom: 5vw;
+                    margin-left: 5vw;
+                }
+            }
+    
+            .movie-img {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .what-about {
+        padding: 0 30px;
+        margin-bottom: 5vw;
+        h1 {
+            font-size: 10vw;
+            margin-bottom: 2vw;
+        }
+    
+        .what-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            margin-bottom: 2vw;
+            p {
+                font-size: 4vw;
+                line-height: 1.25;
+                width: 100%;
+            }
+        }
+    
+        .what-imgs {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+    
+            .what-img {
+                width: 100%;
+                margin-bottom: 5vw;
+                img {
+                    width: 100%;
+                    
+                }
+    
+                p {
+                    font-size: 4vw;
+                    margin-bottom: 2vw;
+                    
+                }
+            }
+        }
+    }
+
+    .sense {
+        padding: 0 30px;
+        margin-bottom: 5vw;
+        h1 {
+            font-size: 10vw;
+            margin-bottom: 2vw;
+        }
+    
+        .sense-desc {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            .sense-img {
+                width: 100%;
+                img {
+                    width: 100%;
+                    margin-bottom: 1vw;
+                }
+                
+                p {
+                    font-size: 4vw;
+                }
+            }
+    
+            .sense-text {
+                width: 100%;
+                p {
+                    font-size: 4vw;
+                    line-height: 1.25;
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+    }
+
+    .frames {
+        padding: 0 30px;
+        margin-bottom: 5vw;
+        h1 {
+            font-size: 10vw;
+            margin-bottom: 5vw;
+        }
+    
+        .frames-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            gap: 15px;
+            .frame-cell {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-around;
+                margin-top: 0vw;
+                margin-bottom: 5vw;
+    
+                p {
+                    width: 100%;
+                    text-align: left;
+                    font-size: 4vw;
+                }
+    
+                .frame-img {
+                    width: 85%;
+                    img {
+                        width: 100%;
+                        margin-bottom: 1vw;
+                    }
+    
+                    p {
+                        width: 100%;
+                        text-align: start;
+                        font-size: 4vw;
+                    }
+                }
+            }
+    
+            .align-top {
+                margin-top: 0vw;
+            }
+        }
+    }
+
+    .end {
+        padding: 0 30px;
+        margin-bottom: 10vw;
+        h1 {
+            font-size: 10vw;
+            margin-bottom: 5vw;
+        }
+    
+        .end-desc {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+    
+            .end-text {
+                width: 100%;
+                p {
+                    font-size: 4vw;
+                    margin-bottom: 5vw;
+                    line-height: 1.25;
+                }
+            }
+    
+            .end-img {
+                width: 100%;
+                img {
+                    width: 100%;
+                    margin-bottom: 1vw;
+                }
+    
+                .end-img-sub {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    p {
+                        font-size: 4vw;
+                        line-height: 1.25;
+                    }
+                }
+            }
+        }
+    }
+}
