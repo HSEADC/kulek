@@ -200,3 +200,51 @@ body {
         }
     }
 }
+
+.frames {
+    padding: 0 30px;
+    margin-bottom: 5vw;
+    h1 {
+        font-size: 3vw;
+        margin-bottom: 5vw;
+    }
+
+    .frames-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 60px;
+        .frame-cell {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-top: 0vw;
+
+            p {
+                width: 15%;
+                text-align: center;
+                font-size: 1.5vw;
+            }
+
+            .frame-img {
+                width: 85%;
+                img {
+                    width: 100%;
+                    margin-bottom: 1vw;
+                }
+
+                p {
+                    width: 100%;
+                    text-align: start;
+                    font-size: 1.5vw;
+                }
+            }
+        }
+
+        .align-top {
+            margin-top: 7vw;
+        }
+    }
+}
