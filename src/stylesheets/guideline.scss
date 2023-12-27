@@ -2,6 +2,7 @@ body {
     background: #F4F3EF;
     font-family: "PP Radio Grotesk";
     overflow-x: hidden;
+    height: max-content;
 }
 
 .hero {
@@ -157,6 +158,7 @@ body {
     width: 80%;
     margin-left: 15vw;
     margin-bottom: 7vw;
+    height: 100%;
     .logo-title {
         img {
             width: 50%;
@@ -198,6 +200,10 @@ body {
                 img {
                     width: 100%;
                     margin-bottom: 1vw;
+                }
+
+                p {
+                    font-size: 1.5vw;
                 }
             }
         }
@@ -262,8 +268,6 @@ body {
                     width: 100%;
                 }
             }
-
-            
         }
 
         .logo-text {
@@ -271,6 +275,215 @@ body {
             line-height: 1.25;
             width: 60%;
             font-style: italic;
+        }
+    }
+}
+
+.colors {
+    width: 80%;
+    margin-left: 15vw;
+    margin-bottom: 7vw;
+    height: 100%;
+    .col-title {
+        width: 50%;
+        margin-bottom: 2vw;
+    }
+
+    h4 {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+        width:70%;
+        line-height: 1.25;
+    }
+
+    .col-img {
+        width: 100%;
+    }
+}
+
+
+.typo {
+    width: 80%;
+    margin-left: 15vw;
+    margin-bottom: 7vw;
+    height: 100%;
+
+    .typo-title {
+        width: 80%;
+        margin-bottom: 2vw;
+    }
+
+    .typo-desc {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        img {
+            width: 65%;
+        }
+
+        p {
+            width: 32%;
+            font-size: 2vw;
+        }
+    }
+}
+
+.photos {
+    width: 80%;
+    margin-left: 15vw;
+    margin-bottom: 7vw;
+    height: 100%;
+    .photos-title {
+        width: 70%;
+        margin-bottom: 1vw;
+    }
+
+    .picssub {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+        line-height: 1.25;
+        width: 70%;
+        font-style: italic;
+    }
+
+    .ranImg {
+        width: 100%;
+    }
+
+    .characterCol {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        .cols {
+            width: 60%;
+            h4 {
+                font-size: 3vw;
+                margin-bottom: 3vw;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .cols-desc {
+            width: 35%;
+
+            h4 {
+                font-size: 3vw;
+                margin-bottom: 3vw;
+            }
+
+            p {
+                font-size: 2vw;
+            }
+        }
+    }
+}
+
+.graphics {
+    width: 80%;
+    margin-left: 15vw;
+    margin-bottom: 7vw;
+    height: 100%;
+    .graph-title {
+        width: 60%;
+    }
+
+    .graph-background {
+        width: 100%;
+    }
+
+    p {
+        font-size: 2.5vw;
+        font-style: italic;
+        line-height: 1.25;
+    }
+}
+
+
+.mockups {
+    width: 80%;
+    margin-left: 15vw;
+    margin-bottom: 7vw;
+    height: 100%;
+
+    .mockup-title {
+        width: 60%;
+        margin-bottom: 2vw;
+    }
+
+    p {
+        width: 70%;
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .mockups-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px 15px;
+        align-items: center;
+
+        .mock-cell {
+            width: 100%;
+            height: min-content;
+            img {
+                width: 100%;
+            }
+        }
+
+        .span2 {
+            grid-column: span 2;
+        }
+    }
+}
+
+
+footer {
+    background-color: #E7E6E0;
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: space-between;
+    padding: 30px 30px;
+
+    .creators {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    p {
+        font-size: .95vw;
+        margin-top: .25vw;
+        line-height: 1.25;
+    }
+
+    .footer-title {
+        font-size: 1.5vw;
+        margin-bottom: .75vw;
+        margin-top: 0;
+    }
+
+    .socials {
+
+        .social-contacts {
+            width: 40%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            img {
+                width: 2vw;
+            }
         }
     }
 }
