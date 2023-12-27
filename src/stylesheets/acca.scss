@@ -1,0 +1,86 @@
+body {
+    // padding: 30px 40px 0;
+    background: #F4F3EF;
+    font-family: "PP Radio Grotesk";
+    overflow-x: hidden;
+    
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+    .logo {
+        width: 1.5vw;
+
+        & > img {
+            width: 100%;
+        }
+    }
+
+    .about-us {
+        padding: 7px 20px;
+        border: 1px solid var(--black);
+        border-radius: 20px;
+        background-color: var(--white);
+    }
+}
+
+
+.hero {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    padding: 0 30px;
+
+    .hero-background {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .hero-img-10 {
+            width: 100%
+        }
+    }
+
+    .title {
+        width: 45%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .kulek-img {
+            width: 45vw;
+            margin-bottom: 5vw;
+            img {
+                width: 100%;
+            }
+        }
+
+
+        .title-par {
+            font-size: 1.5vw;
+            width: 60%;
+            padding: 15px 25px;
+            border: 1.5px solid var(--black);
+            border-radius: 30px;
+            background-color: var(--white);
+            align-self: center;
+            margin-top: -3vw;
+            p {
+                text-align: center;
+                line-height: 1.25;
+            }
+            
+        }
+    }
+}
