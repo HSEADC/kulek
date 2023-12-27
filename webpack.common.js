@@ -118,6 +118,10 @@ module.exports = {
       template: './src/teaser.html',
       filename: './teaser.html'
     }),
+    new HtmlWebpackPlugin({
+      template: './src/guideline.html',
+      filename: './guideline.html'
+    }),
 
     // Article
     new HtmlWebpackPlugin({
