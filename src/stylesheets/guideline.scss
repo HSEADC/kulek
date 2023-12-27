@@ -22,6 +22,7 @@ body {
 .brand {
     width: 80%;
     margin-left: 15vw;
+    margin-bottom: 7vw;
 
     .brand-title {
         width: 100%;
@@ -147,6 +148,129 @@ body {
                 font-size: 1.5vw;
                 line-height: 1.25;
             }
+        }
+    }
+}
+
+
+.logo {
+    width: 80%;
+    margin-left: 15vw;
+    margin-bottom: 7vw;
+    .logo-title {
+        img {
+            width: 50%;
+            margin-bottom: 1vw;
+        }
+        h4 {
+            font-size: 2vw;
+            margin-bottom: 1vw;
+            width:60%;
+            line-height: 1.25;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 1.5vw;
+            line-height: 1.25;
+            margin-bottom: 2vw;
+            width: 60%;
+        }
+    }
+
+    .logo-colors {
+        margin-bottom: 5vw;
+        h4 {
+            font-size: 2.5vw;
+            margin-bottom: 2vw;
+            width:60%;
+            line-height: 1.25;
+        }
+
+        .logo-vars {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .color-1, .color-2, .color-3 {
+                width: 33%;
+                img {
+                    width: 100%;
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+    }
+
+    .logo-grid {
+        margin-bottom: 5vw;
+        h4 {
+            font-size: 2.5vw;
+            margin-bottom: 2vw;
+            width:60%;
+            line-height: 1.25;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .logo-adaptive {
+        h4 {
+            font-size: 2.5vw;
+            margin-bottom: 2vw;
+            width:60%;
+            line-height: 1.25;
+        }
+
+        .adaptive-vers {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 2vw;
+
+            .ver-1 {
+                width: 60%;
+                p {
+                    font-size: 1.25vw;
+                    margin-bottom: 1.5vw;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .ver-2 {
+                width: 20%;
+                p {
+                    font-size: 1.25vw;
+                    margin-bottom: 1.5vw;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .ver-3 {
+                width: 15%;
+                p {
+                    font-size: 1.25vw;
+                    margin-bottom: 1.5vw;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+
+            
+        }
+
+        .logo-text {
+            font-size: 2vw;
+            line-height: 1.25;
+            width: 60%;
+            font-style: italic;
         }
     }
 }
