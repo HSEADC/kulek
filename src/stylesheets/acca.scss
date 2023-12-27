@@ -164,3 +164,39 @@ body {
         }
     }
 }
+
+.sense {
+    padding: 0 30px;
+    margin-bottom: 5vw;
+    h1 {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .sense-desc {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        .sense-img {
+            width: 40%;
+            img {
+                width: 100%;
+                margin-bottom: 1vw;
+            }
+            
+            p {
+                font-size: 1.5vw;
+            }
+        }
+
+        .sense-text {
+            width: 50%;
+            p {
+                font-size: 1.5vw;
+                line-height: 1.25;
+                margin-bottom: 1vw;
+            }
+        }
+    }
+}
