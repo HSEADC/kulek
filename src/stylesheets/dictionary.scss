@@ -9,14 +9,15 @@ body {
 .menu {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 20px 30px;
+    height: min-content;
 
-    .logo {
-        width: 1.5vw;
+    .menu-logo {
+        width: 3vw;
 
-        & > img {
+        img {
             width: 100%;
         }
     }
