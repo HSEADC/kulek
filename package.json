@@ -1,7 +1,7 @@
 {
-  "name": "static-site",
+  "name": "Kulek",
   "version": "0.1.0",
-  "author": "Ksenia Klimova",
+  "author": "Ksenia Klimova, Udod Konsatntin",
   "license": "false",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
