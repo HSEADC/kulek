@@ -1,14 +1,14 @@
 body.index {
-    background-color: var(--white);
-    font-family: "PP Radio Grotesk";
-    font-size: 18px;
-    overflow: hidden;
-}
-a {
+  background-color: var(--white);
+  font-family: 'PP Radio Grotesk';
+  font-size: 18px;
+  overflow: hidden;
+
+  a {
     text-decoration: none;
     color: black;
-}
-.header {
+  }
+  .header {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -16,13 +16,13 @@ a {
     margin-right: 38px;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-.logo {
+  }
+  .logo {
     width: 88px;
-    height: 38px;          
-}
+    height: 38px;
+  }
 
-.aboutbutton {
+  .aboutbutton {
     background-color: none;
     border: 1.2px solid black;
     padding-left: 17px;
@@ -30,94 +30,100 @@ a {
     padding-top: 7px;
     padding-bottom: 7px;
     border-radius: 25px;
-}
+  }
 
-.content {
+  .content {
     position: relative;
     margin-left: 40px;
     margin-right: 40px;
-    background-color: #94A7FF;
+    background-color: #94a7ff;
     height: 605px;
     border-radius: 5px;
     overflow: hidden;
-}
-.pictures {
+  }
+  .pictures {
     position: absolute;
-}
-#texture {
+  }
+  #texture {
     z-index: 0;
     width: 1359px;
     height: 605px;
- 
-}
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine
-{
+  }
+  #one,
+  #two,
+  #three,
+  #four,
+  #five,
+  #six,
+  #seven,
+  #eight,
+  #nine {
     z-index: 2;
-}
-#ten {
+  }
+  #ten {
     z-index: 3;
-}
-#one {
+  }
+  #one {
     width: 492px;
     height: 492px;
     top: 15px;
     left: 34px;
-}
-#two {
+  }
+  #two {
     width: 372px;
     height: 372px;
     top: -103px;
     left: 240px;
-}
-#three {
+  }
+  #three {
     width: 557px;
     height: 557px;
     top: -253px;
     left: 534px;
-}
-#four {
+  }
+  #four {
     width: 387px;
     height: 387px;
     top: -105px;
     left: 913px;
-}
-#five {
+  }
+  #five {
     width: 419px;
     height: 419px;
     top: 103px;
-    left:1006px;
-}
-#six {
+    left: 1006px;
+  }
+  #six {
     width: 549px;
     height: 549px;
     top: 344px;
     left: 753px;
-}
-#seven {
+  }
+  #seven {
     width: 608px;
     height: 608px;
     top: 260px;
     left: 436px;
-}
-#eight {
+  }
+  #eight {
     width: 566px;
     height: 566px;
     top: 197px;
     left: 61px;
-}
-#nine {
+  }
+  #nine {
     width: 383px;
     height: 383px;
     top: 215px;
     left: -61px;
-}
-#ten {
+  }
+  #ten {
     width: 751px;
     height: 208px;
     top: 139px;
     left: 312px;
-}
-.description {
+  }
+  .description {
     position: absolute;
     background-color: #ffffff;
     border: 1.2px solid black;
@@ -130,24 +136,23 @@ a {
     border-radius: 20px;
     top: 340px;
     left: 567px;
-}
-.learn {
+  }
+  .learn {
     color: #ffffff;
     position: absolute;
     font-size: 32px;
     top: 441px;
     left: 524px;
-}
+  }
 
-// стили формы
-#my-form {
+  // стили формы
+  #my-form {
     position: absolute;
     top: 484px;
     left: 478px;
     z-index: 5;
-    
-}
-#my-form-button {
+  }
+  #my-form-button {
     background-color: black;
     color: #ffffff;
     border-radius: 20px;
@@ -156,9 +161,9 @@ a {
     padding-top: 6px;
     padding-bottom: 6px;
     font-size: 18px;
-}
-#input {
-   color: #4C4C4C;
+  }
+  #input {
+    color: #4c4c4c;
     padding-top: 6px;
     padding-left: 15px;
     padding-bottom: 6px;
@@ -166,22 +171,22 @@ a {
     width: 283px;
     font-size: 18px;
     border-radius: 20px;
-}
-#my-form-status {
-        color: #ffffff;
-        padding-top: 11px;
-        padding-left: 100px;
-        padding-bottom: 6px;
-        width: 283px;
-        font-size: 22px;
-}
-// .screen {
-//     position: absolute;
-//     opacity: 25%;
-//     z-index: 1;
-//     top: 0px;
-// }
-.footer {
+  }
+  #my-form-status {
+    color: #ffffff;
+    padding-top: 11px;
+    padding-left: 100px;
+    padding-bottom: 6px;
+    width: 283px;
+    font-size: 22px;
+  }
+  // .screen {
+  //     position: absolute;
+  //     opacity: 25%;
+  //     z-index: 1;
+  //     top: 0px;
+  // }
+  .footer {
     position: relative;
     height: 101px;
     display: flex;
@@ -191,18 +196,19 @@ a {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 18px;
-    
-}
+  }
 
-.rightblock {
+  .rightblock {
     display: flex;
     justify-content: space-between;
     width: 372px;
-}
-#text {
+  }
+  #text {
     margin-top: 8px;
-    color: #4C4C4C;
-}
-#inst, #tg {
+    color: #4c4c4c;
+  }
+  #inst,
+  #tg {
     margin-right: 8px;
+  }
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'stylesheets/reset.scss';
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/vars.scss';
@@ -5,7 +7,6 @@
 @import 'stylesheets/guideline.scss';
 @import 'stylesheets/dictionary.scss';
 @import 'stylesheets/section.scss';
-/* @import 'stylesheets/article.scss'; */
 @import 'stylesheets/fashion.scss';
 @import 'stylesheets/acca.scss';
 @import 'stylesheets/teaser.scss';
