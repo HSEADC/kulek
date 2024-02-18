@@ -1,0 +1,67 @@
+.O_firstSection {
+  padding-left: 2.639vw;
+  display: inline-flex;
+  gap: 6.667vw;
+}
+
+.O_secondSection {
+  padding-left: 2.778vw;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4.028vw;
+  position: relative;
+}
+
+.O_thirdSection {
+  padding-left: 2.639vw;
+}
+
+.O_fourthSection {
+  padding-left: 0.833vw;
+}
+
+.O_fifthSection {
+  padding-left: 2.639vw;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2.778vw;
+  position: relative;
+}
+
+.O_Footer {
+  display: flex;
+  width: 100%;
+  height: 5.972vw;
+  padding: 2.847vw 0 2.569vw 0;
+  flex-direction: column;
+  gap: 0.694vw;
+  background: #e7e6e0;
+}
+
+.O_firstSectionFashion {
+  height: 35.683vw;
+  position: relative;
+  padding-top: 24.722vw;
+}
+
+.O_secondSectionFashion {
+  display: inline-flex;
+  gap: 2.431vw;
+}
+
+.O_fourthSectionFashion {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.O_fifthSectionFashion {
+  margin: 8.958vw 0 8.472vw 2.847vw;
+}
+
+.O_Words {
+  position: relative;
+  z-index: 4;
+  width: 78.472vw;
+  margin: 0 auto;
+}

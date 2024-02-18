@@ -3,171 +3,42 @@ body.S_Dictionary {
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
-  .M_Menu {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 1.944vw 2.778vw 0 2.778vw;
-
-    .A_Logo {
-      width: 2.326vw;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .A_buttonAbout {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0.521vw 1.354vw;
-      border: 0.104vw solid var(--black);
-      border-radius: 1.389vw;
-      background-color: var(--white);
-
-      > p {
-        font-size: 1.313vw;
-      }
-    }
-  }
-
   .M_pageTitle {
-    height: 39.306vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     .A_backgroundTitle {
       top: 0;
       left: 0;
       position: absolute;
-      width: 100vw;
-      display: flex;
-      > img {
-        width: 100%;
-      }
     }
 
     .A_Header {
       left: 17.64vw;
       top: 19.792vw;
-      width: 62.222vw;
       position: absolute;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      img {
-        width: 100%;
-      }
     }
   }
 
   .O_Words {
-    position: relative;
-    z-index: 4;
-    width: 78.472vw;
-    margin: 0 auto;
-
     .M_searchYear {
       margin-bottom: 3.403vw;
       .C_searchParameters {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         margin-bottom: 0.972vw;
 
         .A_Input {
-          position: relative;
-          width: 19.792vw;
-          height: 2.292vw;
-          background-color: #f4f3ef;
-          border: 0.069vw solid var(--black);
-          border-radius: 3.472vw;
           > input {
             position: absolute;
             top: 0;
-            width: 90%;
-            height: 100%;
-            border: none;
-            background-color: #f4f3ef;
-            border-radius: 3.472vw;
-            padding: 0.278vw 0.417vw 0.278vw 1.042vw;
-            outline: none;
-            font-size: 1.25vw;
           }
 
-          ::-webkit-input-placeholder {
-            font-size: 1.25vw;
-          }
-          ::-moz-placeholder {
-            font-size: 1.25vw;
-          }
-          :-ms-input-placeholder {
-            font-size: 1.25vw;
-          }
-          :-moz-placeholder {
-            font-size: 1.25vw;
-          }
-
-          > img {
+          .Q_Search {
             position: absolute;
             top: 0.59vw;
             right: 0.729vw;
-            width: 0.972vw;
-            height: 0.972vw;
-          }
-        }
-
-        .A_Filter {
-          display: flex;
-          gap: 0.694vw;
-
-          > p {
-            font-size: 1.25vw;
-          }
-
-          > svg {
-            width: 1.25vw;
-            height: 0.583vw;
-            flex-shrink: 0;
-            margin-top: 0.447vw;
           }
         }
       }
 
       .C_exectTime {
-        width: 100%;
-        -webkit-appearance: none;
-        appearance: none;
-        cursor: pointer;
-        outline: none;
-        border-radius: 1.736vw;
-        height: 2.292vw;
-        background: linear-gradient(270deg, #e7e6e0 -0.04%, #332d26 99.83%);
         margin-bottom: 0.972vw;
-      }
-
-      .C_exectTime::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        height: 2.292vw;
-        width: 2.292vw;
-        background-color: none;
-        border-radius: 50%;
-        border: 0.104vw solid var(--white);
-        transition: 0.2s ease-in-out;
-      }
-
-      .C_Years {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-
-        > p {
-          font-size: 1.111vw;
-        }
       }
     }
 
@@ -215,97 +86,9 @@ body.S_Dictionary {
       }
     }
   }
-
   .O_Footer {
-    margin-top: 13.889vw;
-    display: flex;
-    width: 94.306vw;
-    height: 6.146vw;
-    padding: 2.569vw 2.847vw;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.694vw;
-    background: #e7e6e0;
-
     .W_footerContent {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 61.458vw;
-
-      .M_socialNetworks {
-        > h2 {
-          font-size: 1.167vw;
-          line-height: 95.092%;
-          letter-spacing: -0.012vw;
-        }
-
-        .W_allLinks {
-          margin-top: 0.931vw;
-          display: flex;
-          flex-direction: column;
-          gap: 0.584vw;
-
-          .C_linkInstagram,
-          .C_linkTelegram {
-            display: flex;
-            align-items: center;
-
-            > p {
-              font-size: 0.875vw;
-              line-height: 95.092%;
-              letter-spacing: -0.009vw;
-            }
-          }
-          .C_linkInstagram {
-            gap: 0.486vw;
-
-            > img {
-              width: 1.021vw;
-              height: 1.021vw;
-            }
-          }
-          .C_linkTelegram {
-            gap: 0.625vw;
-
-            > img {
-              width: 0.903vw;
-              height: 0.903vw;
-            }
-          }
-        }
-      }
-
-      .W_rightFooter {
-        display: flex;
-        gap: 5.417vw;
-
-        .M_footerSection {
-          display: flex;
-          flex-direction: column;
-          gap: 1.146vw;
-
-          > h2 {
-            font-size: 1.167vw;
-            line-height: 95.092%;
-            letter-spacing: -0.012vw;
-          }
-
-          .C_Creators {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            gap: 0.694vw;
-
-            > p {
-              font-size: 0.875vw;
-              line-height: 95.092%;
-              letter-spacing: -0.009vw;
-            }
-          }
-        }
-      }
+      margin-left: 2.847vw;
     }
   }
 

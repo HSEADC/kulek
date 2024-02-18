@@ -1,70 +1,13 @@
-html {
-  // overflow-x: hidden;
-}
-
 body.fashion {
   background: #f4f3ef;
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
-  .M_Menu {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 1.944vw 2.778vw 0 2.778vw;
-
-    .A_Logo {
-      width: 2.326vw;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .A_buttonAbout {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0.521vw 1.354vw;
-      border: 0.104vw solid var(--black);
-      border-radius: 1.389vw;
-      background-color: var(--white);
-
-      > p {
-        font-size: 1.313vw;
-      }
-    }
-  }
-
-  .O_firstSection {
+  .O_firstSectionFashion {
     margin-top: -5.201vw;
-    height: 35.683vw;
-    position: relative;
-    padding-top: 24.722vw;
 
     .M_titleFashion90 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      gap: 1.538vw;
-      z-index: 2;
-
-      .A_titleFashion90 {
-        width: 62.879vw;
-        height: 11.795vw;
-      }
       .A_aboutPage {
-        display: flex;
-        width: 21.528vw;
-        padding: 1.285vw 1.91vw 1.285vw 1.979vw;
-        justify-content: center;
-        align-items: center;
-        border-radius: 1.319vw;
-        border: 0.104vw solid #131313;
-        background: #fff;
-
         > p {
           width: 21.528vw;
           color: #131313;
@@ -76,114 +19,62 @@ body.fashion {
     }
 
     .A_lineFashion90 {
-      width: 90vw;
-      height: 48.958vw;
       top: 10.25vw;
       left: 5.022vw;
       position: absolute;
     }
 
     .A_pictureFashion1 {
-      width: 26.601vw;
-      height: 26.601vw;
       top: 0;
       left: 2.222vw;
       position: absolute;
     }
 
     .A_pictureFashion2 {
-      width: 16.756vw;
-      height: 16.756vw;
       top: 5.883vw;
       left: 41.76vw;
       position: absolute;
     }
 
     .A_pictureFashion3 {
-      width: 11.013vw;
-      height: 11.013vw;
       top: 13.643vw;
       right: 20.058vw;
       position: absolute;
     }
 
     .A_pictureFashion4 {
-      width: 11.389vw;
-      height: 10.486vw;
       top: 38.097vw;
       left: 2.592vw;
       position: absolute;
     }
 
     .A_pictureFashion5 {
-      width: 15.717vw;
-      height: 20.641vw;
       top: 39.764vw;
       left: 17.731vw;
       position: absolute;
     }
 
     .A_pictureFashion6 {
-      width: 14.444vw;
-      height: 14.444vw;
       top: 44.764vw;
       right: 28.311vw;
       position: absolute;
     }
 
     .A_pictureFashion7 {
-      width: 15.139vw;
-      height: 16.667vw;
       top: 36.986vw;
       right: 5.325vw;
       position: absolute;
     }
   }
 
-  .O_secondSection {
+  .O_secondSectionFashion {
     margin-top: 8.888vw;
     margin-left: 2.778vw;
-    display: inline-flex;
-    gap: 2.431vw;
 
     .M_allTextSection2 {
-      display: flex;
-      flex-direction: column;
-      gap: 2.083vw;
-
-      .W_titleSubtitle {
-        display: flex;
-        width: 39.583vw;
-        flex-direction: column;
-        gap: 2.083vw;
-
-        > h1 {
-          color: #000;
-          font-size: 3.333vw;
-          line-height: 95%;
-        }
-
-        > p {
-          color: #000;
-          font-size: 1.667vw;
-          font-style: italic;
-          line-height: 1.91vw;
-          letter-spacing: -0.017vw;
-        }
-      }
-
-      .W_textSection2 {
-        display: flex;
-        padding-left: 8.125vw;
-        flex-direction: column;
-        gap: 2.083vw;
-        width: 36.458vw;
-
-        > p {
-          color: #000;
-          font-size: 1.25vw;
-          line-height: 1.667vw;
-          letter-spacing: -0.013vw;
+      .W_titleSubtitleFashion {
+        .A_sammary {
+          margin-top: 2.083vw;
         }
       }
     }
@@ -196,142 +87,41 @@ body.fashion {
         position: absolute;
         top: -11.862vw;
         left: -11.151vw;
-        width: 52.761vw;
-        height: 51.435vw;
-        overflow: hidden;
-        > img {
-          height: 100%;
-        }
-      }
-
-      .W_pictureDescSection2 {
-        position: relative;
-        z-index: 2;
-        display: inline-flex;
-        flex-direction: column;
-        gap: 0.694vw;
-
-        > img {
-          width: 38.403vw;
-          height: 32.014vw;
-        }
-
-        > p {
-          color: #131313;
-          font-size: 1.25vw;
-          font-style: italic;
-          line-height: 105.092%;
-        }
       }
     }
   }
 
-  .O_thirdSection {
-    margin-top: 12.431vw;
+  .O_thirdSectionFashion {
+    margin-top: 8.194vw;
     margin-left: 2.708vw;
 
-    h1 {
-      color: #000;
-      font-size: 3.333vw;
-      line-height: 95%;
+    .A_titleName {
       margin-bottom: 2.778vw;
     }
 
     .C_picturesAllSection3 {
-      display: flex;
-      gap: 1.389vw;
       margin-left: 8.056vw;
-
-      .C_picturesSection3,
-      .C_pictures2Section3,
-      .C_pictures3Section3,
-      .C_pictures5Section3,
-      .C_pictures6Section3 {
-        display: flex;
-        flex-direction: column;
-
-        .M_pictureDescSection3 {
-          display: flex;
-          flex-direction: column;
-          gap: 0.694vw;
-
-          > img {
-            width: 14.654vw;
-            height: 16.736vw;
-          }
-
-          > p {
-            color: #000;
-            font-size: 1.25vw;
-            line-height: 105.092%;
-          }
-        }
-      }
-
-      .C_picturesSection3 {
-        padding-top: 5.069vw;
-        gap: 11.389vw;
-      }
-
-      .C_pictures2Section3 {
-        gap: 11.25vw;
-      }
-
-      .C_pictures3Section3 {
-        padding-top: 5.208vw;
-        gap: 11.042vw;
-      }
-
-      .C_pictures5Section3 {
-        gap: 10.903vw;
-      }
-
-      .C_pictures6Section3 {
-        padding-top: 4.861vw;
-        gap: 11.25vw;
-      }
     }
 
     .M_textSection3 {
       margin-top: 3.472vw;
       margin-left: 8.056vw;
-      display: flex;
-      gap: 12.917vw;
 
-      > p {
+      .A_mainText {
         width: 35.069vw;
-        color: #000;
-        font-size: 1.25vw;
-        line-height: 1.667vw;
-        letter-spacing: -0.013vw;
       }
     }
   }
 
-  .O_fourthSection {
-    position: relative;
+  .O_fourthSectionFashion {
     margin-left: 2.708vw;
     margin-top: 9.31vw;
-    display: flex;
-    flex-direction: column;
 
-    .W_titleSubtitle {
+    .W_titleSubtitleFashion {
       margin-bottom: 2.083vw;
 
-      h1 {
-        color: #000;
-        font-size: 3.333vw;
-        line-height: 95%;
+      .A_titleName {
         margin-bottom: 2.083vw;
-      }
-
-      p {
-        width: 39.583vw;
-        color: #000;
-        font-size: 1.667vw;
-        font-style: italic;
-        line-height: 1.91vw;
-        letter-spacing: -0.017vw;
       }
     }
 
@@ -339,162 +129,34 @@ body.fashion {
       top: -23.333vw;
       left: -20.833vw;
       position: absolute;
-      overflow: hidden;
-      > img {
-        width: 136.066vw;
-        height: 117.193vw;
-      }
     }
 
     .M_textPicturesSection4 {
-      position: relative;
-      z-index: 2;
-      display: flex;
-      padding-left: 8.056vw;
-      flex-direction: column;
-      gap: 1.458vw;
-
       .W_textPicturesSection4 {
-        display: flex;
-        gap: 4.028vw;
-
-        > p {
+        .A_mainText {
           width: 27.917vw;
-          color: #000;
-          font-size: 1.25vw;
-          line-height: 1.667vw;
-          letter-spacing: -0.013vw;
-        }
-
-        .W_pucturesSection4 {
-          display: flex;
-          gap: 1.389vw;
-
-          > img {
-            width: 30.486vw;
-            height: 22.639vw;
-          }
-
-          .W_pictures1Section4 {
-            display: flex;
-            flex-direction: column;
-            gap: 1.389vw;
-
-            &:nth-child(1) {
-              width: 14.583vw;
-              height: 8.289vw;
-            }
-          }
-        }
-      }
-
-      .W_pictureSection4 {
-        display: flex;
-        gap: 1.458vw;
-        .W_picturesSection4 {
-          display: flex;
-          flex-direction: column;
-          gap: 1.25vw;
-          .W_pictures3Section4 {
-            display: flex;
-            gap: 1.528vw;
-
-            > img {
-              width: 22.431vw;
-              height: 12.75vw;
-            }
-          }
-          > img {
-            width: 46.389vw;
-            height: 10vw;
-          }
-        }
-        > img {
-          width: 30.486vw;
-          height: 24.028vw;
         }
       }
     }
   }
 
-  .O_fifthSection {
-    margin: 8.958vw 0 10.347vw 2.847vw;
-
-    h1 {
-      color: #000;
-      font-size: 3.333vw;
-      line-height: 95%;
+  .O_fifthSectionFashion {
+    .A_titleName {
       margin-bottom: 2.083vw;
     }
 
     .W_textsPicturesSection5 {
-      display: flex;
-      flex-direction: column;
-      gap: 1.528vw;
-
-      .M_textPictureSection5 {
-        display: flex;
-        gap: 9.722vw;
-
-        .W_pictureDescSection5 {
-          display: flex;
-          flex-direction: column;
-          gap: 0.694vw;
-
-          > img {
-            width: 30.139vw;
-            height: 27.222vw;
-          }
-
-          > p {
-            color: #131313;
-            font-size: 1.25vw;
-            font-style: italic;
-            line-height: 105.092%;
-          }
-        }
-
-        .W_textSection5 {
-          display: flex;
-          flex-direction: column;
-          gap: 2.083vw;
-
-          > p {
-            color: #131313;
-            font-size: 1.25vw;
-            line-height: 1.667vw;
+      .M_textPictureSection5F {
+        .W_textSection5Fashion {
+          .A_mainText {
             width: 42.361vw;
-            letter-spacing: -0.013vw;
-          }
-        }
-      }
-
-      .M_picturesSection5 {
-        display: flex;
-        gap: 1.528vw;
-
-        .W_pictureDescSection5 {
-          display: flex;
-          flex-direction: column;
-          gap: 0.694vw;
-
-          > img {
-            width: 30.417vw;
-            height: 21.736vw;
-          }
-
-          > p {
-            color: #131313;
-            font-size: 1.25vw;
-            font-style: italic;
-            line-height: 105.092%;
           }
         }
       }
     }
   }
 
-  .O_sixthSection {
+  .O_sixthSectionFashion {
     margin-left: 2.778vw;
     margin-bottom: 13.542vw;
     position: relative;
@@ -503,152 +165,27 @@ body.fashion {
       position: absolute;
       top: 30.278vw;
       left: -4.167vw;
-      width: 100vw;
-      overflow: hidden;
-
-      > img {
-        width: 105.365vw;
-        height: 29.597vw;
-      }
     }
 
     .W_allInformationSection6 {
-      position: relative;
-      z-index: 2;
-      display: flex;
-      gap: 8.958vw;
-
       .M_informationSection6 {
-        display: flex;
-        flex-direction: column;
-        gap: 2.361vw;
-
-        .W_titleSubtitle {
-          width: 46.944vw;
-          > h1 {
-            color: #000;
-            font-size: 3.333vw;
-            line-height: 95%;
-          }
-
-          > p {
+        .W_titleSubtitleFashion {
+          width: 46.528vw;
+          .A_sammary {
             margin-top: 2.292vw;
-            color: #000;
-            font-size: 1.667vw;
-            font-style: italic;
-            line-height: 1.91vw;
-            letter-spacing: -0.017vw;
           }
-        }
-
-        > img {
-          width: 46.944vw;
-          height: 29.731vw;
         }
       }
-
       .W_textSection6 {
-        display: flex;
-        width: 36.667vw;
-        padding-top: 15.278vw;
-        flex-direction: column;
-        gap: 2.083vw;
-
-        > p {
-          color: #000;
-          font-size: 1.25vw;
-          line-height: 1.667vw;
-          letter-spacing: -0.013vw;
+        .A_mainText {
+          width: 36.667vw;
         }
       }
     }
   }
-
   .O_Footer {
-    display: flex;
-    width: 100%;
-    height: 5.972vw;
-    padding: 2.847vw 0 2.569vw 0;
-    flex-direction: column;
-    gap: 0.694vw;
-    background: #e7e6e0;
-
     .W_footerContent {
       margin-left: 2.847vw;
-      display: flex;
-      gap: 61.458vw;
-
-      .M_socialNetworks {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.931vw;
-
-        > h1 {
-          color: #000;
-          font-size: 1.167vw;
-          line-height: 95.092%;
-          letter-spacing: -0.012vw;
-        }
-
-        .C_allLinks {
-          display: flex;
-          flex-direction: column;
-          gap: 0.584vw;
-
-          .W_linkInstagram,
-          .W_linkTelegram {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0.486vw;
-
-            > img {
-              width: 1.02vw;
-              height: 1.02vw;
-            }
-
-            > p {
-              color: #000;
-              font-size: 0.875vw;
-              line-height: 95.092%;
-              letter-spacing: -0.009vw;
-            }
-          }
-        }
-      }
-
-      .W_rightFooter {
-        display: flex;
-        gap: 5.417vw;
-
-        .M_footerSection,
-        .M_socialNetworks {
-          display: flex;
-          flex-direction: column;
-          gap: 1.146vw;
-
-          > h1 {
-            color: #000;
-            font-size: 1.167vw;
-            line-height: 95.092%;
-            letter-spacing: -0.012vw;
-          }
-
-          .C_Creators {
-            display: flex;
-            flex-direction: column;
-            gap: 0.694vw;
-
-            > p {
-              color: #000;
-              font-size: 0.875vw;
-              line-height: 95.092%;
-              letter-spacing: -0.009vw;
-            }
-          }
-        }
-      }
     }
   }
 }

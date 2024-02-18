@@ -1,0 +1,129 @@
+.M_Menu {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.944vw 2.778vw 0 2.778vw;
+}
+
+.M_aboutPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.M_allText {
+  display: flex;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.M_pictureDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.M_textSection2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.M_allPicturesAbout {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 1.389vw;
+}
+
+.M_pictureTextSection3 {
+  display: flex;
+  padding-left: 8.125vw;
+  gap: 9.375vw;
+}
+
+.M_pictureAcca {
+  display: flex;
+  gap: 0.694vw;
+}
+
+.M_textPictureSection5 {
+  display: flex;
+  padding-left: 8.125vw;
+  gap: 8.958vw;
+}
+
+.M_socialNetworks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.931vw;
+}
+
+.M_footerSection,
+.M_socialNetworks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.146vw;
+}
+
+.M_titleFashion90 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 1.538vw;
+  z-index: 2;
+}
+
+.M_allTextSection2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.M_pictureDescSection3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.M_textSection3 {
+  display: flex;
+  gap: 12.917vw;
+}
+
+.M_textPicturesSection4 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding-left: 8.056vw;
+  flex-direction: column;
+  gap: 1.458vw;
+}
+
+.M_textPictureSection5F {
+  display: flex;
+  gap: 9.722vw;
+}
+
+.M_picturesSection5 {
+  display: flex;
+  gap: 1.528vw;
+}
+
+.M_informationSection6 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.361vw;
+}
+
+.M_pageTitle {
+  height: 39.306vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

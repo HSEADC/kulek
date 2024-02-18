@@ -1,0 +1,108 @@
+.C_allPictures {
+  display: flex;
+  padding-top: 0.972vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.389vw;
+}
+
+.C_firstLine,
+.C_secondLine {
+  display: flex;
+  justify-content: center;
+  gap: 1.389vw;
+}
+
+.C_picturesSection4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5.903vw;
+}
+
+.C_picturesPosition {
+  display: flex;
+  height: 17.569vw;
+  gap: 7.431vw;
+}
+
+.C_allLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.584vw;
+}
+
+.C_Creators {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.C_picturesAllSection3 {
+  display: flex;
+  gap: 1.389vw;
+}
+
+.C_picturesSection3,
+.C_pictures2Section3,
+.C_pictures3Section3,
+.C_pictures5Section3,
+.C_pictures6Section3 {
+  display: flex;
+  flex-direction: column;
+}
+.C_picturesSection3 {
+  padding-top: 5.069vw;
+  gap: 11.389vw;
+}
+
+.C_pictures2Section3 {
+  gap: 11.25vw;
+}
+
+.C_pictures3Section3 {
+  padding-top: 5.208vw;
+  gap: 11.042vw;
+}
+
+.C_pictures5Section3 {
+  gap: 10.903vw;
+}
+
+.C_pictures6Section3 {
+  padding-top: 4.861vw;
+  gap: 11.25vw;
+}
+
+.C_searchParameters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.C_exectTime {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 1.736vw;
+  height: 2.292vw;
+  background: linear-gradient(270deg, #e7e6e0 -0.04%, #332d26 99.83%);
+}
+
+.C_exectTime::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2.292vw;
+  width: 2.292vw;
+  background-color: none;
+  border-radius: 50%;
+  border: 0.104vw solid var(--white);
+  transition: 0.2s ease-in-out;
+}
+
+.C_Years {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

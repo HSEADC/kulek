@@ -110,7 +110,8 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/dictionary.html',
-      filename: './dictionary.html'
+      filename: './dictionary.html',
+      chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       template: './src/market.html',
@@ -142,11 +143,13 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/fashion.html',
-      filename: './fashion.html'
+      filename: './fashion.html',
+      chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       template: './src/acca.html',
-      filename: './acca.html'
+      filename: './acca.html',
+      chunks: ['index']
     }),
 
     // Partials

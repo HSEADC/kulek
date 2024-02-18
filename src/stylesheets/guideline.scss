@@ -927,6 +927,15 @@ body.guideline {
             flex-direction: column;
             gap: 0.694vw;
 
+            > a {
+              > p {
+                color: #000;
+                font-size: 0.875vw;
+                line-height: 95.092%;
+                letter-spacing: -0.009vw;
+              }
+            }
+
             > p {
               color: #000;
               font-size: 0.875vw;

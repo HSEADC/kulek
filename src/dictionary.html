@@ -4,16 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.webp" />
     <title>Словарик</title>
   </head>
   <body class="S_Dictionary">
     <div class="M_Menu">
-      <div class="A_Logo">
-        <img src="../src/images/teaser/letter.svg" alt="Logo" />
-      </div>
-      <div class="A_buttonAbout">
-        <p>О нас</p>
-      </div>
+      <a href="../">
+        <div class="A_Logo">
+          <img src="../src/images/teaser/letter.svg" alt="Logo" />
+        </div>
+      </a>
+      <a href="about.html">
+        <div class="A_buttonAbout">
+          <p>О нас</p>
+        </div>
+      </a>
     </div>
 
     <div class="M_pageTitle">
@@ -33,16 +38,18 @@
             <img
               src="../src/images/dictionary/search.svg"
               alt="Картинка поиска"
+              class="Q_Search"
             />
           </div>
           <div class="A_Filter">
-            <p>По времени</p>
+            <p class="Q_filterType">По времени</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="19"
               height="10"
               viewBox="0 0 19 10"
               fill="none"
+              class="Q_Icon"
             >
               <path
                 d="M1 1.09997L9.40025 8.49998L18 1.09998"
@@ -63,13 +70,13 @@
           step="1"
         />
         <div class="C_Years">
-          <p>1960</p>
-          <p>1970</p>
-          <p>1980</p>
-          <p>1990</p>
-          <p>2000</p>
-          <p>2010</p>
-          <p>2023</p>
+          <p class="A_Date">1960</p>
+          <p class="A_Date">1970</p>
+          <p class="A_Date">1980</p>
+          <p class="A_Date">1990</p>
+          <p class="A_Date">2000</p>
+          <p class="A_Date">2010</p>
+          <p class="A_Date">2023</p>
         </div>
       </div>
       <div class="words-grid"></div>
@@ -77,39 +84,51 @@
     <div class="O_Footer">
       <div class="W_footerContent">
         <div class="M_socialNetworks">
-          <h2>Мы в социальных сетях</h2>
-          <div class="W_allLinks">
-            <div class="C_linkInstagram">
-              <img
-                src="../src/images/dictionary/instagram.svg"
-                alt="Картинка ссылки на Инстаграм"
-              />
-              <p>eto.kulek</p>
-            </div>
-            <div class="C_linkTelegram">
-              <img
-                src="../src/images/dictionary/telegram.svg"
-                alt="Картинка ссылки на Телеграм"
-              />
-              <p>eto.kulek</p>
-            </div>
+          <h2 class="A_sectionName">Мы в социальных сетях</h2>
+          <div class="C_allLinks">
+            <a href="https://clck.ru/36HCrm">
+              <div class="W_linkInstagram">
+                <img
+                  src="../src/images/dictionary/instagram.svg"
+                  alt="Картинка ссылки на Инстаграм"
+                  class="A_InstagramTelegram"
+                />
+                <p class="A_Link">eto.kulek</p>
+              </div>
+            </a>
+            <a href="https://t.me/eto_kulek">
+              <div class="W_linkTelegram">
+                <img
+                  src="../src/images/dictionary/telegram.svg"
+                  alt="Картинка ссылки на Телеграм"
+                  class="A_InstagramTelegram"
+                />
+                <p class="A_Link">eto.kulek</p>
+              </div></a
+            >
           </div>
         </div>
         <div class="W_rightFooter">
           <div class="M_footerSection">
-            <h2>Создатели</h2>
+            <h2 class="A_sectionName">Создатели</h2>
             <div class="C_Creators">
-              <p>Климова Ксенья</p>
-              <p>Орехова Софья</p>
-              <p>Удод Константин</p>
+              <p class="A_Link">Климова Ксенья</p>
+              <p class="A_Link">Орехова Софья</p>
+              <p class="A_Link">Удод Константин</p>
             </div>
           </div>
           <div class="M_footerSection">
-            <h2>Контакты</h2>
+            <h2 class="A_sectionName">Контакты</h2>
             <div class="C_Creators">
-              <p>Telegram: @artxksu</p>
-              <p>Telegram: @sonyerikson</p>
-              <p>Telegram: @KonstUd</p>
+              <a href="https://t.me/artxksu">
+                <p class="A_Link">Telegram: @artxksu</p></a
+              >
+              <a href="https://t.me/sonyerikson"
+                ><p class="A_Link">Telegram: @sonyerikson</p></a
+              >
+              <a href="https://t.me/KonstUd"
+                ><p class="A_Link">Telegram: @KonstUd</p></a
+              >
             </div>
           </div>
         </div>

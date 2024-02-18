@@ -1,0 +1,175 @@
+.W_titleDesc {
+  display: flex;
+  width: 39.583vw;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.W_textSection {
+  display: flex;
+  width: 33.264vw;
+  padding-left: 8.125vw;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.W_descText {
+  display: flex;
+  padding-left: 8.194vw;
+  gap: 7.708vw;
+}
+
+.W_pictureDescAbout {
+  display: flex;
+  width: 22.569vw;
+  flex-direction: column;
+  gap: 0.764vw;
+}
+
+.W_allTextSection3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.083vw;
+  width: 38.958vw;
+}
+
+.W_pictureDescAbout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.W_textSection5 {
+  display: flex;
+  width: 38.958vw;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.W_pictureDescSection5 {
+  display: flex;
+  padding-top: 1.319vw;
+  flex-direction: column;
+  gap: 0.833vw;
+}
+
+.W_footerContent {
+  display: flex;
+  gap: 61.458vw;
+}
+
+.W_linkInstagram,
+.W_linkTelegram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.486vw;
+}
+
+.W_rightFooter {
+  display: flex;
+  gap: 5.417vw;
+}
+
+.W_titleSubtitle {
+  display: flex;
+  width: 39.583vw;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.W_textSection2 {
+  display: flex;
+  padding-left: 8.125vw;
+  flex-direction: column;
+  gap: 2.083vw;
+  width: 36.458vw;
+}
+
+.W_pictureDescSection2 {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.W_textPicturesSection4 {
+  display: flex;
+  gap: 4.028vw;
+}
+
+.W_pucturesSection4 {
+  display: flex;
+  gap: 1.389vw;
+}
+
+.W_pictures1Section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
+
+  &:nth-child(1) {
+    width: 14.583vw;
+    height: 8.289vw;
+  }
+}
+
+.W_pictureSection4 {
+  display: flex;
+  gap: 1.458vw;
+}
+
+.W_picturesSection4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25vw;
+}
+
+.W_pictures3Section4 {
+  display: flex;
+  gap: 1.528vw;
+}
+
+.W_textsPicturesSection5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.528vw;
+}
+
+.W_pictureDescSection5Fashion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.W_textSection5Fashion {
+  display: flex;
+  flex-direction: column;
+  gap: 2.083vw;
+}
+
+.W_pictureDescSection5Fashion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.W_allInformationSection6 {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 8.958vw;
+}
+
+.W_titleSubtitleFashion {
+  width: 38.944vw;
+}
+
+.W_textSection6 {
+  display: flex;
+  width: 36.667vw;
+  padding-top: 15.278vw;
+  flex-direction: column;
+  gap: 2.083vw;
+}
