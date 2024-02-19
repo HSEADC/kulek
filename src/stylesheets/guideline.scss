@@ -8,33 +8,12 @@ body.guideline {
   overflow-x: hidden;
 
   .W_allContentGuide {
-    position: relative;
-    display: flex;
-    gap: 9.306vw;
-
     .O_menuLogo {
       margin-left: 4.931vw;
-      position: sticky;
-      height: 43.403vw;
       top: 4.097vw;
       margin-top: 4.097vw;
-      display: flex;
-      flex-direction: column;
-      gap: 24.653vw;
 
       .M_styleguideMenu {
-        display: flex;
-        flex-direction: column;
-
-        > a {
-          text-decoration: none;
-          color: rgba(32, 32, 32, 0.6);
-          font-size: 1.389vw;
-          font-style: italic;
-          line-height: 1.801vw;
-          letter-spacing: -0.014vw;
-        }
-
         .now {
           color: #202020;
           font-size: 1.389vw;
@@ -43,24 +22,6 @@ body.guideline {
           letter-spacing: -0.014vw;
         }
       }
-
-      > img {
-        width: 4.445vw;
-        height: 4.344vw;
-      }
-    }
-  }
-
-  .M_Naming {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #202020;
-
-    img {
-      width: 68.777vw;
     }
   }
 
@@ -69,71 +30,27 @@ body.guideline {
     margin-bottom: 9.558vw;
 
     .M_guideTitleDesc {
-      width: 100%;
       margin-bottom: 4.856vw;
-      img {
-        width: 53.464vw;
-      }
-
-      h4 {
-        margin-top: 1.47vw;
-        margin-left: 0.9vw;
-        font-size: 2.222vw;
-        width: 53vw;
-        font-style: italic;
-        line-height: 2.566vw;
-      }
     }
 
     .M_guideMission {
-      display: flex;
-      gap: 9.722vw;
       margin-bottom: 4.653vw;
       margin-left: 0.9vw;
       .W_guideTitleText {
-        h4 {
-          font-size: 3.75vw;
-          margin-bottom: 1.185vw;
-        }
-
-        p {
+        .A_guideText {
           width: 30.972vw;
-          font-size: 1.667vw;
-          line-height: 2.083vw;
-          letter-spacing: -0.017vw;
-        }
-
-        #A_guideText {
-          width: 18.403vw;
         }
       }
     }
 
     .M_guideValues {
-      display: flex;
-      flex-direction: column;
       margin-bottom: 5.053vw;
       margin-left: 0.9vw;
-      h4 {
-        font-size: 3.75vw;
+      .A_guideTitle {
         margin-bottom: 1.736vw;
       }
 
       .C_guideSections {
-        display: flex;
-        gap: 2.083vw;
-
-        p {
-          font-size: 2.016vw;
-          border: 0.069vw solid var(--black);
-          padding: 1.066vw 1.627vw;
-          border-radius: 1.05vw;
-        }
-
-        .A_guideSection {
-          height: 2.527vw;
-        }
-
         #A_guide2Section {
           margin-top: 2.083vw;
           margin-left: 5.208vw;
@@ -142,20 +59,11 @@ body.guideline {
     }
 
     .M_guideTone {
-      display: flex;
       margin-left: 0.9vw;
-      gap: 10.556vw;
-      .W_guideTitleText {
-        width: 30.139vw;
-        h4 {
-          font-size: 3.75vw;
-          margin-bottom: 1.185vw;
-        }
 
-        p {
-          font-size: 1.667vw;
-          line-height: 2.083vw;
-          letter-spacing: -0.017vw;
+      .W_guideTitleText {
+        .A_guideText {
+          width: 30.972vw;
         }
       }
     }
@@ -165,19 +73,10 @@ body.guideline {
       top: 3.819vw;
       right: -17.299vw;
 
-      .A_guideImage1 {
-        position: relative;
-        z-index: 2;
-        width: 37.577vw;
-        height: 36.846vw;
-      }
-
       .A_guideLine1 {
         position: absolute;
         top: 9.306vw;
         left: 0;
-        width: 23.311vw;
-        height: 21.909vw;
       }
     }
   }
@@ -186,79 +85,31 @@ body.guideline {
     margin-left: 0.9vw;
     margin-bottom: 9.583vw;
     .M_guideLogoDesc {
-      img {
-        width: 48.057vw;
-        height: 7.591vw;
+      .A_nameGuideSection2 {
         margin-bottom: 2.569vw;
       }
-      h4 {
-        width: 49.792vw;
-        font-size: 2.222vw;
+      .A_descGuideSection1 {
         margin-bottom: 1.181vw;
-        line-height: 2.566vw;
-        letter-spacing: -0.022vw;
-        font-style: italic;
       }
 
-      p {
+      .A_guideText {
         width: 47.222vw;
-        font-size: 1.667vw;
-        line-height: 1.25;
         margin-bottom: 5.972vw;
-        line-height: 2.083vw;
-        letter-spacing: -0.017vw;
       }
     }
 
     .M_guideLogoColors {
       margin-bottom: 5vw;
-      h4 {
-        font-size: 2.778vw;
+      .A_guideSubtitle {
         margin-bottom: 1.18vw;
-        line-height: 95%;
       }
 
       .C_guideVariantsLogo {
-        display: flex;
-
         .W_guideImageSub1,
         .W_guideImageSub2,
         .W_guideImageSub3 {
           .C_guideLogoBack1 {
-            width: 23.639vw;
-            height: 12.497vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 0.069vw solid #000;
             margin-bottom: 1.392vw;
-
-            img {
-              width: 18.899vw;
-              height: 7.33vw;
-            }
-          }
-
-          #A_guideBackground1Section2,
-          #A_guideBackground2Section2 {
-            border-right: none;
-          }
-
-          #A_guideBackground1Section2 {
-            background: #fff;
-          }
-
-          #A_guideBackground2Section2 {
-            background: #f4f3ef;
-          }
-
-          #A_guideBackground3Section2 {
-            background: #000;
-          }
-
-          p {
-            font-size: 1.242vw;
-            line-height: 1.294vw;
           }
         }
       }
@@ -266,77 +117,37 @@ body.guideline {
 
     .M_guideGrid {
       margin-bottom: 5vw;
-      h4 {
-        font-size: 2.778vw;
-        margin-bottom: 1.25vw;
-        line-height: 95%;
-      }
 
-      img {
-        width: 70.938vw;
-        height: 21.25vw;
+      .A_guideSubtitle {
+        margin-bottom: 1.25vw;
       }
     }
 
     .M_guideAdaptiveLogo {
-      h4 {
-        font-size: 2.778vw;
+      .A_guideSubtitle {
         margin-bottom: 2.014vw;
-        line-height: 95%;
       }
 
       .C_guideAdaptive123 {
-        display: flex;
         margin-bottom: 2.026vw;
-        gap: 4.444vw;
-
-        .C_guideAdaptive12 {
-          display: flex;
-          gap: 3.333vw;
-        }
 
         .W_guideAdaptive1 {
-          p {
-            font-size: 1.242vw;
-            line-height: 1.294vw;
+          .A_guideTextDesc {
             margin-bottom: 1.157vw;
           }
         }
 
-        #A_guideLogo3 {
-          img {
-            width: 39.78vw;
-            height: 15.428vw;
-          }
-        }
-
         #A_guide2Logo3 {
-          p {
+          .A_guideTextDesc {
             margin-bottom: 1.898vw;
-          }
-          img {
-            width: 9.942vw;
-            height: 9.417vw;
           }
         }
 
         #A_guide3Logo3 {
-          p {
+          .A_guideTextDesc {
             margin-bottom: 3.192vw;
           }
-          img {
-            width: 6.503vw;
-            height: 6.974vw;
-          }
         }
-      }
-
-      .A_descGuideSection1 {
-        width: 51.042vw;
-        font-size: 2.222vw;
-        line-height: 2.566vw;
-        letter-spacing: -0.022vw;
-        font-style: italic;
       }
     }
   }
@@ -348,23 +159,12 @@ body.guideline {
       margin-bottom: 1.262vw;
     }
 
-    h4 {
+    .A_descGuideSection1 {
       width: 62.014vw;
-      font-size: 2.222vw;
       margin-bottom: 2.222vw;
-      line-height: 2.566vw;
-      letter-spacing: -0.022vw;
     }
 
     .M_guideAllColors {
-      position: relative;
-      width: 70.556vw;
-      height: 24.167vw;
-      background: #fff;
-      border-radius: 1.944vw;
-      border: 0.11vw solid #202020;
-      display: flex;
-
       .f4f3 {
         position: absolute;
         top: -0.055vw;
@@ -456,131 +256,18 @@ body.guideline {
     margin-bottom: 7.431vw;
 
     .A_nameGuideSection4 {
-      height: 12.5vw;
-      width: 71.319vw;
       margin-bottom: 2.083vw;
     }
 
     .W_guideCardsText {
-      display: flex;
-      align-items: flex-end;
-      gap: 3.056vw;
-
       .W_guideCards {
-        height: 31.042vw;
-        width: 49.167vw;
-        border-radius: 1.944vw;
-        border: 0.104vw solid #202020;
-
-        .M_guideCard2 {
-          height: 100%;
-          display: flex;
-          gap: 2.19vw;
-        }
-
-        .M_guideCard1 {
-          width: 21.722vw;
-          padding: 1.129vw 2.014vw 2.284vw 2.284vw;
-          border-radius: 1.944vw;
-          border: 0.104vw solid #202020;
-          background: #202020;
-        }
-
-        .W_guideCardInfo {
-          display: flex;
-          gap: 3.867vw;
-          flex-direction: column;
-          align-items: flex-end;
-          > p {
-            width: 5.833vw;
-            color: #fff;
-            font-family: 'Inter Tight';
-            font-size: 1.144vw;
-            line-height: 110.2%;
-          }
-
-          .A_guideTypeDesc2 {
-            color: #202020;
-            text-align: right;
-            font-family: 'Inter Tight';
-            font-size: 1.144vw;
-            line-height: 110.2%;
-            width: 5.208vw;
-            text-align: end;
-          }
-
-          .W_guideLetterTextSection4 {
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            gap: 1.936vw;
-
-            > img {
-              width: 11.589vw;
-              height: 11.378vw;
-            }
-
-            .A_guideLetter2 {
-              width: 18.125vw;
-              height: 14.792vw;
-            }
-
-            .W_guideTitleDescSection4 {
-              display: flex;
-              flex-direction: column;
-              gap: 0.417vw;
-
-              > h1 {
-                color: #fff;
-                font-family: 'Inter Tight';
-                font-size: 3.053vw;
-                font-weight: 700;
-                line-height: 105.092%;
-              }
-
-              > p {
-                color: #fff;
-                width: 17.206vw;
-                font-family: 'Inter Tight';
-                font-size: 0.934vw;
-                line-height: 1.109vw;
-              }
-
-              .A_guideTypeTitle2 {
-                color: #202020;
-                font-size: 2.62vw;
-                font-weight: 900;
-                line-height: 105.092%;
-                font-family: 'PP Radio Grotesk Black';
-              }
-
-              .A_guideTypeDesc2 {
-                text-align: start;
-                color: #202020;
-                font-size: 0.934vw;
-                line-height: 1.109vw;
-                font-family: 'PP Radio Grotesk';
-              }
-            }
-          }
-
-          #W_guideLetterText2Section4 {
-            gap: 0.459vw;
-          }
-        }
-
         #W_guideCardInfo2 {
-          gap: 2.301vw;
           margin-top: 1.035vw;
         }
       }
 
-      > p {
+      .A_guideText {
         width: 18.264vw;
-        color: #000;
-        font-size: 1.667vw;
-        line-height: 2.083vw;
-        letter-spacing: -0.017vw;
       }
     }
   }
@@ -592,135 +279,32 @@ body.guideline {
       .M_guideTitleSection5 {
         .A_nameGuideSection5 {
           margin-bottom: 2.222vw;
-          width: 67.083vw;
-          height: 12.569vw;
-        }
-
-        .A_descGuideSection1 {
-          width: 50.694vw;
-          color: #000;
-          font-size: 2.222vw;
-          font-style: italic;
-          line-height: 2.566vw;
-          letter-spacing: -0.022vw;
         }
       }
     }
     .M_guideImagesSection5 {
       margin-top: 0.208vw;
-      display: flex;
-      align-items: center;
-
-      .A_guideImg1Section5 {
-        width: 20.486vw;
-        height: 20.347vw;
-      }
 
       .A_guideImg2Section5 {
         margin-left: -4.097vw;
-        width: 16.272vw;
-        height: 14.324vw;
       }
 
       .A_guideImg3Section5 {
         margin-left: -4.931vw;
-        width: 23.287vw;
-        height: 23.196vw;
       }
 
       .A_guideImg4Section5 {
         margin-left: -4.236vw;
-        width: 11.476vw;
-        height: 10.544vw;
       }
 
       .A_guideImg5Section5 {
         margin-left: 1.649vw;
-        width: 14.063vw;
-        height: 14.162vw;
       }
     }
     .W_guideColorsTextSection5 {
-      display: flex;
-      gap: 4.931vw;
-
-      .M_guideColorsSection5 {
-        display: flex;
-        flex-direction: column;
-        gap: 1.736vw;
-
-        > h1 {
-          color: #000;
-          font-size: 3.75vw;
-          line-height: 95%;
-        }
-
-        .C_guideAllColorsSection5 {
-          display: flex;
-          gap: 1.25vw;
-
-          .W_guideColorSection5 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 1.042vw;
-
-            > p {
-              color: #000;
-              font-size: 1.242vw;
-              line-height: 1.294vw;
-            }
-          }
-
-          .A_guideColorSection5 {
-            width: 6.875vw;
-            height: 6.875vw;
-            border-radius: 347.222vw;
-          }
-
-          #W_guideColor1Section5 {
-            background-color: #ff3d4d;
-          }
-
-          #W_guideColor2Section5 {
-            background-color: #ffcd8c;
-          }
-
-          #W_guideColor3Section5 {
-            background-color: #305fd0;
-          }
-
-          #W_guideColor4Section5 {
-            background-color: #d4e6fb;
-          }
-
-          #W_guideColor5Section5 {
-            background-color: #7a767d;
-          }
-
-          #W_guideColor6Section5 {
-            background-color: #d4d4d4;
-          }
-        }
-      }
-
       .M_guideAllTextSection5 {
-        display: flex;
-        flex-direction: column;
-        gap: 1.528vw;
-
-        > h4 {
-          color: #000;
-          font-size: 3.75vw;
-          line-height: 95%;
-        }
-
-        > p {
+        .A_guideText {
           width: 19.444vw;
-          color: #000;
-          font-size: 1.667vw;
-          line-height: 2.083vw;
-          letter-spacing: -0.017vw;
         }
       }
     }
@@ -730,46 +314,28 @@ body.guideline {
     margin-bottom: 7.662vw;
 
     .W_guideTitleImagesSection6 {
-      .A_nameGuideSection6 {
-        width: 45.764vw;
-        height: 12.569vw;
-      }
       .M_guideImagesSection6 {
         margin-top: 0.694vw;
-        position: relative;
-        display: flex;
-        align-items: center;
-        .A_guideLine1Section6 {
-          width: 16.479vw;
-          height: 15.487vw;
 
+        .A_guideLine1Section6 {
           &:nth-child(2) {
             margin-left: 3.799vw;
           }
         }
 
         .A_guideLine2Section6 {
-          width: 28.58vw;
-          height: 23.417vw;
           margin-left: 7.025vw;
         }
         .A_guideImgSection6 {
           position: absolute;
           top: -1.389vw;
           left: 21.181vw;
-          width: 25.854vw;
-          height: 25.949vw;
         }
       }
     }
-    > p {
+    .A_descGuideSection1 {
       margin-top: -1.806vw;
-      color: #000;
       width: 54.514vw;
-      font-size: 2.222vw;
-      font-style: italic;
-      line-height: 2.566vw;
-      letter-spacing: -0.022vw;
     }
   }
 
@@ -777,174 +343,19 @@ body.guideline {
     margin-bottom: 10.855vw;
 
     .M_guideTitleSection7 {
-      > img {
-        width: 50.833vw;
-        height: 11.944vw;
-      }
-
-      > p {
-        color: #000;
+      .A_guideText {
         width: 44.861vw;
-        font-size: 1.667vw;
-        line-height: 2.083vw;
-        letter-spacing: -0.017vw;
       }
     }
 
     .M_guideCardsSection7 {
-      width: 70.764vw;
       margin-top: 1.806vw;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 31.25vw 29.375vw 30.139vw;
-      gap: 1.736vw;
-      align-items: center;
-
-      .A_guideImg1Section7 {
-        width: 46.549vw;
-        height: 31.219vw;
-        grid-area: 1 / 1 / 2 / 3;
-
-        > img {
-          width: 100%;
-        }
-      }
-
-      .A_guideImg2Section7 {
-        width: 22.472vw;
-        height: 31.266vw;
-        grid-area: 1 / 3 / 2 / 4;
-
-        > img {
-          width: 100%;
-        }
-      }
-
-      .A_guideImg3Section7 {
-        width: 22.369vw;
-        height: 29.407vw;
-
-        > img {
-          width: 100%;
-        }
-      }
-
-      .A_guideImg6Section7 {
-        width: 22.5vw;
-        height: 30.139vw;
-        grid-area: 3 / 1 / 4 / 2;
-
-        > img {
-          width: 100%;
-        }
-      }
-
-      .A_guideImg7Section7 {
-        width: 46.597vw;
-        height: 30.139vw;
-        grid-area: 3 / 2 / 4 / 4;
-
-        > img {
-          width: 100%;
-        }
-      }
     }
   }
 
   .O_Footer {
-    display: flex;
-    width: 100%;
-    height: 5.972vw;
-    padding: 2.847vw 0 2.569vw 0;
-    flex-direction: column;
-    gap: 0.694vw;
-    background: #e7e6e0;
-
     .W_footerContent {
       margin-left: 2.847vw;
-      display: flex;
-      gap: 61.458vw;
-
-      .M_socialNetworks {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.931vw;
-
-        > h1 {
-          color: #000;
-          font-size: 1.167vw;
-          line-height: 95.092%;
-          letter-spacing: -0.012vw;
-        }
-
-        .C_allLinks {
-          display: flex;
-          flex-direction: column;
-          gap: 0.584vw;
-
-          .W_linkInstagram,
-          .W_linkTelegram {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0.486vw;
-
-            > img {
-              width: 1.02vw;
-              height: 1.02vw;
-            }
-
-            > p {
-              color: #000;
-              font-size: 0.875vw;
-              line-height: 95.092%;
-              letter-spacing: -0.009vw;
-            }
-          }
-        }
-      }
-
-      .W_rightFooter {
-        display: flex;
-        gap: 5.417vw;
-
-        .M_footerSection,
-        .M_socialNetworks {
-          display: flex;
-          flex-direction: column;
-          gap: 1.146vw;
-
-          > h1 {
-            color: #000;
-            font-size: 1.167vw;
-            line-height: 95.092%;
-            letter-spacing: -0.012vw;
-          }
-
-          .C_Creators {
-            display: flex;
-            flex-direction: column;
-            gap: 0.694vw;
-
-            > a {
-              > p {
-                color: #000;
-                font-size: 0.875vw;
-                line-height: 95.092%;
-                letter-spacing: -0.009vw;
-              }
-            }
-
-            > p {
-              color: #000;
-              font-size: 0.875vw;
-              line-height: 95.092%;
-              letter-spacing: -0.009vw;
-            }
-          }
-        }
-      }
     }
   }
 }

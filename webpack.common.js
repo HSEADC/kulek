@@ -151,6 +151,11 @@ module.exports = {
       filename: './acca.html',
       chunks: ['index']
     }),
+    new HtmlWebpackPlugin({
+      template: './src/slang10.html',
+      filename: './slang10.html',
+      chunks: ['index']
+    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([

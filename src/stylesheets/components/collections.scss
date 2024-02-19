@@ -6,6 +6,12 @@
   gap: 1.389vw;
 }
 
+.C_AccaSectionPicture {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
 .C_firstLine,
 .C_secondLine {
   display: flex;
@@ -105,4 +111,37 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.C_guideSections {
+  display: flex;
+  gap: 2.083vw;
+}
+
+.C_guideVariantsLogo {
+  display: flex;
+}
+
+.C_guideLogoBack1 {
+  width: 23.639vw;
+  height: 12.497vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.069vw solid #000;
+}
+
+.C_guideAdaptive123 {
+  display: flex;
+  gap: 4.444vw;
+}
+
+.C_guideAdaptive12 {
+  display: flex;
+  gap: 3.333vw;
+}
+
+.C_guideAllColorsSection5 {
+  display: flex;
+  gap: 1.25vw;
 }

@@ -127,3 +127,92 @@
   flex-direction: column;
   align-items: center;
 }
+
+.M_styleguideMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.M_Naming {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202020;
+}
+
+.M_guideTitleDesc {
+  width: 100%;
+}
+
+.M_guideMission {
+  display: flex;
+  gap: 9.722vw;
+}
+
+.M_guideValues {
+  display: flex;
+  flex-direction: column;
+}
+
+.M_guideTone {
+  display: flex;
+  gap: 10.556vw;
+}
+
+.M_guideAllColors {
+  position: relative;
+  width: 70.556vw;
+  height: 24.167vw;
+  background: #fff;
+  border-radius: 1.944vw;
+  border: 0.11vw solid #202020;
+  display: flex;
+}
+
+.M_guideCard2 {
+  height: 100%;
+  display: flex;
+  gap: 2.19vw;
+}
+
+.M_guideCard1 {
+  width: 21.722vw;
+  padding: 1.129vw 2.014vw 2.284vw 2.284vw;
+  border-radius: 1.944vw;
+  border: 0.104vw solid #202020;
+  background: #202020;
+}
+
+.M_guideImagesSection5 {
+  display: flex;
+  align-items: center;
+}
+
+.M_guideColorsSection5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.736vw;
+}
+
+.M_guideAllTextSection5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.528vw;
+}
+
+.M_guideImagesSection6 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.M_guideCardsSection7 {
+  width: 70.764vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 31.25vw 29.375vw 30.139vw;
+  gap: 1.736vw;
+  align-items: center;
+}

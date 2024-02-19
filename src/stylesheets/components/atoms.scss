@@ -6,6 +6,11 @@
   }
 }
 
+.A_nameGuideSection2 {
+  width: 48.057vw;
+  height: 7.591vw;
+}
+
 .A_buttonAbout {
   display: flex;
   justify-content: center;
@@ -40,12 +45,23 @@
   }
 }
 
+#A_linePicuresSlang {
+  width: 92.986vw;
+}
+
 .A_linePictures {
   width: 100%;
   overflow: hidden;
   > img {
     width: 107.847vw;
   }
+}
+
+.A_descAboutFilm {
+  color: #131313;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.25vw;
+  line-height: 105.092%;
 }
 
 .A_linesAcca {
@@ -155,8 +171,7 @@
 }
 
 .A_pictureSection3 {
-  margin-top: 1.319vw;
-  width: 30.556vw;
+  width: 38.542vw;
   height: 23.403vw;
 }
 
@@ -359,6 +374,316 @@
   font-size: 1.111vw;
 }
 
+.A_guideSection {
+  height: 2.527vw;
+}
+
+.A_guideImage1 {
+  position: relative;
+  z-index: 2;
+  width: 37.577vw;
+  height: 36.846vw;
+}
+
+.A_guideLine1 {
+  width: 23.311vw;
+  height: 21.909vw;
+}
+
+.A_guideSubtitle {
+  font-size: 2.778vw;
+  line-height: 95%;
+}
+
+.A_guideGrid {
+  width: 70.938vw;
+  height: 21.25vw;
+}
+
+.A_guideTextDesc {
+  font-size: 1.242vw;
+  line-height: 1.294vw;
+}
+
+.A_guideLogo2 {
+  width: 9.942vw;
+  height: 9.417vw;
+}
+
+.A_guideLogo3 {
+  width: 6.503vw;
+  height: 6.974vw;
+}
+
+.A_logo2Section2 {
+  width: 39.78vw;
+  height: 15.428vw;
+}
+
+.A_logo1Section2 {
+  width: 18.899vw;
+  height: 7.33vw;
+}
+
+.A_nameGuideSection7 {
+  width: 50.833vw;
+  height: 11.944vw;
+}
+
+.A_descGuideSection1 {
+  width: 51.042vw;
+  font-size: 2.222vw;
+  line-height: 2.566vw;
+  letter-spacing: -0.022vw;
+  font-style: italic;
+}
+
+.A_guideTypeDesc123 {
+  width: 5.833vw;
+  color: #fff;
+  font-family: 'Inter Tight';
+  font-size: 1.144vw;
+  line-height: 110.2%;
+}
+
+.A_guideColorDescSection5 {
+  color: #000;
+  font-size: 1.242vw;
+  line-height: 1.294vw;
+}
+
+.A_guideLetter1 {
+  width: 11.589vw;
+  height: 11.378vw;
+}
+
+.A_guideTypeTitle1 {
+  color: #fff;
+  font-family: 'Inter Tight';
+  font-size: 3.053vw;
+  font-weight: 700;
+  line-height: 105.092%;
+}
+
+.A_guideTypeDesc1 {
+  color: #fff;
+  width: 17.222vw;
+  font-family: 'Inter Tight';
+  font-size: 0.934vw;
+  line-height: 1.109vw;
+}
+
+.A_nameGuideSection4 {
+  height: 12.5vw;
+  width: 71.319vw;
+}
+
+.A_guideTypeDesc2 {
+  color: #202020;
+  text-align: right;
+  font-family: 'Inter Tight';
+  font-size: 1.144vw;
+  line-height: 110.2%;
+  width: 5.208vw;
+  text-align: end;
+}
+
+.A_guideLetter2 {
+  width: 18.125vw;
+  height: 14.792vw;
+}
+
+.A_nameGuideSection1 {
+  width: 53.464vw;
+}
+
+.A_desc2GuideSection1 {
+  margin-top: 1.47vw;
+  margin-left: 0.9vw;
+  font-size: 2.222vw;
+  width: 53vw;
+  font-style: italic;
+  line-height: 2.566vw;
+}
+
+.A_guideTypeTitle2 {
+  color: #202020;
+  font-size: 2.62vw;
+  font-weight: 900;
+  line-height: 105.092%;
+  font-family: 'PP Radio Grotesk Black';
+}
+
+.A_guideTypeDesc23 {
+  text-align: start;
+  color: #202020;
+  width: 17.222vw;
+  font-size: 0.934vw;
+  line-height: 1.109vw;
+  font-family: 'PP Radio Grotesk';
+}
+
+.A_nameGuideSection5 {
+  width: 67.083vw;
+  height: 12.569vw;
+}
+
+.A_descGuideSection12 {
+  width: 50.694vw;
+  color: #000;
+  font-size: 2.222vw;
+  font-style: italic;
+  line-height: 2.566vw;
+  letter-spacing: -0.022vw;
+}
+
+.A_guideImg1Section5 {
+  width: 20.486vw;
+  height: 20.347vw;
+}
+
+.A_guideImg2Section5 {
+  width: 16.272vw;
+  height: 14.324vw;
+}
+
+.A_guideImg3Section5 {
+  width: 23.287vw;
+  height: 23.196vw;
+}
+
+.A_guideImg4Section5 {
+  width: 11.476vw;
+  height: 10.544vw;
+}
+
+.A_guideImg5Section5 {
+  width: 14.063vw;
+  height: 14.162vw;
+}
+
+.A_guideColorSection5 {
+  width: 6.875vw;
+  height: 6.875vw;
+  border-radius: 347.222vw;
+}
+
+.A_nameGuideSection6 {
+  width: 45.764vw;
+  height: 12.569vw;
+}
+
+.A_guideLine1Section6 {
+  width: 16.479vw;
+  height: 15.487vw;
+}
+
+.A_guideLine2Section6 {
+  width: 28.58vw;
+  height: 23.417vw;
+}
+
+.A_itemMenu {
+  text-decoration: none;
+  color: rgba(32, 32, 32, 0.6);
+  font-size: 1.389vw;
+  font-style: italic;
+  line-height: 1.801vw;
+  letter-spacing: -0.014vw;
+}
+
+.A_logoMenu {
+  width: 4.445vw;
+  height: 4.344vw;
+}
+
+.A_Naming {
+  width: 68.777vw;
+}
+
+.A_guideImgSection6 {
+  width: 25.854vw;
+  height: 25.949vw;
+}
+
+.A_guideImg1Section7 {
+  width: 46.549vw;
+  height: 31.219vw;
+  grid-area: 1 / 1 / 2 / 3;
+
+  > img {
+    width: 100%;
+  }
+}
+
+.A_guideImg2Section7 {
+  width: 22.472vw;
+  height: 31.266vw;
+  grid-area: 1 / 3 / 2 / 4;
+
+  > img {
+    width: 100%;
+  }
+}
+
+.A_guideImg3Section7 {
+  width: 22.369vw;
+  height: 29.407vw;
+
+  > img {
+    width: 100%;
+  }
+}
+
+.A_guideImg6Section7 {
+  width: 22.5vw;
+  height: 30.139vw;
+  grid-area: 3 / 1 / 4 / 2;
+
+  > img {
+    width: 100%;
+  }
+}
+
+.A_guideImg7Section7 {
+  width: 46.597vw;
+  height: 30.139vw;
+  grid-area: 3 / 2 / 4 / 4;
+
+  > img {
+    width: 100%;
+  }
+}
+
+.A_guideText {
+  font-size: 1.667vw;
+  line-height: 2.083vw;
+  letter-spacing: -0.017vw;
+  width: 18.403vw;
+}
+
+.A_guideTitle {
+  font-size: 3.75vw;
+  margin-bottom: 1.185vw;
+}
+
+#A_guideBackground1Section2,
+#A_guideBackground2Section2 {
+  border-right: none;
+}
+
+#A_guideBackground1Section2 {
+  background: #fff;
+}
+
+#A_guideBackground2Section2 {
+  background: #f4f3ef;
+}
+
+#A_guideBackground3Section2 {
+  background: #000;
+}
+
 #A_pictureAcca1 {
   width: 22.569vw;
   height: 15.152vw;
@@ -381,4 +706,21 @@
 
 #A_mainText {
   width: 33.264vw;
+}
+
+#A_pictureSlang10 {
+  width: 18.333vw;
+  height: 18.333vw;
+}
+#A_picture2Slang10 {
+  width: 15.347vw;
+  height: 15.486vw;
+}
+#A_picture3Slang10 {
+  width: 15.833vw;
+  height: 15.764vw;
+}
+#A_picture4Slang10 {
+  width: 20.556vw;
+  height: 20.556vw;
 }

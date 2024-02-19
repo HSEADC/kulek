@@ -173,3 +173,95 @@
   flex-direction: column;
   gap: 2.083vw;
 }
+
+.W_allContentGuide {
+  position: relative;
+  display: flex;
+  gap: 9.306vw;
+}
+
+.W_guideTitleText {
+  width: 30.139vw;
+}
+
+.W_guideCardsText {
+  display: flex;
+  align-items: flex-end;
+  gap: 3.056vw;
+}
+
+.W_guideCards {
+  height: 31.042vw;
+  width: 49.167vw;
+  border-radius: 1.944vw;
+  border: 0.104vw solid #202020;
+}
+
+.W_guideCardInfo {
+  width: 19.375vw;
+  display: flex;
+  gap: 3.867vw;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#W_guideCardInfo {
+  width: 100%;
+}
+
+.W_guideLetterTextSection4 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1.936vw;
+}
+
+.W_guideTitleDescSection4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.417vw;
+}
+
+.W_guideColorsTextSection5 {
+  display: flex;
+  gap: 4.931vw;
+}
+
+.W_guideColorSection5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.042vw;
+}
+
+#W_guideLetterText2Section4 {
+  gap: 0.459vw;
+}
+
+#W_guideCardInfo2 {
+  gap: 2.301vw;
+}
+
+#W_guideColor1Section5 {
+  background-color: #ff3d4d;
+}
+
+#W_guideColor2Section5 {
+  background-color: #ffcd8c;
+}
+
+#W_guideColor3Section5 {
+  background-color: #305fd0;
+}
+
+#W_guideColor4Section5 {
+  background-color: #d4e6fb;
+}
+
+#W_guideColor5Section5 {
+  background-color: #7a767d;
+}
+
+#W_guideColor6Section5 {
+  background-color: #d4d4d4;
+}
