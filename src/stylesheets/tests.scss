@@ -1,0 +1,76 @@
+body.S_Tests {
+  background-color: #f4f3ef;
+  font-family: 'PP Radio Grotesk';
+  overflow-x: hidden;
+
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+
+    .M_linksInputHeader {
+      .A_InputHeader {
+        .Q_SearchHeader {
+          position: absolute;
+          top: 0.662vw;
+          right: 0.935vw;
+        }
+      }
+    }
+  }
+
+  .O_headerTests {
+    position: relative;
+    .A_lineTests {
+      margin-top: 1.247vw;
+      margin-left: 6.25vw;
+    }
+    .W_namingTagsTests {
+      position: absolute;
+      top: 15.922vw;
+      left: 29.711vw;
+    }
+    .A_image1TestsHeader {
+      position: absolute;
+      top: 15.56vw;
+      left: 1.542vw;
+    }
+    .A_image2TestsHeader {
+      position: absolute;
+      top: -0.694vw;
+      left: 1.459vw;
+    }
+    .A_image3TestsHeader {
+      position: absolute;
+      top: 23.972vw;
+      left: 23.013vw;
+    }
+    .A_image4TestsHeader {
+      position: absolute;
+      top: 1.309vw;
+      left: 50.558vw;
+    }
+    .A_image5TestsHeader {
+      position: absolute;
+      top: 5.976vw;
+      left: 70.037vw;
+    }
+    .A_image6TestsHeader {
+      position: absolute;
+      top: 20.522vw;
+      left: 77.202vw;
+    }
+  }
+  .O_Tests {
+    margin: 7.847vw 0 6.944vw 3.056vw;
+
+    .W_allvariantsTests {
+      .W_middleCardTests {
+        .M_middle2CardTests {
+          .W_infoMiddle2CardTests {
+            margin-top: 4.028vw;
+          }
+        }
+      }
+    }
+  }
+}

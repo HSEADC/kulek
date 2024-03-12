@@ -5,12 +5,16 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/index.scss';
 @import 'stylesheets/guideline.scss';
+@import 'stylesheets/journal.scss';
+@import 'stylesheets/fleamarket.scss';
 @import 'stylesheets/dictionary.scss';
 @import 'stylesheets/section.scss';
 @import 'stylesheets/fashion.scss';
 @import 'stylesheets/acca.scss';
 @import 'stylesheets/teaser.scss';
 @import 'stylesheets/slang10.scss';
+@import 'stylesheets/games90.scss';
+@import 'stylesheets/tests.scss';
 @import 'stylesheets/components/atoms.scss';
 @import 'stylesheets/components/molecules.scss';
 @import 'stylesheets/components/organisms.scss';

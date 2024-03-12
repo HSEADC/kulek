@@ -1,214 +1,209 @@
-body.index {
-  background-color: var(--white);
+body.S_mainPage {
+  background-color: #f4f3ef;
   font-family: 'PP Radio Grotesk';
-  font-size: 18px;
-  overflow: hidden;
+  overflow-x: hidden;
 
-  a {
-    text-decoration: none;
-    color: black;
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+
+    .M_linksInputHeader {
+      .A_InputHeader {
+        .Q_SearchHeader {
+          position: absolute;
+          top: 0.662vw;
+          right: 0.935vw;
+        }
+      }
+    }
   }
-  .header {
+
+  .O_headerMain {
+    margin-top: -1.253vw;
     position: relative;
+
+    .A_lineMain {
+      margin-left: 14.514vw;
+    }
+
+    .M_infoHeader {
+      position: absolute;
+      top: 10.986vw;
+      left: 30.417vw;
+      z-index: 5;
+
+      .A_descMain {
+        width: 17.791vw;
+        color: #131313;
+        font-size: 2.778vw;
+        line-height: 95%;
+        position: relative;
+        z-index: 3;
+      }
+
+      .A_namingMain {
+        width: 39.203vw;
+        height: auto;
+        margin-top: -3.958vw;
+      }
+
+      .A_aboutPage {
+        width: 18.611vw;
+        padding: 1.042vw 1.528vw;
+        margin-left: 20.833vw;
+        margin-top: -2.222vw;
+      }
+    }
+
+    .A_image1MainHeader {
+      position: absolute;
+      top: -3.333vw;
+      left: 23.333vw;
+    }
+
+    .A_image2MainHeader {
+      position: absolute;
+      top: 8.719vw;
+      left: 8.758vw;
+    }
+
+    .A_image3MainHeader {
+      position: absolute;
+      top: 21.744vw;
+      left: -0.347vw;
+    }
+
+    .A_image4MainHeader {
+      position: absolute;
+      top: 25.2vw;
+      left: 30.237vw;
+    }
+
+    .A_image5MainHeader {
+      position: absolute;
+      top: 34.167vw;
+      right: 34.583vw;
+    }
+
+    .A_image6MainHeader {
+      position: absolute;
+      top: 23.264vw;
+      right: 8.599vw;
+    }
+
+    .A_image7MainHeader {
+      position: absolute;
+      top: 5.767vw;
+      right: 1.449vw;
+    }
+  }
+
+  .O_selectionDayMain {
+    margin-top: 9.306vw;
+    margin-left: 2.778vw;
+
+    .C_cardsAllSelectionDayMain {
+      .C_cardsSelectionDayMain {
+        .M_LongCardMain {
+          .W_info2ButtonCardBigMain {
+            padding-top: 0;
+            padding-left: 2.431vw;
+          }
+        }
+      }
+    }
+  }
+
+  .O_bestSectionMain {
+    margin-top: 10.417vw;
+    margin-left: 2.778vw;
+
+    .C_cardsSelectionDayMain {
+      .M_LongCardMain {
+        .W_info2ButtonCardBigMain {
+          padding-top: 0;
+          padding-left: 2.431vw;
+        }
+      }
+    }
+  }
+
+  .O_testsSectionMain {
+    margin-top: 10.417vw;
+    margin-left: 2.778vw;
+
+    .W_infoLookMain {
+      gap: 58.867vw;
+    }
+    .W_middleCardMainTests {
+      .M_middle2CardMain {
+        .W_infoMiddle2CardMain {
+          .W_info2ButtonCardBigMain {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.736vw;
+          }
+        }
+      }
+    }
+  }
+  .O_CardsSectionMain {
+    margin-top: 10.417vw;
+    margin-left: 2.778vw;
     display: flex;
-    justify-content: space-between;
-    margin-left: 38px;
-    margin-right: 38px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  .logo {
-    width: 88px;
-    height: 38px;
-  }
+    flex-direction: column;
+    gap: 1.736vw;
 
-  .aboutbutton {
-    background-color: none;
-    border: 1.2px solid black;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-radius: 25px;
-  }
+    .W_infoLookMain {
+      gap: 58.867vw;
+    }
 
-  .content {
+    .C_Cards {
+      width: 94.514vw;
+      grid-template-columns: 14.301vw 14.301vw 14.301vw 14.301vw 14.301vw 14.301vw;
+
+      .M_Card {
+        cursor: default;
+      }
+    }
+  }
+  .O_CollectorMain {
+    margin-top: 7.639vw;
+    margin-left: 26.688vw;
     position: relative;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: #94a7ff;
-    height: 605px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  .pictures {
-    position: absolute;
-  }
-  #texture {
-    z-index: 0;
-    width: 1359px;
-    height: 605px;
-  }
-  #one,
-  #two,
-  #three,
-  #four,
-  #five,
-  #six,
-  #seven,
-  #eight,
-  #nine {
-    z-index: 2;
-  }
-  #ten {
-    z-index: 3;
-  }
-  #one {
-    width: 492px;
-    height: 492px;
-    top: 15px;
-    left: 34px;
-  }
-  #two {
-    width: 372px;
-    height: 372px;
-    top: -103px;
-    left: 240px;
-  }
-  #three {
-    width: 557px;
-    height: 557px;
-    top: -253px;
-    left: 534px;
-  }
-  #four {
-    width: 387px;
-    height: 387px;
-    top: -105px;
-    left: 913px;
-  }
-  #five {
-    width: 419px;
-    height: 419px;
-    top: 103px;
-    left: 1006px;
-  }
-  #six {
-    width: 549px;
-    height: 549px;
-    top: 344px;
-    left: 753px;
-  }
-  #seven {
-    width: 608px;
-    height: 608px;
-    top: 260px;
-    left: 436px;
-  }
-  #eight {
-    width: 566px;
-    height: 566px;
-    top: 197px;
-    left: 61px;
-  }
-  #nine {
-    width: 383px;
-    height: 383px;
-    top: 215px;
-    left: -61px;
-  }
-  #ten {
-    width: 751px;
-    height: 208px;
-    top: 139px;
-    left: 312px;
-  }
-  .description {
-    position: absolute;
-    background-color: #ffffff;
-    border: 1.2px solid black;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: center;
-    z-index: 4;
-    border-radius: 20px;
-    top: 340px;
-    left: 567px;
-  }
-  .learn {
-    color: #ffffff;
-    position: absolute;
-    font-size: 32px;
-    top: 441px;
-    left: 524px;
-  }
 
-  // стили формы
-  #my-form {
-    position: absolute;
-    top: 484px;
-    left: 478px;
-    z-index: 5;
-  }
-  #my-form-button {
-    background-color: black;
-    color: #ffffff;
-    border-radius: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 18px;
-  }
-  #input {
-    color: #4c4c4c;
-    padding-top: 6px;
-    padding-left: 15px;
-    padding-bottom: 6px;
-    border: 1.2px solid black;
-    width: 283px;
-    font-size: 18px;
-    border-radius: 20px;
-  }
-  #my-form-status {
-    color: #ffffff;
-    padding-top: 11px;
-    padding-left: 100px;
-    padding-bottom: 6px;
-    width: 283px;
-    font-size: 22px;
-  }
-  // .screen {
-  //     position: absolute;
-  //     opacity: 25%;
-  //     z-index: 1;
-  //     top: 0px;
-  // }
-  .footer {
-    position: relative;
-    height: 101px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 38px;
-    margin-right: 38px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 18px;
-  }
+    .W_infoCollectorMain {
+      position: absolute;
+      z-index: 5;
+      top: 4.583vw;
+      left: 3.66vw;
+    }
+    .A_image1EmailMain {
+      position: absolute;
+      top: -10.972vw;
+      left: -11.757vw;
+    }
 
-  .rightblock {
-    display: flex;
-    justify-content: space-between;
-    width: 372px;
+    .A_image2EmailMain {
+      position: absolute;
+      top: 0.347vw;
+      right: 20.537vw;
+    }
+
+    .A_image3EmailMain {
+      position: absolute;
+      top: 13.889vw;
+      left: -7.826vw;
+    }
+
+    .A_image4EmailMain {
+      position: absolute;
+      top: 12.778vw;
+      right: 18.404vw;
+    }
   }
-  #text {
-    margin-top: 8px;
-    color: #4c4c4c;
-  }
-  #inst,
-  #tg {
-    margin-right: 8px;
+  .O_Footer {
+    margin-top: 9.097vw;
   }
 }

@@ -13,6 +13,14 @@
   gap: 2.083vw;
 }
 
+.W_namingTagsBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19.517vw;
+}
+
 .W_descText {
   display: flex;
   padding-left: 8.194vw;
@@ -53,22 +61,12 @@
   gap: 0.833vw;
 }
 
-.W_footerContent {
-  display: flex;
-  gap: 61.458vw;
-}
-
 .W_linkInstagram,
 .W_linkTelegram {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.486vw;
-}
-
-.W_rightFooter {
-  display: flex;
-  gap: 5.417vw;
 }
 
 .W_titleSubtitle {
@@ -209,11 +207,23 @@
   width: 100%;
 }
 
+.W_imaheDescSection6 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25vw;
+}
+
 .W_guideLetterTextSection4 {
   display: flex;
   width: 100%;
   flex-direction: column;
   gap: 1.936vw;
+}
+
+.W_ageTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
 }
 
 .W_guideTitleDescSection4 {
@@ -232,6 +242,142 @@
   flex-direction: column;
   align-items: center;
   gap: 1.042vw;
+}
+
+.W_allInformationFooter {
+  display: flex;
+  gap: 24.583vw;
+  align-items: flex-end;
+}
+
+.W_allInfoFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 2.222vw;
+}
+
+.W_russisInfoFooter {
+  display: flex;
+  width: 24.492vw;
+  padding-top: 0.833vw;
+  flex-direction: column;
+  gap: 0.922vw;
+}
+
+.W_linkIconTextFooter {
+  align-items: center;
+  display: flex;
+  gap: 0.486vw;
+}
+
+.W_logoInfoHSE {
+  display: flex;
+  gap: 0.972vw;
+}
+
+.W_info2ButtonCardBigMain {
+  display: flex;
+  padding-top: 2.778vw;
+  flex-direction: column;
+  gap: 1.736vw;
+}
+
+.W_Title2Subtitl2Main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.W_infoLookMain {
+  display: flex;
+  align-items: flex-end;
+  gap: 54.167vw;
+}
+
+.W_titleSubtitleMain {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
+}
+
+.W_middleCardMainTests {
+  display: flex;
+  gap: 1.389vw;
+}
+
+.W_infoMiddle2CardMain {
+  display: flex;
+  padding-top: 3.125vw;
+  flex-direction: column;
+  gap: 10.556vw;
+}
+
+.W_infoCollectorMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.992vw;
+}
+
+.W_InputButtonEmailMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.565vw;
+}
+
+.W_collectEmails {
+  display: flex;
+  gap: 0.565vw;
+}
+
+.W_namingTagsTests {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8.125vw;
+}
+
+.W_allTextsTests {
+  display: flex;
+  flex-direction: column;
+  gap: 1.849vw;
+}
+
+.W_allvariantsTests {
+  display: flex;
+  padding-left: 7.639vw;
+  flex-direction: column;
+  gap: 1.736vw;
+}
+
+.W_middleCardTests {
+  display: flex;
+  gap: 1.389vw;
+}
+
+.W_info2ButtonCardBigTests {
+  display: flex;
+  width: 16.323vw;
+  height: 9.825vw;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.245vw;
+}
+
+.W_Title2Subtitl2Tests {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25vw;
+}
+
+.W_infoMiddle2CardTests {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 18.958vw;
 }
 
 #W_guideLetterText2Section4 {
@@ -264,4 +410,111 @@
 
 #W_guideColor6Section5 {
   background-color: #d4d4d4;
+}
+
+@media all and (min-width: 361px) and (max-width: 1280px) {
+  .W_titleSubtitle {
+    gap: 2.084vw;
+  }
+
+  .W_pictureDescSection2Tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 0.693vw;
+    position: relative;
+    z-index: 2;
+  }
+
+  .W_allTextSection3 {
+    width: 44.844vw;
+  }
+
+  .W_textSection2 {
+    padding-left: 0;
+    flex-direction: row;
+    gap: 10.128vw;
+    width: auto;
+  }
+  .W_pictureDescSection5 {
+    padding: 0;
+  }
+  .W_pucturesSection4 {
+    gap: 1.563vw;
+  }
+  .W_pictures1Section4 {
+    gap: 1.563vw;
+
+    &:nth-child(1) {
+      width: 19.568vw;
+      height: 22.04vw;
+    }
+  }
+  .W_picturesSection4Tablet {
+    display: flex;
+    gap: 1.394vw;
+  }
+  .W_allInformationSection6 {
+    gap: 6.559vw;
+  }
+  .W_textSection6 {
+    width: 37.188vw;
+  }
+  .W_textSection6 {
+    gap: 1.328vw;
+  }
+}
+@media all and (max-width: 360px) {
+  .W_titleSubtitle,
+  .W_titleDesc {
+    gap: 4.164vw;
+  }
+  .W_textSection2 {
+    gap: 3.889vw;
+    width: 76.389vw !important;
+  }
+  .W_textSection {
+    width: 80vw;
+    margin-top: 7.222vw;
+    padding: 0;
+  }
+  .W_pucturesSection4Mobile {
+    display: flex;
+    gap: 2.203vw;
+  }
+  .W_textSection5 {
+    gap: 5.556vw;
+    width: 85.833vw;
+  }
+  .W_pictures1Section4Mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 2.203vw;
+  }
+  .W_pictureDescSection5 {
+    padding: 0;
+    gap: 1.233vw;
+  }
+  .W_allTextSection3 {
+    width: 85vw;
+    gap: 5.556vw;
+  }
+  .W_pictureDescAbout {
+    width: 82.784vw;
+    height: 64.444vw;
+  }
+  .W_imaheDescSection6 {
+    display: none;
+  }
+  .W_linkInstagram {
+    gap: 0.681vw;
+  }
+  .W_pictureDescAboutMobile {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+  }
+  .W_pictureDescAbout {
+    gap: 9.17px;
+  }
 }

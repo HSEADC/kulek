@@ -30,22 +30,67 @@
   height: 17.569vw;
   gap: 7.431vw;
 }
-
-.C_allLinks {
+.C_infoFooter {
+  display: flex;
+  gap: 2.083vw;
+}
+.C_linksFooter {
   display: flex;
   flex-direction: column;
-  gap: 0.584vw;
+  gap: 0.417vw;
 }
-
-.C_Creators {
-  display: flex;
-  flex-direction: column;
-  gap: 0.694vw;
-}
-
 .C_picturesAllSection3 {
   display: flex;
   gap: 1.389vw;
+}
+
+.C_allLinksHeader {
+  display: flex;
+  gap: 2.986vw;
+}
+
+.C_cardsAllSelectionDayMain {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
+}
+
+.C_cardsSelectionDayMain {
+  display: flex;
+  gap: 1.389vw;
+}
+
+.C_subTagsMain {
+  display: flex;
+  width: 17.621vw;
+  height: 3.605vw;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0.486vw 0.417vw;
+  flex-wrap: wrap;
+}
+
+.C_middleCardMainTests {
+  display: flex;
+  flex-direction: column;
+  gap: 1.389vw;
+}
+
+.C_tagsTests {
+  display: flex;
+  gap: 1.715vw;
+}
+
+.C_middleCardTests {
+  display: flex;
+  flex-direction: column;
+  gap: 1.528vw;
+}
+
+.C_namesFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.556vw;
 }
 
 .C_picturesSection3,
@@ -113,6 +158,19 @@
   justify-content: space-between;
 }
 
+.C_Cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1.736vw;
+  grid-row-gap: 1.736vw;
+}
+
+.C_headerName {
+  display: flex;
+  flex-direction: column;
+  gap: 0.417vw;
+}
+
 .C_guideSections {
   display: flex;
   gap: 2.083vw;
@@ -144,4 +202,34 @@
 .C_guideAllColorsSection5 {
   display: flex;
   gap: 1.25vw;
+}
+
+@media all and (max-width: 360px) {
+  .C_picturesAllSection3Mobile {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.503vw;
+  }
+  .C_picturesSection3Mobile {
+    display: flex;
+    gap: 1.578vw;
+  }
+  .C_picturesSection3PMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 1.15vw;
+  }
+
+  .C_allPictures {
+    padding-top: 8.894vw;
+    gap: 2.389vw;
+  }
+  .C_AccaSectionPicture {
+    gap: 2.4vw;
+  }
+  .C_firstLine {
+    gap: 2.389vw;
+  }
 }

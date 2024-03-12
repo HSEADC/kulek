@@ -1,3 +1,7 @@
+html.S_Slang10 {
+  overflow-x: hidden;
+}
+
 body.S_Slang10 {
   background: #f4f3ef;
   font-family: 'PP Radio Grotesk';
@@ -93,289 +97,207 @@ body.S_Slang10 {
     }
   }
 
-  .O_Footer {
-    .W_footerContent {
-      margin-left: 2.847vw;
-    }
-  }
-
   .A_pageName {
     width: 62.5vw;
   }
 
-  @media screen and (max-width: 480px) {
-    .menu {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-between;
-      padding: 20px 30px;
-      height: min-content;
-
-      .menu-logo {
-        width: 3vw;
-
-        img {
-          width: 100%;
-        }
-      }
-
-      .about-us {
-        padding: 7px 20px;
-        border: 1px solid var(--black);
-        border-radius: 20px;
-        background-color: var(--white);
-      }
+  @media all and (min-width: 361px) and (max-width: 1280px) {
+    .A_sammary {
+      font-size: 1.481vw;
     }
 
-    .hero {
-      .hero-background {
-        width: 120vw;
+    .O_firstSectionTablet {
+      margin-left: 3.047vw;
+      margin-bottom: 10.103vw;
 
-        .hero-img-10 {
-          width: 100%;
+      .W_titleDesc {
+        margin-bottom: 4.956vw;
+
+        .A_sammary {
+          width: 35.391vw;
         }
       }
 
-      .title {
-        width: 60%;
-        margin-top: 4vw;
-        .kulek-img {
-          width: 75vw;
-          img {
-            width: 100%;
-          }
+      .C_allPictures {
+        padding-left: 22.031vw;
+
+        .A_pictureDescription {
+          font-size: 1.406vw;
         }
 
-        h3 {
-          align-self: flex-start;
-          font-size: 5vw;
-          margin-bottom: -8vw;
+        .C_firstLine:nth-child(2) {
+          margin-left: 15.972vw;
         }
+      }
 
-        .title-par {
-          width: 100%;
-          font-size: 4vw;
-          padding: 10px 15px;
-          border: 1px solid var(--black);
-          align-self: center;
-          margin-top: 0;
-          p {
-            text-align: center;
-            width: 100%;
-          }
+      .W_textSection {
+        margin-left: 6.484vw;
+        width: 86.369vw;
+        margin-top: 3.984vw;
+        padding: 0;
+        flex-direction: row;
+        gap: 9.688vw;
+
+        .A_mainText {
+          width: 37.891vw;
         }
       }
     }
-
-    .about-movie {
-      padding: 0 30px;
-      margin-bottom: 5vw;
-      h1 {
-        font-size: 10vw;
-        margin-bottom: 2vw;
+    .O_fourthSection {
+      .A_pictureDescription {
+        font-size: 1.25vw;
       }
-      .movie-desc {
-        display: flex;
+    }
+    .O_fifthSection {
+      gap: 4.297vw;
+      margin-bottom: 15.852vw;
+      .W_textSection5 {
+        width: 46.172vw;
+      }
+      .A_lineSection5 {
+        right: 0.934vw;
+        bottom: -8.491vw;
+      }
+    }
+  }
+
+  @media all and (max-width: 360px) {
+    .A_pageName {
+      width: 83.056vw;
+    }
+
+    .A_aboutPage {
+      margin-top: 5.122vw !important;
+    }
+
+    .O_aboutSlang90 {
+      margin-bottom: 26.389vw;
+
+      #A_pictureSlang10 {
+        top: -10.769vw;
+        left: 43.056vw;
+      }
+      #A_picture2Slang10 {
+        bottom: -5.556vw;
+        left: 1.111vw;
+        width: 25.556vw;
+        height: 15.098vw;
+      }
+      #A_picture3Slang10 {
+        top: 45.064vw;
+        left: -1.111vw;
+      }
+      #A_pictureSlang10 {
+        width: 23.333vw;
+        height: 23.333vw;
+      }
+
+      #A_picture2Slang10 {
+        width: 15.972vw;
+        height: 13.958vw;
+      }
+
+      #A_picture3Slang10 {
+        width: 24.167vw;
+        height: 24.167vw;
+      }
+
+      #A_picture4Slang10 {
+        bottom: -28.842vw;
+        right: 1.111vw;
+        width: 35.278vw;
+        height: 35.278vw;
+      }
+      #A_picture2Slang10 {
+        display: none;
+      }
+    }
+    .O_firstSectionTablet {
+      margin-left: 5.833vw;
+      .W_titleDesc {
+        width: 65.833vw;
+      }
+    }
+    .C_firstLine:nth-child(2) {
+      margin-left: 27.464vw;
+    }
+    .O_secondSectionMobile {
+      margin: 21.069vw 0 20.833vw 5.833vw;
+
+      .M_allPicturesAboutMobile {
+        margin-top: 7.453vw;
+      }
+
+      .W_textSection {
+        margin-top: 16.261vw;
+        gap: 5.556vw;
+      }
+    }
+    .O_thirdSection {
+      padding-left: 5.833vw;
+      .A_titleName {
+        margin-bottom: 8.611vw;
+      }
+      .A_pictureSection3 {
+        width: 88.333vw;
+        height: auto;
+      }
+      .A_descSection3 {
+        font-size: 3.258vw;
+      }
+    }
+    .O_fourthSection {
+      padding-left: 5.833vw;
+      margin-bottom: 20.908vw;
+
+      .A_titleName {
+        margin-left: 0;
+        margin-bottom: 12.778vw;
+      }
+
+      .C_picturesPosition {
+        height: fit-content;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
+        gap: 6.944vw;
+      }
 
-        .movie-text {
-          width: 100%;
-          h4 {
-            font-size: 4vw;
-            line-height: 1.25;
-            margin-bottom: 1vw;
-          }
+      .A_pictureDescription {
+        font-size: 5vw;
+      }
 
-          p {
-            font-size: 4vw;
-            line-height: 1.25;
-            margin-bottom: 5vw;
-            margin-left: 5vw;
-          }
-        }
+      .A_pictureNumber {
+        display: none;
+      }
 
-        .movie-img {
-          width: 100%;
-          img {
-            width: 100%;
-          }
-        }
+      #C_picturesPosition2 {
+        margin-left: 0 !important;
       }
     }
-
-    .what-about {
-      padding: 0 30px;
-      margin-bottom: 5vw;
-      h1 {
-        font-size: 10vw;
-        margin-bottom: 2vw;
+    .O_fifthSection {
+      margin-bottom: 32.406vw;
+      gap: 5.278vw;
+      .A_pictureDescription {
+        font-size: 2.694vw;
       }
-
-      .what-text {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        margin-bottom: 2vw;
-        p {
-          font-size: 4vw;
-          line-height: 1.25;
-          width: 100%;
-        }
+      .W_pictureDescSection5 {
+        margin-left: 8.889vw;
       }
-
-      .what-imgs {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
-
-        .what-img {
-          width: 100%;
-          margin-bottom: 5vw;
-          img {
-            width: 100%;
-          }
-
-          p {
-            font-size: 4vw;
-            margin-bottom: 2vw;
-          }
-        }
+      .A_pictureSection5 {
+        width: 72.282vw;
+        height: auto;
+      }
+      .A_lineSection5 {
+        right: 6.664vw;
+        bottom: -11.614vw;
       }
     }
-
-    .sense {
-      padding: 0 30px;
-      margin-bottom: 5vw;
-      h1 {
-        font-size: 10vw;
-        margin-bottom: 2vw;
-      }
-
-      .sense-desc {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        .sense-img {
-          width: 100%;
-          img {
-            width: 100%;
-            margin-bottom: 1vw;
-          }
-
-          p {
-            font-size: 4vw;
-          }
-        }
-
-        .sense-text {
-          width: 100%;
-          p {
-            font-size: 4vw;
-            line-height: 1.25;
-            margin-bottom: 1vw;
-          }
-        }
-      }
+    .W_footerContent {
+      margin-left: 0 !important;
+      gap: 40.129vw;
     }
-
-    .frames {
-      padding: 0 30px;
-      margin-bottom: 5vw;
-      h1 {
-        font-size: 10vw;
-        margin-bottom: 5vw;
-      }
-
-      .frames-grid {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        gap: 15px;
-        .frame-cell {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: space-around;
-          margin-top: 0vw;
-          margin-bottom: 5vw;
-
-          p {
-            width: 100%;
-            text-align: left;
-            font-size: 4vw;
-          }
-
-          .frame-img {
-            width: 85%;
-            img {
-              width: 100%;
-              margin-bottom: 1vw;
-            }
-
-            p {
-              width: 100%;
-              text-align: start;
-              font-size: 4vw;
-            }
-          }
-        }
-
-        .align-top {
-          margin-top: 0vw;
-        }
-      }
-    }
-
-    .end {
-      padding: 0 30px;
-      margin-bottom: 10vw;
-      h1 {
-        font-size: 10vw;
-        margin-bottom: 5vw;
-      }
-
-      .end-desc {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-
-        .end-text {
-          width: 100%;
-          p {
-            font-size: 4vw;
-            margin-bottom: 5vw;
-            line-height: 1.25;
-          }
-        }
-
-        .end-img {
-          width: 100%;
-          img {
-            width: 100%;
-            margin-bottom: 1vw;
-          }
-
-          .end-img-sub {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: space-between;
-            p {
-              font-size: 4vw;
-              line-height: 1.25;
-            }
-          }
-        }
-      }
+    .M_aboutPage {
+      top: 16.214vw !important;
+      left: 3.933vw !important;
     }
   }
 }

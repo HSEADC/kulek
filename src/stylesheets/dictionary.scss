@@ -3,6 +3,43 @@ body.S_Dictionary {
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
+  .A_Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background: rgba(184, 183, 179, 0.46);
+    backdrop-filter: blur(0.232vw);
+    z-index: 1000;
+  }
+
+  .O_cradDescription {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    display: flex;
+    width: 33.472vw;
+    padding: 2.292vw 3.125vw;
+    align-items: center;
+    gap: 2.153vw;
+    border-radius: 0.888vw;
+    background: #f9f8f7;
+    box-shadow: 0vw 0.278vw 0.278vw 0vw rgba(0, 0, 0, 0.25);
+    display: none;
+
+    .M_mainPlot {
+      .C_headerName {
+        .A_cardTitle {
+          hyphens: auto;
+        }
+      }
+    }
+  }
+
   .M_pageTitle {
     .A_backgroundTitle {
       top: 0;
@@ -18,6 +55,7 @@ body.S_Dictionary {
   }
 
   .O_Words {
+    margin-bottom: 8.351vw;
     .M_searchYear {
       margin-bottom: 3.403vw;
       .C_searchParameters {
@@ -82,146 +120,6 @@ body.S_Dictionary {
           font-size: 1.5vw;
           line-height: 1.25;
           width: 100%;
-        }
-      }
-    }
-  }
-  .O_Footer {
-    .W_footerContent {
-      margin-left: 2.847vw;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .hero {
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 0 30px;
-
-      .hero-background {
-        width: 100vw;
-        display: flex;
-        .hero-img-10 {
-          width: 100%;
-        }
-      }
-
-      .title {
-        width: 45%;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        .dict-img {
-          width: 80vw;
-          margin-bottom: 5vw;
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
-
-    .words {
-      padding: 0 30px;
-      overflow-x: hidden;
-
-      .slider {
-        margin-bottom: 2vw;
-        .slider-search {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: space-between;
-          width: 100%;
-          margin-bottom: 1vw;
-
-          #search {
-            border: 1px solid var(--black);
-            border-radius: 50px;
-            padding: 7px 10px;
-            background-color: #f4f3ef;
-          }
-        }
-
-        #range {
-          width: 100%;
-          -webkit-appearance: none;
-          appearance: none;
-          width: 100%;
-          cursor: pointer;
-          outline: none;
-          border-radius: 15px;
-          height: 30px;
-          background: linear-gradient(270deg, #e7e6e0 -0.04%, #332d26 99.83%);
-          margin-bottom: 1vw;
-        }
-
-        #range::-webkit-slider-thumb {
-          -webkit-appearance: none;
-          appearance: none;
-          height: 30px;
-          width: 30px;
-          background-color: none;
-          border-radius: 50%;
-          border: 1px solid var(--black);
-          transition: 0.2s ease-in-out;
-        }
-
-        .years {
-          width: 100%;
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: space-between;
-        }
-      }
-
-      .words-grid {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-        grid-template-rows: repeat(8, 1fr);
-        gap: 15px;
-        margin-top: 5vw;
-        width: 100%;
-        .words-cell {
-          padding: 15px;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          justify-content: space-between;
-          background-color: var(--black);
-          color: var(--white);
-          border-radius: 5px;
-          .words-header {
-            display: block;
-
-            p {
-              width: 100%;
-              border: 1px solid var(--white);
-              border-radius: 50px;
-              padding: 7px 5px;
-              text-align: center;
-              line-height: 1.25;
-              margin-bottom: 1vw;
-            }
-
-            h4 {
-              font-size: 6vw;
-              line-height: 1.25;
-              margin-bottom: 3vw;
-            }
-          }
-
-          p {
-            font-size: 4vw;
-            line-height: 1.25;
-          }
         }
       }
     }

@@ -11,6 +11,37 @@
   height: 7.591vw;
 }
 
+.A_lineBar {
+  width: 117.014vw;
+  height: auto;
+}
+
+.A_namingBar {
+  width: 72.126vw;
+  height: auto;
+}
+
+.A_image1BarHeader {
+  width: 15.401vw;
+  height: auto;
+}
+.A_image2BarHeader {
+  width: 15.417vw;
+  height: auto;
+}
+.A_image3BarHeader {
+  width: 12.569vw;
+  height: auto;
+}
+.A_image4BarHeader {
+  width: 18.16vw;
+  height: auto;
+}
+.A_image5BarHeader {
+  width: 10.486vw;
+  height: auto;
+}
+
 .A_buttonAbout {
   display: flex;
   justify-content: center;
@@ -223,28 +254,19 @@
   height: 21.159vw;
 }
 
-.A_sectionName {
-  color: #000;
-  font-size: 1.167vw;
-  line-height: 95.092%;
-  letter-spacing: -0.012vw;
-}
-
 .A_InstagramTelegram {
   width: 1.02vw;
   height: 1.02vw;
 }
 
-.A_Link {
-  color: #000;
-  font-size: 0.875vw;
-  line-height: 95.092%;
-  letter-spacing: -0.009vw;
-}
-
 .A_titleFashion90 {
   width: 62.879vw;
   height: 11.795vw;
+}
+
+.A_titleGames90 {
+  width: 61.318vw;
+  height: 12.153vw;
 }
 
 .A_aboutPage {
@@ -285,6 +307,13 @@
   width: 15.717vw;
   height: 20.641vw;
 }
+.A_descSection6 {
+  color: #131313;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.25vw;
+  font-style: italic;
+  line-height: 105.092%;
+}
 .A_pictureFashion6 {
   width: 14.444vw;
   height: 14.444vw;
@@ -309,7 +338,6 @@
 }
 
 .A_lineSection6Fashion {
-  width: 105.365vw;
   height: 29.597vw;
 }
 
@@ -319,6 +347,266 @@
   > img {
     width: 100%;
   }
+}
+
+.A_buttonFollowMain {
+  cursor: pointer;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.208vw 1.389vw 0.347vw 1.389vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.694vw;
+  border-radius: 1.259vw;
+  border: 0.104vw solid #000;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.389vw;
+  line-height: 105.092%;
+}
+
+.A_imageBigCardMain {
+  width: 62.222vw;
+  height: 100%;
+}
+
+.A_subtitleMainPage {
+  width: 26.111vw;
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.404vw;
+  line-height: 1.871vw;
+  letter-spacing: -0.014vw;
+}
+
+.A_buttonWatchAllMain {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.389vw;
+  font-style: italic;
+  line-height: 105%;
+  text-decoration-line: underline;
+}
+
+.A_middle2CardMain {
+  width: 22.5vw;
+  height: 31.944vw;
+}
+
+.A_subTagNewMain {
+  display: flex;
+  padding: 0.162vw 1.082vw 0.216vw 1.082vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.541vw;
+  border-radius: 0.981vw;
+  border: 0.069vw solid #888;
+}
+
+.A_imageMiddleCardMainTests {
+  width: auto;
+  height: 100%;
+}
+
+.A_lineCollectorMain {
+  width: 50.138vw;
+  height: auto;
+}
+
+.A_namingEmailMain {
+  width: 39.514vw;
+  height: auto;
+}
+
+.A_inputEmailMain {
+  display: flex;
+  width: 23.056vw;
+  height: 1.882vw;
+  padding: 0.459vw;
+  align-items: center;
+  gap: 16.36vw;
+  border-radius: 1.695vw;
+  border: 0.086vw solid #131313;
+  background: #f4f3ef;
+  color: rgba(0, 0, 0, 0.7);
+
+  > input {
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.378vw;
+    line-height: 95%;
+    outline: none;
+    width: 21.056vw;
+    background-color: transparent;
+    border: none;
+    margin-left: 0.694vw;
+  }
+}
+
+.A_ButtonEmailMain {
+  cursor: pointer;
+  display: flex;
+  border: none;
+  padding: 0.459vw 1.722vw;
+  align-items: center;
+  gap: 17.225vw;
+  border-radius: 1.695vw;
+  background: #332d26;
+  color: #fff;
+  text-align: center;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.378vw;
+  line-height: 95%;
+}
+
+.A_subEmailMain {
+  color: #131313;
+  text-align: center;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.378vw;
+  font-style: italic;
+  line-height: 1.722vw;
+  letter-spacing: -0.014vw;
+}
+
+.A_lineTests {
+  width: 79.792vw;
+  height: auto;
+}
+
+.A_namingTests {
+  width: 40.213vw;
+  height: auto;
+}
+
+.A_tagTests {
+  display: flex;
+  padding: 0.362vw 1.404vw 0.597vw 1.404vw;
+  justify-content: center;
+  align-items: center;
+  gap: 0.078vw;
+  border-radius: 1.378vw;
+  border: 0.07vw solid #000;
+  background: #f4f3ef;
+}
+
+.A_image1TestsHeader {
+  width: 19.587vw;
+  height: auto;
+}
+
+.A_mainTextTests {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 3.743vw;
+  line-height: 90%;
+  letter-spacing: -0.15vw;
+}
+
+.A_mainSubtextTests {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.404vw;
+  line-height: 1.871vw;
+  letter-spacing: -0.014vw;
+  width: 32.671vw;
+}
+
+.A_imageMiddleCardMainTestsSection {
+  height: 100%;
+  width: auto;
+}
+
+#my-form-status {
+  width: 35.833vw;
+  color: #131313;
+  text-align: center;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.378vw;
+  line-height: 1.722vw;
+  letter-spacing: -0.014vw;
+  text-align: center;
+}
+
+.A_title2TestsPage {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 2.495vw;
+  line-height: 95%;
+}
+
+.A_subtitle2TestsPage {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.404vw;
+  line-height: 105.092%;
+}
+
+.A_buttonFollowTests {
+  cursor: pointer;
+  border-radius: 1.259vw;
+  border: 0.064vw solid #000;
+  width: fit-content;
+  padding: 0.208vw 1.597vw 0.347vw 1.597vw;
+  color: #000;
+  background-color: transparent;
+  text-align: center;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.404vw;
+  line-height: 105.092%;
+}
+
+.A_middle2CardTests {
+  width: 20.273vw;
+  height: 34.153vw;
+}
+
+.A_image2TestsHeader {
+  width: 16.334vw;
+  height: auto;
+}
+.A_image3TestsHeader {
+  width: 15.454vw;
+  height: auto;
+}
+.A_image4TestsHeader {
+  width: 11.181vw;
+  height: auto;
+}
+.A_image5TestsHeader {
+  width: 12.099vw;
+  height: auto;
+}
+.A_image6TestsHeader {
+  width: 15.602vw;
+  height: auto;
+}
+
+.A_image1EmailMain {
+  width: 27.723vw;
+  height: auto;
+}
+
+.A_image2EmailMain {
+  width: 9.804vw;
+  height: auto;
+}
+
+.A_image3EmailMain {
+  width: 11.099vw;
+  height: auto;
+}
+
+.A_image4EmailMain {
+  width: 14.513vw;
+  height: auto;
+}
+
+.A_imageLongCardMain {
+  width: 100%;
+  height: auto;
 }
 
 .A_Header {
@@ -369,9 +657,179 @@
   gap: 0.694vw;
 }
 
+.A_InputHeader {
+  position: relative;
+  width: 20.585vw;
+  height: 1.793vw;
+  padding: 0.312vw 0.468vw 0.468vw 1.17vw;
+  border-radius: 1.952vw;
+  border: 0.104vw solid #000;
+  display: flex;
+  align-items: center;
+  > input {
+    outline: none;
+    color: #000;
+    width: 17.885vw;
+    border: none;
+    background-color: transparent;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.389vw;
+    line-height: 105.092%;
+  }
+  ::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.389vw;
+    line-height: 105.092%;
+  }
+  ::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.389vw;
+    line-height: 105.092%;
+  }
+  :-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.389vw;
+    line-height: 105.092%;
+  }
+  :-moz-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.389vw;
+    line-height: 105.092%;
+  }
+}
+
+.A_linkHeader {
+  color: #000;
+  text-align: center;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.389vw;
+  line-height: 105.092%;
+}
+
+.A_image1MainHeader {
+  width: 17.83vw;
+  height: auto;
+}
+
+.A_image2MainHeader {
+  width: 16.038vw;
+  height: auto;
+}
+
+.A_image3MainHeader {
+  width: 25.547vw;
+  height: auto;
+}
+
+.A_image4MainHeader {
+  width: 13.529vw;
+  height: auto;
+}
+
+.A_image5MainHeader {
+  width: 17.986vw;
+  height: auto;
+}
+
+.A_image6MainHeader {
+  width: 25.123vw;
+  height: auto;
+}
+
+.A_image7MainHeader {
+  width: 22.926vw;
+  height: auto;
+}
+
+.A_titleMainPage {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 3.333vw;
+  line-height: 95%;
+}
+
+.A_title2MainPage {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 2.5vw;
+  line-height: 95%;
+}
+
+.A_subtitle2MainPage {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.389vw;
+  line-height: 105%;
+}
+
+.A_lineMain {
+  width: 72.153vw;
+  height: auto;
+}
+
+.A_cardTitle {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 4.444vw;
+  line-height: 75%;
+  letter-spacing: -0.044vw;
+  text-transform: lowercase;
+}
+
+.A_imgCard {
+  display: flex;
+  width: 10.347vw;
+  height: 18.333vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > img {
+    width: 14.167vw;
+    height: 18.333vw;
+  }
+}
+
+.A_Cancel {
+  width: 1.038vw;
+  height: 1.017vw;
+  position: absolute;
+  right: 1.393vw;
+  top: 1.366vw;
+  cursor: pointer;
+}
+
+.A_tagCard {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.111vw;
+  font-style: italic;
+  line-height: 100%;
+  letter-spacing: -0.011vw;
+  text-transform: lowercase;
+}
+
+.A_Plot {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.25vw;
+  line-height: 140%;
+  letter-spacing: -0.013vw;
+}
+
 .A_Date {
   color: #494948;
   font-size: 1.111vw;
+
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3) {
+    width: 2.396vw;
+  }
 }
 
 .A_guideSection {
@@ -645,6 +1103,55 @@
   }
 }
 
+.A_descCard {
+  width: 10.069vw;
+  color: #000;
+  font-family: 'Inter Tight';
+  font-size: 1.111vw;
+  line-height: 125%;
+  letter-spacing: -0.011vw;
+  text-transform: lowercase;
+}
+
+.A_nameCard {
+  hyphens: auto;
+  color: #000;
+  font-size: 2.406vw;
+  line-height: 95%;
+}
+
+.A_ageTagBlack {
+  border: 0.104vw solid #000;
+}
+
+.A_ageTagWhite {
+  border: 0.104vw solid #fff;
+}
+
+.A_ageTagTextBlack {
+  color: #000;
+}
+
+.A_ageTagTextWhite {
+  color: #fff;
+}
+
+.A_ageTag {
+  width: 3.368vw;
+  height: 1.979vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.739vw;
+
+  > p {
+    font-family: 'Inter Tight';
+    font-size: 0.972vw;
+    letter-spacing: -0.01vw;
+    text-transform: lowercase;
+  }
+}
+
 .A_guideImg7Section7 {
   width: 46.597vw;
   height: 30.139vw;
@@ -655,16 +1162,92 @@
   }
 }
 
+.A_pictureSection3Tablet {
+  display: none;
+}
+
+.A_lineSection6MobileFashion {
+  display: none;
+}
+
+.A_pictureSection6Mobile {
+  display: none;
+}
+
+.A_titleSectionFooter {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 1.167vw;
+  line-height: 95.092%;
+  letter-spacing: -0.012vw;
+}
+
+.A_iconFooter {
+  width: 1.02vw;
+  height: 1.02vw;
+}
+.A_bigLogoFooter {
+  width: 20.069vw;
+  height: 7.784vw;
+}
+
+.A_russiaInfoFooter {
+  width: 24.167vw;
+}
+
+.A_logoHSE {
+  width: 5.278vw;
+  height: 2.327vw;
+}
+
+.A_russiaInfoFooter {
+  width: 23.167vw;
+  color: #8e8d89;
+  font-family: 'PP Radio Grotesk';
+  font-size: 0.903vw;
+  line-height: 130%;
+  letter-spacing: -0.009vw;
+}
+
+.A_linkTextFooter {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 0.875vw;
+  line-height: 95.092%;
+  letter-spacing: -0.009vw;
+}
+
+.A_linkTextFooter {
+  color: #000;
+  font-family: 'PP Radio Grotesk';
+  font-size: 0.875vw;
+  line-height: 95.092%;
+  letter-spacing: -0.009vw;
+}
+
 .A_guideText {
   font-size: 1.667vw;
   line-height: 2.083vw;
   letter-spacing: -0.017vw;
   width: 18.403vw;
 }
+.O_secondSectionTablet {
+  display: none;
+}
+.O_thirdSectionFashionMobile {
+  display: none;
+}
 
 .A_guideTitle {
   font-size: 3.75vw;
   margin-bottom: 1.185vw;
+}
+.A_lineSection6Tablet {
+  display: none;
+}
+
+.A_linesAccaMobile {
+  display: none;
 }
 
 #A_guideBackground1Section2,
@@ -723,4 +1306,317 @@
 #A_picture4Slang10 {
   width: 20.556vw;
   height: 20.556vw;
+}
+
+@media all and (min-width: 361px) and (max-width: 1280px) {
+  .A_sammary {
+    font-size: 1.667vw;
+  }
+
+  .A_titleName {
+    font-size: 3.296vw;
+  }
+
+  .A_mainText {
+    color: #131313;
+    letter-spacing: -0.013vw;
+    font-size: 1.484vw;
+    line-height: 1.953vw;
+  }
+
+  .A_mainText2 {
+    font-size: 1.484vw;
+    line-height: 1.953vw;
+  }
+
+  .A_textSection3 {
+    font-size: 1.484vw;
+    line-height: 1.953vw;
+  }
+
+  .A_descAboutFilm {
+    font-size: 1.406vw;
+  }
+
+  .A_pictureSection2 {
+    width: 34.688vw;
+    height: 28.917vw;
+  }
+
+  .A_pictureSection3 {
+    display: none;
+  }
+
+  .A_pictureDescription {
+    font-size: 1.406vw;
+  }
+
+  .A_pictureSection4Fashion {
+    width: 29.662vw;
+    height: 22.04vw;
+  }
+  .A_pictureSection4Fashion2 {
+    width: 12.734vw;
+    height: 24.453vw;
+  }
+  .A_pictureSection4Fashion4 {
+    width: 36.563vw;
+    height: 24.453vw;
+  }
+  .A_pictureSection4Fashion3 {
+    width: 50.391vw;
+    height: 11.563vw;
+  }
+
+  .A_lineSection5 {
+    width: 41.801vw;
+    height: 24.024vw;
+  }
+
+  .A_pictureSection5 {
+    width: 38.082vw;
+    height: 29.252vw;
+  }
+  .A_pictureSection3Tablet {
+    display: block;
+    width: 38.125vw;
+    height: 29.297vw;
+  }
+  .A_lineSection6Fashion {
+    display: none;
+  }
+  .A_descSection3 {
+    font-size: 1.406vw;
+  }
+  .A_lineSection6Tablet {
+    display: block;
+    width: 100vw;
+    overflow: hidden;
+
+    > img {
+      width: 104.141vw;
+      left: -3.828vw;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .A_Logo {
+    width: 3.785vw;
+  }
+  .A_buttonAbout {
+    padding: 0.833vw 1.944vw;
+    border: 0.169vw solid var(--black);
+    border-radius: 2.373vw;
+
+    > p {
+      font-size: 2.136vw;
+      height: 1.58vw;
+    }
+  }
+  .A_titleFashion90 {
+    width: 80.808vw;
+    height: 15.159vw;
+  }
+  .A_lineSection5 {
+    width: 79.448vw;
+    height: 45.598vw;
+  }
+  .A_innerPicture {
+    width: 25.075vw;
+    height: 29.134vw;
+  }
+  .A_aboutPage {
+    width: 37.088vw;
+    padding: 1.667vw 4.689vw 1.667vw 4.756vw;
+    border: 0.1vw solid var(--black);
+    border-radius: 1.262vw;
+    p {
+      width: 39.167vw !important;
+      font-size: 2.222vw !important;
+      line-height: 2.222vw !important;
+    }
+  }
+  .A_pictureFashion1 {
+    width: 25.433vw;
+    height: 25.433vw;
+    z-index: 2;
+  }
+  .A_pictureFashion2 {
+    width: 16.021vw;
+    height: 16.021vw;
+    z-index: 2;
+  }
+  .A_lineSection6MobileFashion {
+    display: block;
+  }
+
+  .A_pictureSection6Mobile {
+    display: block;
+  }
+  .A_pictureFashion3 {
+    width: 10.53vw;
+    height: 10.53vw;
+    z-index: 2;
+  }
+  .A_pictureFashion4 {
+    width: 10.889vw;
+    height: 10.026vw;
+    z-index: 2;
+  }
+  .A_pictureDescription {
+    font-size: 2.222vw;
+  }
+  .A_pictureFashion5 {
+    width: 15.027vw;
+    height: 19.735vw;
+    z-index: 2;
+  }
+  .A_pageName {
+    width: 61.308vw;
+  }
+  .A_linesAcca {
+    display: none;
+  }
+  .A_linePicuresMobile1 {
+    width: calc(100% + 5.694vw);
+    overflow: hidden;
+    position: absolute;
+    left: -5.833vw;
+
+    > img {
+      margin-top: -5.278vw;
+      margin-left: -17.5vw;
+      width: 217.222vw;
+    }
+  }
+  .A_linePicuresMobile2 {
+    width: calc(100% + 5.694vw);
+    overflow: hidden;
+    top: 185px;
+    left: -5.833vw;
+    position: absolute;
+
+    > img {
+      margin-left: -115.556vw;
+      width: 217.222vw;
+    }
+  }
+  .A_linesAccaMobile {
+    display: block;
+    margin-left: -5vw;
+  }
+  .A_pictureFashion6 {
+    width: 13.811vw;
+    height: 13.811vw;
+    z-index: 2;
+  }
+  .A_pictureFashion7 {
+    width: 14.474vw;
+    height: 15.935vw;
+    z-index: 2;
+  }
+  .A_titleName {
+    font-size: 5.556vw;
+  }
+  .A_sammary {
+    font-size: 4.167vw;
+    line-height: 4.778vw;
+    letter-spacing: -0.042vw;
+  }
+  .A_mainText {
+    font-size: 3.333vw;
+    line-height: 4.167vw;
+    letter-spacing: -0.033vw;
+  }
+  .A_pictureSection3 {
+    width: 16.84vw;
+    height: 19.232vw;
+  }
+  .A_descSection3 {
+    font-size: 2.302vw;
+    line-height: 105.092%;
+  }
+  .M_textPicturesSection4Mobile {
+    margin-top: 8.333vw;
+  }
+  .A_pictureSection4Mobile1 {
+    width: 46.829vw;
+    height: 18.537vw;
+  }
+  .A_pictureAboutFilmMobile {
+    width: 39.32vw;
+    height: 30.224vw;
+  }
+  .A_descAboutFilmMobile {
+    font-size: 2.519vw;
+    width: fit-content;
+  }
+  .A_pictureSection4Mobile2 {
+    width: 46.829vw;
+    height: 15.815vw;
+  }
+  .A_pictureSection4Mobile3 {
+    width: 38.014vw;
+    height: 36.556vw;
+  }
+  .A_pictureSection4Mobile4 {
+    width: 88.149vw;
+    height: 39.797vw;
+  }
+  .A_pictureSection4Mobile5 {
+    width: 88.149vw;
+    height: 19.186vw;
+  }
+  .A_pictureSection4Mobile6 {
+    width: 88.149vw;
+    height: 40.575vw;
+  }
+  .A_textSection3 {
+    font-size: 3.333vw;
+    line-height: 4.167vw;
+  }
+  .A_pictureSection5Mobile {
+    width: 88.611vw;
+    height: 68.889vw;
+  }
+  .A_pictureSection4 {
+    width: 82.784vw;
+    height: 57.058vw;
+  }
+  .A_pictureSection5 {
+    width: 28.559vw;
+    height: 20.409vw;
+  }
+
+  .A_descSection5 {
+    color: #131313;
+    font-size: 2.222vw;
+    font-style: italic;
+    line-height: 105.092%;
+  }
+
+  .A_pictureSection6Mobile {
+    width: 46.987vw;
+    height: 55.036vw;
+  }
+
+  .A_lineSection6 {
+    display: none;
+  }
+
+  .A_InstagramTelegram {
+    width: 1.543vw;
+    height: 1.543vw;
+  }
+
+  .A_lineSection6MobileFashion {
+    position: absolute;
+    top: 151.35vw;
+    left: -5.45vw;
+  }
+
+  #A_pictureAcca2 {
+    display: none;
+  }
 }

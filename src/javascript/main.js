@@ -1,161 +1,272 @@
-let words = [
-  {
-    word: 'ХАЙП',
-    sub: 'с анг. (hype); зумерский слэнг',
-    img: './images/dictionary/01.png',
-    desc: 'В переводе с английского прямое значение слова хайп в сленге — это «шумиха», «обман», «агрессивная реклама». Хайпить, или хайпануть значит привлечь к себе внимание, стать известным. Делать это может любой человек, несмотря на то, является он знаменитостью или нет.',
-    year: 10,
-    color: '#DBDAD5',
-    shortD:
-      'шум в медиа и соцсетях вокруг какой-либо темы, предмета или персоны'
-  },
-  {
-    word: 'голбец',
-    sub: 'сленг 60-х',
-    img: './images/dictionary/02.png',
-    desc: 'Го́лбе́ц — в деревянных избах — конструкция при печи для всхода на печь и полати, а также спуска в подклет. У русских также называется казёнка, каржина, голбешник, запечник, у белорусов — подпечник.',
-    year: 60,
-    color: '#202020',
-    shortD: 'подполье, подвал в крестьянской избе'
-  },
-  {
-    word: 'манка',
-    sub: 'сленг 70-х',
-    img: './images/dictionary/03.png',
-    desc: 'Манка — толстая каучуковая пористая подошва светлого цвета Очень часто такой тип подошв называют микропористыми, а в народе просто “манка”. Данный тип подошв имеет пористую основу, которая бросается сразу же в глаза материал слегка шероховатый.',
-    year: 70,
-    color: '#202020',
-    shortD: 'толстая каучуковая пористая подошва светлого цвета'
-  },
-  {
-    word: 'лохмы',
-    sub: 'сленг 60-х',
-    img: './images/dictionary/04.png',
-    desc: 'Пряди спутанных, всклоченных волос; пряди свалявшихся волос у человека или животного;',
-    year: 60,
-    color: '#202020',
-    shortD: 'пряди спутанных, всклоченных волос'
-  },
-  {
-    word: 'баско',
-    sub: 'сленг 60-х',
-    img: './images/dictionary/05.png',
-    desc: 'Красиво, хорошо, славно, круто. Это слово близко по значению к «красиво», «хорошо» или «классно». В некоторых областях, кстати, до сих пор применяют это выражение. Есть ещё поговорка — «баско ходить» — стильно одеваться.',
-    year: 60,
-    color: '#202020',
-    shortD: 'красиво, хорошо, славно'
-  },
-  {
-    word: 'кринж',
-    sub: 'зумерский слэнг',
-    img: './images/dictionary/06.png',
-    desc: '«Кринж» — это заимствование из английского, первоначальное значение которого — «съёживаться. Означает чувство жуткой неловкости, стыда за кого-либо. Синоним выражения «испанский стыд».',
-    year: 20,
-    color: '#DBDAD5',
-    shortD: 'описывает чувство неловкости, стыда или дискомфорта'
-  },
-  {
-    word: 'махыч',
-    sub: 'сленг 80-х',
-    img: './images/dictionary/07.png',
-    desc: 'Махыч — драка, сражение, поединок. Происходит от махаться в значении драться, от махать.',
-    year: 80,
-    color: '#606060',
-    shortD: 'драка, сражение, поединок'
-  },
-  {
-    word: 'ксива',
-    sub: 'сленг 80-х',
-    img: './images/dictionary/08.png',
-    desc: 'В идише существительное ksiva означает «нечто написанное, запись»; в том числе письмо или документ. Сегодня в русской речи ксива используется как ярко окрашенный жаргонизм и исключительно в значении «документ».',
-    year: 80,
-    color: '#606060',
-    shortD: 'ярко окрашенный жаргонизм в значении документ'
-  },
-  {
-    word: 'фарца',
-    sub: 'сленг 80-х',
-    img: './images/dictionary/09.png',
-    desc: 'Фарца — сленговое название запрещённой в СССР подпольной покупки/перепродажи (спекуляции) труднодоступных или недоступных рядовому советскому обывателю дефицитных импортных товаров.',
-    year: 80,
-    color: '#606060',
-    shortD: 'скупка, обмен и перепродажа дефицитных товаров'
-  },
-  {
-    word: 'хаер',
-    sub: 'сленг 80-х',
-    img: './images/dictionary/10.png',
-    desc: 'Хаер — волосы, обычно длинные. В перестроечный период интерполировалось на любой тип прически и волос.',
-    year: 80,
-    color: '#606060',
-    shortD: 'волосы, обычно длинные (от hair)'
-  },
-  {
-    word: 'грины',
-    sub: 'сленг 90-х',
-    img: './images/dictionary/11.png',
-    desc: 'Грины — жаргонное обозначение долларов США, произошедшее от их зеленого цвета.',
-    year: 90,
-    color: '#AEADAA',
-    shortD: 'доллары США, валюта (жаргон)'
-  },
-  {
-    word: 'крыша',
-    sub: 'сленг 90-х',
-    img: './images/dictionary/12.png',
-    desc: 'Крыша — покровительствующее лицо, организация или преступная группировка, защищающие коммерческие предприятия от претензий со стороны государственных органов и посягательств со стороны других криминальных структур.',
-    year: 90,
-    color: '#AEADAA',
-    shortD: 'покровительствующее лицо, организация или преступная группировка'
-  },
-  {
-    word: 'свэг',
-    sub: 'зумерский слэнг',
-    img: './images/dictionary/13.png',
-    desc: 'Свэг (swag) — непереводимое слово, выражающее крутость в любом ее проявлении, а также уважение и непререкаемый авторитет. Swag (сленг и сокращение от swagger) — крутизна, тщеславная самоуверенность.',
-    year: 10,
-    color: '#DBDAD5',
-    shortD: 'акцент на «крутости», высоком статусе'
-  },
-  {
-    word: 'слаксы',
-    sub: 'сленг 90-х',
-    img: './images/dictionary/14.png',
-    desc: 'Слаксы (англ. slacks) — брюки свободного покроя из плотной хлопчатобумажной ткани. Шьются из плотного смесового габардина, имеют свободную форму, часто — складки от пояса и отвороты внизу; подразумевают стрелки.',
-    year: 90,
-    color: '#AEADAA',
-    shortD: 'брюки свободного покроя из плотного хлопка'
-  },
-  {
-    word: 'бурда',
-    sub: 'сленг 90-х',
-    img: './images/dictionary/15.png',
-    desc: 'Происходит от татарского бурда «мутное питье, смесь разных жидкостей». Плохо приготовленное, невкусное питье или жидкая, невкусная пища.',
-    year: 90,
-    color: '#AEADAA',
-    shortD: 'мутное питье, смесь разных жидкостей'
-  }
-]
+import cancelButton from '../images/dictionary/A_Cancel.svg'
+import { words } from './words.js'
 
-let wordsGrid = document.getElementsByClassName('words-grid')[0]
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[array[i], array[j]] = [array[j], array[i]]
+  }
+}
+
+let wordsGrid = document.getElementsByClassName('C_Cards')[0]
+let M_color = ''
+let A_ageTag = ''
+let A_ageTagText = ''
+let A_nameCard = ''
+let A_descCard = ''
+let tag = ''
+
+function addClickHandlers() {
+  const overlay = document.getElementsByClassName('A_Overlay')[0]
+  const textOverlay = document.getElementsByClassName('O_cradDescription')[0]
+  document.querySelectorAll('.M_Card').forEach((card) => {
+    card.removeEventListener('click', handleCardClick)
+    card.addEventListener('click', handleCardClick)
+  })
+
+  function handleCardClick() {
+    overlay.style.display = 'block'
+    textOverlay.style.display = 'flex'
+    document.body.style.overflow = 'hidden'
+    const index = parseInt(this.getAttribute('data-index'), 10)
+    const wordInfo = words[index]
+    textOverlay.innerHTML = `<h2>${wordInfo.word}</h2><p>${wordInfo.bigDesc}</p>`
+  }
+}
 
 function loadCards() {
-  words.forEach((card) => {
-    let textCol = ''
-    if (card.color == '#DBDAD5' || '#AEADAA') {
-      textCol = '#000000'
-    } else if (card.color == '#202020' || '#606060') {
-      textCol = '#ffffff'
-    }
+  shuffleArray(words)
 
-    wordsGrid.innerHTML += `<div class="words-cell" style="background-color:${card.color}">
-        <div class="words-header">
-            <p>${card.year}</p>
-            <h4>${card.word}</h4>
+  words.forEach((card, index) => {
+    if (card['sub'] === '20-е') {
+      M_color = 'M_20'
+      A_ageTag = 'A_ageTagBlack'
+      A_ageTagText = 'A_ageTagTextBlack'
+      A_nameCard = 'A_ageTagTextBlack'
+      A_descCard = 'A_ageTagTextBlack'
+      tag = 'зумерский слэнг'
+    } else if (card['sub'] === '10-е') {
+      M_color = 'M_10'
+      A_ageTag = 'A_ageTagBlack'
+      A_ageTagText = 'A_ageTagTextBlack'
+      A_nameCard = 'A_ageTagTextBlack'
+      A_descCard = 'A_ageTagTextBlack'
+      tag = 'зумерский слэнг'
+    } else if (card['sub'] === '90-е') {
+      M_color = 'M_90'
+      A_ageTag = 'A_ageTagBlack'
+      A_ageTagText = 'A_ageTagTextBlack'
+      A_nameCard = 'A_ageTagTextBlack'
+      A_descCard = 'A_ageTagTextBlack'
+      tag = 'сленг 90-х'
+    } else if (card['sub'] === '80-е') {
+      M_color = 'M_80'
+      A_ageTag = 'A_ageTagWhite'
+      A_ageTagText = 'A_ageTagTextWhite'
+      A_nameCard = 'A_ageTagTextWhite'
+      A_descCard = 'A_ageTagTextWhite'
+      tag = 'сленг 80-х'
+    } else if (card['sub'] === '70-е') {
+      M_color = 'M_60'
+      A_ageTag = 'A_ageTagWhite'
+      A_ageTagText = 'A_ageTagTextWhite'
+      A_nameCard = 'A_ageTagTextWhite'
+      A_descCard = 'A_ageTagTextWhite'
+      tag = 'сленг 70-х'
+    } else {
+      M_color = 'M_60'
+      A_ageTag = 'A_ageTagWhite'
+      A_ageTagText = 'A_ageTagTextWhite'
+      A_nameCard = 'A_ageTagTextWhite'
+      A_descCard = 'A_ageTagTextWhite'
+      tag = 'сленг 60-х'
+    }
+    wordsGrid.innerHTML += `<div class="M_Card ${M_color}" data-index="${index}">
+        <div class="W_ageTitle">
+          <div class="A_ageTag ${A_ageTag}"><p class='A_ageTagText ${A_ageTagText}'>${card.sub}</p></div>  
+          <h4 lang="ru" class='A_nameCard ${A_nameCard}'>${card.word}</h4>
         </div>
-        <p>${card.shortD}</p>
+        <p class='A_descCard ${A_descCard}'>${card.desc}</p>
     </div>`
   })
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const rangeInput = document.getElementsByClassName('C_exectTime')[0]
+
+  rangeInput.addEventListener('input', function () {
+    const value = this.value
+    let decade = ''
+
+    switch (value) {
+      case '1':
+        decade = '60-е'
+        break
+      case '2':
+        decade = '70-е'
+        break
+      case '3':
+        decade = '80-е'
+        break
+      case '4':
+        decade = '90-е'
+        break
+      case '5':
+        decade = '00-е'
+        break
+      case '6':
+        decade = '10-е'
+        break
+      case '7':
+        decade = '20-е'
+        break
+    }
+
+    wordsGrid.innerHTML = ''
+
+    words
+      .filter((card) => card.sub === decade)
+      .forEach((card, index) => {
+        if (card['sub'] === '20-е') {
+          M_color = 'M_20'
+          A_ageTag = 'A_ageTagBlack'
+          A_ageTagText = 'A_ageTagTextBlack'
+          A_nameCard = 'A_ageTagTextBlack'
+          A_descCard = 'A_ageTagTextBlack'
+          tag = 'зумерский слэнг'
+        } else if (card['sub'] === '10-е') {
+          M_color = 'M_10'
+          A_ageTag = 'A_ageTagBlack'
+          A_ageTagText = 'A_ageTagTextBlack'
+          A_nameCard = 'A_ageTagTextBlack'
+          A_descCard = 'A_ageTagTextBlack'
+          tag = 'зумерский слэнг'
+        } else if (card['sub'] === '90-е') {
+          M_color = 'M_90'
+          A_ageTag = 'A_ageTagBlack'
+          A_ageTagText = 'A_ageTagTextBlack'
+          A_nameCard = 'A_ageTagTextBlack'
+          A_descCard = 'A_ageTagTextBlack'
+          tag = 'сленг 90-х'
+        } else if (card['sub'] === '80-е') {
+          M_color = 'M_80'
+          A_ageTag = 'A_ageTagWhite'
+          A_ageTagText = 'A_ageTagTextWhite'
+          A_nameCard = 'A_ageTagTextWhite'
+          A_descCard = 'A_ageTagTextWhite'
+          tag = 'сленг 80-х'
+        } else if (card['sub'] === '70-е') {
+          M_color = 'M_60'
+          A_ageTag = 'A_ageTagWhite'
+          A_ageTagText = 'A_ageTagTextWhite'
+          A_nameCard = 'A_ageTagTextWhite'
+          A_descCard = 'A_ageTagTextWhite'
+          tag = 'сленг 70-х'
+        } else {
+          M_color = 'M_60'
+          A_ageTag = 'A_ageTagWhite'
+          A_ageTagText = 'A_ageTagTextWhite'
+          A_nameCard = 'A_ageTagTextWhite'
+          A_descCard = 'A_ageTagTextWhite'
+          tag = 'сленг 60-х'
+        }
+        wordsGrid.innerHTML += `<div class="M_Card ${M_color}" data-index="${index}">
+          <div class="W_ageTitle">
+            <div class="A_ageTag ${A_ageTag}"><p class='A_ageTagText ${A_ageTagText}'>${card.sub}</p></div>  
+            <h4 lang="ru" class='A_nameCard ${A_nameCard}'>${card.word}</h4>
+          </div>
+          <p class='A_descCard ${A_descCard}'>${card.desc}</p>
+      </div>`
+      })
+    document.querySelectorAll('.M_Card').forEach((card) => {
+      card.addEventListener('click', function () {
+        overlay.style.display = 'block'
+        textOverlay.style.display = 'flex'
+        document.body.style.overflow = 'hidden'
+        const index = parseInt(this.getAttribute('data-index'), 10)
+        const wordInfo = words.filter((card) => card.sub === decade)[index]
+        textOverlay.innerHTML = `<div class="A_imgCard"><img src=${wordInfo.img} alt="" /></div> <div class="M_mainPlot"><div class="C_headerName"><h3 class="A_tagCard">${tag}</h3><h2 class="A_cardTitle" lang="ru">${wordInfo.word}</h2></div><p class="A_Plot">${wordInfo.bigDesc}</p></div><img src="${cancelButton}" alt="" class="A_Cancel"/>`
+
+        let cancel = document.getElementsByClassName('A_Cancel')[0]
+        cancel.addEventListener('click', function () {
+          overlay.style.display = 'none'
+          textOverlay.style.display = 'none'
+          document.body.style.overflow = 'auto'
+          document.body.style.overflowX = 'hidden'
+        })
+      })
+    })
+  })
+
+  const overlay = document.getElementsByClassName('A_Overlay')[0]
+  const textOverlay = document.getElementsByClassName('O_cradDescription')[0]
+  document.querySelectorAll('.M_Card').forEach((card) => {
+    card.addEventListener('click', function () {
+      overlay.style.display = 'block'
+      textOverlay.style.display = 'flex'
+      document.body.style.overflow = 'hidden'
+      const index = parseInt(this.getAttribute('data-index'), 10)
+      let tag2 =
+        document.getElementsByClassName('A_ageTagText')[index].textContent
+      if (tag2 === '20-е') {
+        tag = 'зумерский слэнг'
+      } else if (tag2 === '10-е') {
+        tag = 'зумерский слэнг'
+      } else if (tag2 === '90-е') {
+        tag = 'сленг 90-х'
+      } else if (tag2 === '80-е') {
+        tag = 'сленг 80-х'
+      } else if (tag2 === '70-е') {
+        tag = 'сленг 70-х'
+      } else {
+        tag = 'сленг 60-х'
+      }
+      const wordInfo = words[index]
+      textOverlay.innerHTML = `<div class="A_imgCard"><img src=${wordInfo.img} alt="" /></div> <div class="M_mainPlot"><div class="C_headerName"><h3 class="A_tagCard">${tag}</h3><h2 class="A_cardTitle" lang="ru">${wordInfo.word}</h2></div><p class="A_Plot">${wordInfo.bigDesc}</p></div><img src='${cancelButton}' alt="" class="A_Cancel"/>`
+
+      let cancel = document.getElementsByClassName('A_Cancel')[0]
+      cancel.addEventListener('click', function () {
+        overlay.style.display = 'none'
+        textOverlay.style.display = 'none'
+        document.body.style.overflow = 'auto'
+        document.body.style.overflowX = 'hidden'
+      })
+    })
+  })
+
+  overlay.addEventListener('click', function () {
+    this.style.display = 'none'
+    textOverlay.style.display = 'none'
+    document.body.style.overflow = 'auto'
+    document.body.style.overflowX = 'hidden'
+  })
+
+  function searchWord() {
+    const input = document
+      .getElementsByClassName('A_inputTrue')[0]
+      .value.toLowerCase()
+    const resultsContainer = document.getElementsByClassName('C_Cards')[0]
+
+    resultsContainer.innerHTML = ''
+
+    const filteredWords = words.filter((word) =>
+      word.word.toLowerCase().includes(input)
+    )
+
+    filteredWords.forEach((card) => {
+      resultsContainer.innerHTML += `<div class="M_Card ${M_color}" data-index="${index}">
+      <div class="W_ageTitle">
+        <div class="A_ageTag ${A_ageTag}"><p class='A_ageTagText ${A_ageTagText}'>${card.sub}</p></div>  
+        <h4 lang="ru" class='A_nameCard ${A_nameCard}'>${card.word}</h4>
+      </div>
+      <p class='A_descCard ${A_descCard}'>${card.desc}</p>
+  </div>`
+    })
+
+    // if (filteredWords.length === 0) {
+    //   resultsContainer.innerHTML = '<p>Слово не найдено</p>'
+    // }
+  }
+})
 
 document.onload = loadCards()

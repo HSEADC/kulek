@@ -10,7 +10,8 @@ module.exports = {
   entry: {
     index: './src/index.js',
     main: './src/javascript/main.js',
-    guideline: './src/javascript/guideline.js'
+    guideline: './src/javascript/guideline.js',
+    wordsMain: './src/javascript/wordsMain.js'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -113,7 +114,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'main']
+      chunks: ['index', 'wordsMain']
     }),
 
     //Section
@@ -124,7 +125,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/dictionary.html',
       filename: './dictionary.html',
-      chunks: ['index']
+      chunks: ['index', 'main']
     }),
     new HtmlWebpackPlugin({
       template: './src/market.html',
@@ -167,6 +168,26 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/slang10.html',
       filename: './slang10.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/games90.html',
+      filename: './games90.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/journal.html',
+      filename: './journal.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests.html',
+      filename: './tests.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/fleamarket.html',
+      filename: './fleamarket.html',
       chunks: ['index']
     }),
 

@@ -1,0 +1,66 @@
+body.S_Bar {
+  background-color: #f4f3ef;
+  font-family: 'PP Radio Grotesk';
+  overflow-x: hidden;
+
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+
+    .M_linksInputHeader {
+      .A_InputHeader {
+        .Q_SearchHeader {
+          position: absolute;
+          top: 0.662vw;
+          right: 0.935vw;
+        }
+      }
+    }
+  }
+  .O_headerBar {
+    margin-top: -17.222vw;
+    margin-left: -17.014vw;
+
+    .W_namingTagsBar {
+      position: absolute;
+      top: 16.967vw;
+      left: 14.028vw;
+    }
+
+    .A_image1BarHeader {
+      position: absolute;
+      top: 3.172vw;
+      left: 29.744vw;
+    }
+    .A_image2BarHeader {
+      position: absolute;
+      top: 28.08vw;
+      left: 4.167vw;
+    }
+    .A_image3BarHeader {
+      position: absolute;
+      top: 32.775vw;
+      left: 39.514vw;
+    }
+    .A_image4BarHeader {
+      position: absolute;
+      top: 26.656vw;
+      left: 77.91vw;
+    }
+    .A_image5BarHeader {
+      position: absolute;
+      top: 7.358vw;
+      left: 75.278vw;
+    }
+  }
+  .O_selectionBar {
+    margin: 14.77vw 0 10.417vw 2.778vw;
+
+    .M_LongCardMain {
+      .W_info2ButtonCardBigMain {
+        padding-top: 0;
+        padding-left: 2.431vw;
+      }
+    }
+  }
+}

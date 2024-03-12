@@ -12,6 +12,14 @@
   position: relative;
 }
 
+.O_selectionBar {
+  width: 94.444vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.389vw;
+  grid-row-gap: 1.389vw;
+}
+
 .O_thirdSection {
   padding-left: 2.639vw;
 }
@@ -28,20 +36,16 @@
   position: relative;
 }
 
-.O_Footer {
-  display: flex;
-  width: 100%;
-  height: 5.972vw;
-  padding: 2.847vw 0 2.569vw 0;
-  flex-direction: column;
-  gap: 0.694vw;
-  background: #e7e6e0;
-}
-
 .O_firstSectionFashion {
   height: 35.683vw;
   position: relative;
   padding-top: 24.722vw;
+}
+
+.O_firstSectionGames90 {
+  height: 35.683vw;
+  position: relative;
+  padding-top: 20.036vw;
 }
 
 .O_secondSectionFashion {
@@ -66,10 +70,128 @@
   margin: 0 auto;
 }
 
+.O_secondSectionMobile {
+  display: none;
+}
+
+.O_fourthSectionFashionMobile {
+  display: none;
+}
+
+.O_fifthSectionMobile {
+  display: none;
+}
+
+.O_firstSectionTablet {
+  display: none;
+}
+
+.O_sixthSectionFashion {
+  display: block;
+}
+
 .O_menuLogo {
   position: sticky;
   height: 43.403vw;
   display: flex;
   flex-direction: column;
   gap: 24.653vw;
+}
+
+.O_Footer {
+  display: inline-flex;
+  padding: 5.694vw 6.806vw 3.403vw 6.25vw;
+  flex-direction: column;
+  gap: 0.556vw;
+  background: #e7e6e0;
+}
+
+.O_headerMainNavigation {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 43.958vw;
+  position: relative;
+  z-index: 5;
+}
+
+.O_selectionDayMain {
+  display: flex;
+  flex-direction: column;
+  gap: 2.431vw;
+}
+
+.O_bestSectionMain {
+  display: flex;
+  flex-direction: column;
+  gap: 2.431vw;
+}
+
+.O_testsSectionMain {
+  display: flex;
+  flex-direction: column;
+  gap: 2.431vw;
+}
+
+.O_Tests {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2.361vw;
+}
+
+@media all and (min-width: 361px) and (max-width: 1280px) {
+  .O_secondSectionFashion {
+    display: none;
+  }
+  .O_firstSection {
+    display: none;
+  }
+  .O_firstSectionTablet {
+    display: block;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .O_firstSectionFashion {
+    height: auto;
+  }
+  .O_secondSectionFashion {
+    display: none;
+  }
+  .O_secondSectionTablet {
+    margin-top: 36.667vw;
+    margin-left: 5.833vw;
+  }
+  .O_fourthSectionFashionMobile {
+    display: block;
+  }
+  .O_fifthSectionFashion {
+    display: none;
+  }
+  .O_fifthSectionMobile {
+    display: block;
+    margin-top: 21.25vw;
+    margin-left: 5.556vw;
+  }
+  .O_fifthSection {
+    padding-left: 5.833vw;
+  }
+  .O_sixthSectionFashion {
+    position: relative;
+    display: block;
+  }
+
+  .O_firstSection {
+    display: none;
+  }
+  .O_firstSectionTablet {
+    display: block;
+  }
+  .O_secondSection {
+    display: none;
+  }
+  .O_secondSectionMobile {
+    position: relative;
+    display: block;
+  }
 }
