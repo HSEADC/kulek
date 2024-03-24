@@ -374,6 +374,11 @@
     width: calc(100% - 11.389vw);
     padding: 5vw 5.556vw 0 5.833vw;
   }
+  .M_logoInfoMain {
+    display: flex;
+    gap: 4.917vw;
+    flex-direction: column;
+  }
   .M_textPicturesSection4Mobile {
     display: flex;
     flex-direction: column;
@@ -381,6 +386,12 @@
   }
   .M_informationSection6 {
     gap: 7.222vw;
+  }
+  .M_socLinksFooter {
+    gap: 1.508vw;
+  }
+  .M_NamesFooter {
+    gap: 1.614vw;
   }
   .M_textPictureSection5 {
     gap: 13.611vw;
@@ -395,6 +406,9 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 9.656vw;
     grid-row-gap: 17.206vw;
+  }
+  .M_linksInputHeader {
+    display: none;
   }
   .M_pictureTextSection3 {
     padding: 0;

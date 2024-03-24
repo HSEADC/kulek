@@ -1,0 +1,317 @@
+html.S_TV {
+  overflow-x: hidden;
+}
+
+body.S_TV {
+  background: #f4f3ef;
+  font-family: 'PP Radio Grotesk';
+  overflow-x: hidden;
+
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+    gap: 44.658vw;
+
+    .Q_SearchHeader {
+      position: absolute;
+      top: 0.662vw;
+      right: 0.935vw;
+    }
+  }
+
+  .O_aboutAcca {
+    position: relative;
+    margin-top: 3.889vw;
+    margin-bottom: 12.419vw;
+    margin-left: 4.931vw;
+
+    .A_pageName {
+      width: 86.153vw;
+      height: auto;
+    }
+
+    .A_linesAcca {
+      width: 90.344vw;
+      height: 45.951vw;
+    }
+
+    #A_pictureAcca1 {
+      width: 21.272vw;
+      height: 16.92vw;
+      top: -1.153vw;
+      left: -3.472vw;
+    }
+
+    #A_pictureAcca2 {
+      width: 15.347vw;
+      height: auto;
+      top: 25.601vw;
+      left: 7vw;
+    }
+
+    #A_pictureAcca3 {
+      width: 30vw;
+      height: auto;
+      top: -7.847vw;
+      left: 30.833vw;
+    }
+
+    #A_pictureAcca4 {
+      width: 22.361vw;
+      height: auto;
+      top: -7.302vw;
+      left: 65.722vw;
+    }
+
+    #A_pictureAcca5 {
+      width: 20.429vw;
+      height: auto;
+      bottom: 2.698vw;
+      left: 72.722vw;
+    }
+
+    .M_aboutPage {
+      position: absolute;
+      top: 18.453vw;
+      left: 4.29vw;
+
+      .A_aboutPage {
+        margin-top: 1.935vw;
+      }
+    }
+  }
+
+  .O_firstSection {
+    margin-bottom: 8.333vw;
+    .C_allPictures {
+      .C_secondLine {
+        margin-left: 15.972vw;
+      }
+    }
+  }
+
+  .O_secondSection {
+    margin-bottom: 15.667vw;
+
+    .A_linePictures {
+      position: absolute;
+      left: 9.1vw;
+      bottom: -21.089vw;
+    }
+  }
+
+  .O_thirdSection {
+    margin-bottom: 8.333vw;
+
+    .A_titleName {
+      margin-bottom: 4.097vw;
+    }
+  }
+
+  .O_fourthSection {
+    margin-bottom: 8.958vw;
+
+    .A_titleName {
+      margin-left: 1.944vw;
+      margin-bottom: 3.194vw;
+    }
+
+    .C_picturesSection4 {
+      #C_picturesPosition2 {
+        margin-left: 8.264vw;
+      }
+    }
+  }
+
+  .O_fifthSection {
+    margin-bottom: 9.444vw;
+
+    .A_lineSection5 {
+      position: absolute;
+      right: -0.648vw;
+      bottom: -6.646vw;
+    }
+  }
+
+  @media all and (min-width: 361px) and (max-width: 1280px) {
+    .A_sammary {
+      font-size: 1.481vw;
+    }
+
+    .A_mainText {
+      width: 37.891vw;
+    }
+
+    .O_firstSectionTablet {
+      margin-left: 3.047vw;
+      margin-bottom: 10.103vw;
+
+      .W_titleDesc {
+        margin-bottom: 4.956vw;
+
+        .A_sammary {
+          width: 35.391vw;
+        }
+      }
+
+      .C_allPictures {
+        padding-left: 22.031vw;
+
+        .A_pictureDescription {
+          font-size: 1.406vw;
+        }
+
+        .C_firstLine:nth-child(2) {
+          margin-left: 15.972vw;
+        }
+      }
+
+      .W_textSection {
+        width: fit-content;
+        margin-top: 3.984vw;
+        padding: 0;
+        flex-direction: row;
+        gap: 16.088vw;
+      }
+    }
+    .O_fifthSection {
+      gap: 4.297vw;
+      margin-bottom: 15.755vw;
+      .W_textSection5 {
+        width: 46.172vw;
+      }
+      .A_lineSection5 {
+        right: 0.934vw;
+        bottom: -8.491vw;
+      }
+    }
+  }
+
+  @media all and (max-width: 360px) {
+    .O_aboutAcca {
+      margin-bottom: 26.389vw;
+      .A_pageName {
+        width: 86.153vw;
+      }
+
+      .A_linesAccaMobile {
+        width: 115.833vw;
+        height: 55vw;
+        margin-left: -18.889vw;
+      }
+
+      #A_pictureAcca1 {
+        top: -8.769vw;
+        left: 21.889vw;
+        width: 30.833vw;
+        height: 24.722vw;
+      }
+      #A_pictureAcca2 {
+        display: none;
+      }
+      #A_pictureAcca3 {
+        top: 41.769vw;
+        left: 54.889vw;
+        width: 48.611vw;
+        height: 48.611vw;
+      }
+      #A_pictureAcca4 {
+        display: none;
+      }
+      #A_pictureAcca5 {
+        top: 40.769vw;
+        left: 0.889vw;
+        width: 28.333vw;
+        height: 28.333vw;
+      }
+    }
+    .O_firstSectionTablet {
+      margin-left: 5.833vw;
+      .W_titleDesc {
+        width: 65.833vw;
+      }
+    }
+    .C_firstLine:nth-child(2) {
+      margin-left: 27.464vw;
+    }
+    .O_secondSectionMobile {
+      margin: 21.069vw 0 20.833vw 5.833vw;
+
+      .M_allPicturesAboutMobile {
+        margin-top: 7.453vw;
+      }
+
+      .W_textSection {
+        margin-top: 16.261vw;
+        gap: 5.556vw;
+      }
+    }
+    .O_thirdSection {
+      padding-left: 5.833vw;
+      margin-bottom: 20.833vw;
+      .A_titleName {
+        margin-bottom: 8.611vw;
+      }
+      .A_pictureSection3 {
+        width: 88.333vw;
+        height: auto;
+      }
+      .A_descSection3 {
+        font-size: 3.258vw;
+      }
+    }
+    .O_fourthSection {
+      padding-left: 5.833vw;
+      margin-bottom: 20.908vw;
+
+      .A_titleName {
+        margin-left: 0;
+        margin-bottom: 12.778vw;
+      }
+
+      .C_picturesPosition {
+        height: fit-content;
+        flex-direction: column;
+        gap: 6.944vw;
+      }
+
+      .A_pictureDescription {
+        font-size: 5vw;
+      }
+
+      .A_pictureNumber {
+        display: none;
+      }
+
+      #C_picturesPosition2 {
+        margin-left: 0 !important;
+      }
+    }
+    .O_fifthSection {
+      margin-bottom: 32.406vw;
+      gap: 5.278vw;
+      .A_pictureDescription {
+        font-size: 2.694vw;
+      }
+      .W_pictureDescSection5 {
+        margin-left: 8.889vw;
+      }
+      .A_pictureSection5 {
+        width: 72.282vw;
+        height: auto;
+      }
+      .A_lineSection5 {
+        right: 6.664vw;
+        bottom: -11.614vw;
+      }
+    }
+    .W_footerContent {
+      margin-left: 0 !important;
+      gap: 40.129vw;
+    }
+    .M_aboutPage {
+      top: 21.093vw !important;
+      left: 2.7vw !important;
+    }
+  }
+}

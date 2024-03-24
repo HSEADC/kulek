@@ -15,6 +15,21 @@ body.S_Dictionary {
     z-index: 1000;
   }
 
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+
+    .M_linksInputHeader {
+      .A_InputHeader {
+        .Q_SearchHeader {
+          position: absolute;
+          top: 0.662vw;
+          right: 0.935vw;
+        }
+      }
+    }
+  }
+
   .O_cradDescription {
     position: fixed;
     top: 50%;
@@ -42,8 +57,8 @@ body.S_Dictionary {
 
   .M_pageTitle {
     .A_backgroundTitle {
-      top: 0;
-      left: 0;
+      top: -6.319vw;
+      left: 0.069vw;
       position: absolute;
     }
 

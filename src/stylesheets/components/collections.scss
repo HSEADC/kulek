@@ -138,7 +138,7 @@
   outline: none;
   border-radius: 1.736vw;
   height: 2.292vw;
-  background: linear-gradient(270deg, #e7e6e0 -0.04%, #332d26 99.83%);
+  background: linear-gradient(270deg, #bfa88f -0.04%, #332d26 99.83%);
 }
 
 .C_exectTime::-webkit-slider-thumb {
@@ -204,6 +204,11 @@
   gap: 1.25vw;
 }
 
+.C_endPictures {
+  display: flex;
+  gap: 1.328vw;
+}
+
 @media all and (max-width: 360px) {
   .C_picturesAllSection3Mobile {
     width: fit-content;
@@ -211,6 +216,10 @@
     flex-direction: column;
     align-items: center;
     gap: 3.503vw;
+  }
+  .С_pictureSection4Tablet {
+    display: flex;
+    gap: 2.083vw;
   }
   .C_picturesSection3Mobile {
     display: flex;
@@ -228,6 +237,18 @@
   }
   .C_AccaSectionPicture {
     gap: 2.4vw;
+  }
+  .C_infoFooter {
+    width: 56.944vw;
+  }
+  .C_infoFooter {
+    gap: 4.842vw;
+  }
+  .C_linksFooter {
+    gap: 0.969vw;
+  }
+  .C_namesFooter {
+    gap: 1.292vw;
   }
   .C_firstLine {
     gap: 2.389vw;

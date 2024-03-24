@@ -1,7 +1,23 @@
+html.S_Acca {
+  overflow-x: hidden;
+}
+
 body.S_Acca {
   background: #f4f3ef;
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
+
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+    gap: 44.658vw;
+
+    .Q_SearchHeader {
+      position: absolute;
+      top: 0.662vw;
+      right: 0.935vw;
+    }
+  }
 
   .O_aboutAcca {
     position: relative;
@@ -188,6 +204,7 @@ body.S_Acca {
     }
     .O_thirdSection {
       padding-left: 5.833vw;
+      margin-bottom: 20.833vw;
       .A_titleName {
         margin-bottom: 8.611vw;
       }

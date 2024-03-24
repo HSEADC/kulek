@@ -8,6 +8,9 @@ body.S_Tests {
     margin-left: 2.778vw;
 
     .M_linksInputHeader {
+      .A_linkHeader:nth-child(3) {
+        text-decoration-line: underline;
+      }
       .A_InputHeader {
         .Q_SearchHeader {
           position: absolute;
@@ -60,8 +63,67 @@ body.S_Tests {
       left: 77.202vw;
     }
   }
+
+  .M_chooseTagTest {
+    width: fit-content;
+    margin-top: 7.5vw;
+    margin-left: 2.708vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.972vw;
+
+    .W_inputTime {
+      display: flex;
+      justify-content: space-between;
+
+      .A_Input {
+        position: relative;
+
+        > input {
+          box-sizing: border-box;
+          background-color: transparent;
+        }
+      }
+
+      .A_Filter {
+        align-items: center;
+      }
+
+      .Q_SearchHeader {
+        top: 0.556vw;
+        right: 0.694vw;
+        position: absolute;
+      }
+    }
+
+    .W_allTagsTests {
+      display: flex;
+      gap: 0.58vw;
+
+      .A_subTagNewMain {
+        cursor: pointer;
+        border-radius: 1.944vw;
+        border: 0.104vw solid #888;
+        background-color: transparent;
+        padding: 0.459vw 0.972vw 0.513vw 0.972vw;
+        color: #888;
+        text-align: center;
+        font-family: 'PP Radio Grotesk';
+        font-size: 1.25vw;
+        font-style: normal;
+        line-height: 105.092%;
+        transition: border 0.3s ease-out, color 0.3s ease-out;
+
+        &:hover {
+          border: 0.104vw solid #000;
+          color: #000;
+        }
+      }
+    }
+  }
+
   .O_Tests {
-    margin: 7.847vw 0 6.944vw 3.056vw;
+    margin: 3.681vw 0 6.944vw 3.056vw;
 
     .W_allvariantsTests {
       .W_middleCardTests {

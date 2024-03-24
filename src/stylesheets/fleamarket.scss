@@ -1,13 +1,78 @@
+html.S_Bar {
+  overflow-x: hidden;
+}
+
 body.S_Bar {
   background-color: #f4f3ef;
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
+
+  .M_chooseTagTest {
+    width: fit-content;
+    margin-top: 5.326vw;
+    margin-left: 2.708vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.972vw;
+
+    .W_inputTime {
+      display: flex;
+      justify-content: space-between;
+
+      .A_Input {
+        position: relative;
+
+        > input {
+          box-sizing: border-box;
+          background-color: transparent;
+        }
+      }
+
+      .A_Filter {
+        align-items: center;
+      }
+
+      .Q_SearchHeader {
+        top: 0.556vw;
+        right: 0.694vw;
+        position: absolute;
+      }
+    }
+
+    .W_allTagsTests {
+      display: flex;
+      gap: 0.74vw;
+
+      .A_subTagNewMain {
+        cursor: pointer;
+        border-radius: 1.944vw;
+        border: 0.104vw solid #888;
+        background-color: transparent;
+        padding: 0.459vw 1.03vw 0.513vw 1.03vw;
+        color: #888;
+        text-align: center;
+        font-family: 'PP Radio Grotesk';
+        font-size: 1.25vw;
+        font-style: normal;
+        line-height: 105.092%;
+        transition: border 0.3s ease-out, color 0.3s ease-out;
+
+        &:hover {
+          border: 0.104vw solid #000 !important;
+          color: #000 !important;
+        }
+      }
+    }
+  }
 
   .O_headerMainNavigation {
     margin-top: 1.944vw;
     margin-left: 2.778vw;
 
     .M_linksInputHeader {
+      .A_linkHeader:nth-child(2) {
+        text-decoration: underline;
+      }
       .A_InputHeader {
         .Q_SearchHeader {
           position: absolute;
@@ -54,10 +119,34 @@ body.S_Bar {
     }
   }
   .O_selectionBar {
-    margin: 14.77vw 0 10.417vw 2.778vw;
+    margin: 3.681vw 0 10.417vw 2.778vw;
 
     .M_LongCardMain {
       .W_info2ButtonCardBigMain {
+        gap: 1.111vw;
+        .W_tagsCardsArticles {
+          display: flex;
+          gap: 0.347vw;
+
+          .A_subTagNewMain {
+            display: flex;
+            padding: 0.163vw 1.082vw 0.217vw 1.082vw;
+            justify-content: center;
+            align-items: center;
+            gap: 0.541vw;
+            border-radius: 1.944vw;
+            border: 0.069vw solid #888;
+
+            > p {
+              color: #888;
+              text-align: center;
+              font-family: 'PP Radio Grotesk';
+              font-size: 1.111vw;
+              font-style: normal;
+              line-height: 105.092%;
+            }
+          }
+        }
         padding-top: 0;
         padding-left: 2.431vw;
       }

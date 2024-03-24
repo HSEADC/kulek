@@ -7,6 +7,18 @@ body.Journal {
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+    gap: 44.658vw;
+
+    .Q_SearchHeader {
+      position: absolute;
+      top: 0.662vw;
+      right: 0.935vw;
+    }
+  }
+
   .O_firstSectionGames90 {
     padding-top: 20.836vw;
     .M_titleGames90 {
@@ -334,6 +346,7 @@ body.Journal {
     }
 
     .O_firstSectionGames90 {
+      margin-top: 5.556vw;
       padding-top: 21.836vw;
     }
 

@@ -342,10 +342,9 @@
 }
 
 .A_backgroundTitle {
-  width: 100vw;
   display: flex;
   > img {
-    width: 100%;
+    width: 99.374vw;
   }
 }
 
@@ -366,6 +365,12 @@
   font-family: 'PP Radio Grotesk';
   font-size: 1.389vw;
   line-height: 105.092%;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
 }
 
 .A_imageBigCardMain {
@@ -454,11 +459,18 @@
   gap: 17.225vw;
   border-radius: 1.695vw;
   background: #332d26;
+  border: 0.086vw #332d26 solid;
   color: #fff;
   text-align: center;
   font-family: 'PP Radio Grotesk';
   font-size: 1.378vw;
   line-height: 95%;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+
+  &:hover {
+    background: #fff;
+    color: #332d26;
+  }
 }
 
 .A_subEmailMain {
@@ -556,6 +568,12 @@
   font-family: 'PP Radio Grotesk';
   font-size: 1.404vw;
   line-height: 105.092%;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
 }
 
 .A_middle2CardTests {
@@ -708,6 +726,10 @@
   font-family: 'PP Radio Grotesk';
   font-size: 1.389vw;
   line-height: 105.092%;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
 }
 
 .A_image1MainHeader {
@@ -1367,6 +1389,14 @@
     width: 50.391vw;
     height: 11.563vw;
   }
+  .A_pictureSection4Fashion32 {
+    width: 24.531vw;
+    height: 11.25vw;
+  }
+  .A_pictureSection4Fashion33 {
+    width: 314px;
+    height: 144px;
+  }
 
   .A_lineSection5 {
     width: 41.801vw;
@@ -1402,7 +1432,7 @@
 
 @media screen and (max-width: 360px) {
   .A_Logo {
-    width: 3.785vw;
+    width: 10.278vw;
   }
   .A_buttonAbout {
     padding: 0.833vw 1.944vw;
@@ -1413,6 +1443,34 @@
       font-size: 2.136vw;
       height: 1.58vw;
     }
+  }
+  .A_bigLogoFooter {
+    width: 47.222vw;
+    height: 18.315vw;
+  }
+  .A_iconFooter {
+    width: 2.371vw;
+    height: 2.371vw;
+  }
+  .A_logoHSE {
+    width: 12.723vw;
+    height: 5.275vw;
+  }
+  .A_russiaInfoFooter {
+    width: 55.111vw;
+    font-size: 2.098vw;
+    line-height: 130%;
+    letter-spacing: -0.021vw;
+  }
+  .A_linkTextFooter {
+    font-size: 2.034vw;
+    line-height: 95.092%;
+    letter-spacing: -0.02vw;
+  }
+  .A_titleSectionFooter {
+    font-size: 2.712vw;
+    line-height: 95.092%;
+    letter-spacing: -0.027vw;
   }
   .A_titleFashion90 {
     width: 80.808vw;
@@ -1504,6 +1562,7 @@
   }
   .A_linesAccaMobile {
     display: block;
+    margin-top: 16.444vw;
     margin-left: -5vw;
   }
   .A_pictureFashion6 {
@@ -1610,6 +1669,11 @@
     height: 1.543vw;
   }
 
+  .A_pictureSection4Mobile52 {
+    width: 42.917vw;
+    height: 19.167vw;
+  }
+
   .A_lineSection6MobileFashion {
     position: absolute;
     top: 151.35vw;
@@ -1618,5 +1682,8 @@
 
   #A_pictureAcca2 {
     display: none;
+  }
+  #A_pictureSection3 {
+    margin-top: 0;
   }
 }

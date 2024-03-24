@@ -7,6 +7,18 @@ body.S_Slang10 {
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+    gap: 44.658vw;
+
+    .Q_SearchHeader {
+      position: absolute;
+      top: 0.662vw;
+      right: 0.935vw;
+    }
+  }
+
   .O_aboutSlang90 {
     position: relative;
     margin-top: 3.889vw;
