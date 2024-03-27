@@ -1,3 +1,7 @@
+html.S_Dictionary {
+  overflow-x: hidden;
+}
+
 body.S_Dictionary {
   background: #f4f3ef;
   font-family: 'PP Radio Grotesk';
@@ -13,6 +17,10 @@ body.S_Dictionary {
     background: rgba(184, 183, 179, 0.46);
     backdrop-filter: blur(0.232vw);
     z-index: 1000;
+  }
+
+  .M_pageTitleMobile {
+    display: none;
   }
 
   .O_headerMainNavigation {
@@ -135,6 +143,164 @@ body.S_Dictionary {
           font-size: 1.5vw;
           line-height: 1.25;
           width: 100%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .O_Words {
+      width: 89.117vw;
+      margin-top: 280.87px;
+      margin-bottom: 41.667vw;
+
+      .M_searchYear {
+        margin-bottom: 6.944vw;
+
+        .C_searchParameters {
+          margin-bottom: 1.6vw;
+        }
+      }
+    }
+
+    .C_exectTime {
+      margin: 0;
+      height: 5.392vw;
+      border-radius: 4.091vw;
+    }
+    .C_exectTime::-webkit-slider-thumb {
+      width: 5.392vw;
+      height: 5.392vw;
+    }
+
+    .O_cradDescription {
+      box-sizing: border-box;
+      width: 89.167vw;
+      padding: 5.144vw 7.015vw;
+      gap: 4.832vw;
+      border-radius: 1.994vw;
+      box-shadow: 0vw 0.624vw 0.624vw 0vw rgba(0, 0, 0, 0.25);
+
+      .A_imgCard {
+        width: 23.227vw;
+        height: 41.154vw;
+
+        > img {
+          width: 31.801vw;
+          height: 41.154vw;
+        }
+      }
+
+      .M_mainPlot {
+        gap: 3.431vw;
+        width: 46.667vw;
+        min-height: 16.806vw;
+
+        .C_headerName {
+          gap: 0.936vw;
+
+          .A_tagCard {
+            font-size: 2.494vw;
+            letter-spacing: -0.025vw;
+          }
+
+          .A_cardTitle {
+            font-size: 9.977vw;
+            letter-spacing: -0.1vw;
+          }
+        }
+
+        .A_Plot {
+          font-size: 2.806vw;
+          letter-spacing: -0.028vw;
+        }
+      }
+    }
+
+    .A_Cancel {
+      width: 2.329vw;
+      height: 2.283vw;
+      right: 3.128vw;
+      top: 3.067vw;
+    }
+
+    .M_pageTitleMobile {
+      display: block;
+      .A_HeaderMobile {
+        margin-top: 65.967vw;
+        margin-left: 14.722vw;
+      }
+
+      .A_backgroundTitleMobile {
+        position: absolute;
+        width: 100vw;
+        height: 1000px;
+        top: 0;
+        overflow: hidden;
+
+        > img {
+          position: absolute;
+          width: 281.242vw;
+          height: 223.295vw;
+          top: -50vw;
+          left: -45.556vw;
+        }
+      }
+
+      .A_HeaderMobile {
+        width: 70.006vw;
+        height: 11.703vw;
+
+        > img {
+          width: 100%;
+        }
+      }
+    }
+
+    .M_pageTitle {
+      display: none;
+    }
+
+    .A_Date {
+      font-size: 2.614vw;
+      width: 5.596vw;
+    }
+
+    .C_Cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 2.778vw;
+      grid-row-gap: 4.167vw;
+
+      .M_Card {
+        box-sizing: border-box;
+        border-radius: 0.617vw;
+        width: 43.169vw;
+        height: 48.308vw;
+        padding: 3.083vw 4.111vw 3.7vw 3.289vw;
+
+        .W_ageTitle {
+          gap: 4.111vw;
+
+          .A_ageTag {
+            width: 10.279vw;
+            height: 6.167vw;
+            border-radius: 5.147vw;
+
+            > p {
+              font-size: 2.878vw;
+            }
+          }
+
+          .A_nameCard {
+            font-size: 7.401vw;
+          }
+        }
+
+        .A_descCard {
+          width: 29.808vw;
+          font-size: 3.289vw;
+          letter-spacing: -0.033vw;
         }
       }
     }

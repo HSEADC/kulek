@@ -49,3 +49,26 @@
   padding: 1.066vw 1.627vw;
   border-radius: 1.05vw;
 }
+
+@media all and (min-width: 361px) and (max-width: 1280px) {
+  .Q_filterType {
+    font-size: 1.406vw;
+  }
+
+  .Q_Icon {
+    width: 1.328vw;
+    height: 0.578vw;
+    margin-top: 0.247vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .Q_filterType {
+    font-size: 3.714vw;
+  }
+  .Q_Icon {
+    width: 1.944vw;
+    height: auto;
+    margin-top: 0.447vw;
+  }
+}

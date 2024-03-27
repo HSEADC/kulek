@@ -350,6 +350,13 @@
     display: flex;
     gap: 8.255vw;
   }
+  .M_LongCardMain {
+    width: 22.188vw;
+    height: 34.766vw;
+    gap: 2.153vw;
+    border-radius: 0.347vw;
+    box-shadow: 0vw 0.156vw 0.312vw 0vw rgba(0, 0, 0, 0.15);
+  }
   .M_textPicturesSection4Tablet {
     position: relative;
     z-index: 2;
@@ -389,6 +396,13 @@
   }
   .M_socLinksFooter {
     gap: 1.508vw;
+  }
+  .M_LongCardMain {
+    width: 42.854vw;
+    height: 67.148vw;
+    gap: 4.528vw;
+    border-radius: 0.754vw;
+    box-shadow: 0vw 0.339vw 0.678vw 0vw rgba(0, 0, 0, 0.15);
   }
   .M_NamesFooter {
     gap: 1.614vw;

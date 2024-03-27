@@ -10,10 +10,10 @@ body.S_Bar {
   .M_chooseTagTest {
     width: fit-content;
     margin-top: 5.326vw;
-    margin-left: 2.708vw;
+    margin-left: 3.125vw;
     display: flex;
     flex-direction: column;
-    gap: 0.972vw;
+    gap: 1.212vw;
 
     .W_inputTime {
       display: flex;
@@ -150,6 +150,113 @@ body.S_Bar {
         padding-top: 0;
         padding-left: 2.431vw;
       }
+    }
+  }
+
+  @media all and (min-width: 361px) and (max-width: 1280px) {
+    .M_chooseTagTest {
+      .W_inputTime {
+        .Q_SearchHeader {
+          top: 0.74vw;
+          right: 0.94vw;
+        }
+      }
+      .W_allTagsTests {
+        width: 94.063vw;
+        height: 6.328vw;
+        flex-wrap: wrap;
+        gap: 1.08vw;
+
+        .A_subTagNewMain {
+          border-radius: 2.188vw;
+          border: 0.117vw solid #888;
+          padding: 0.516vw 1.217vw 0.577vw 1.217vw;
+          font-size: 1.406vw;
+          line-height: 105.092%;
+          gap: 0.541vw;
+        }
+      }
+    }
+
+    .O_selectionBar {
+      margin: 3.281vw 0 11.719vw 3.125vw;
+      .M_LongCardMain {
+        gap: 2.344vw;
+        .W_info2ButtonCardBigMain {
+          gap: 1.406vw;
+          padding-left: 1.953vw;
+          .W_tagsCardsArticles {
+            gap: 0.391vw;
+            .A_subTagNewMain {
+              padding: 0.183vw 1.217vw 0.244vw 1.217vw;
+              gap: 0.541vw;
+              border-radius: 1.944vw;
+              border: 0.069vw solid #888;
+
+              > p {
+                font-size: 1.25vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .M_chooseTagTest {
+      gap: 1.08vw;
+      margin-left: 5.556vw;
+      margin-top: 79.414vw;
+      .W_allTagsTests {
+        flex-wrap: wrap;
+        width: 89.167vw;
+        gap: 1.08vw;
+
+        .A_subTagNewMain {
+          border-radius: 7.778vw;
+          border: 0.303vw solid #888;
+          padding: 1.389vw 3.889vw;
+          font-size: 3.65vw;
+        }
+      }
+    }
+
+    .O_selectionBar {
+      margin: 6.944vw 0 41.667vw 5.556vw;
+      width: 88.889vw;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 3.106vw;
+      grid-row-gap: 9.722vw;
+
+      .M_LongCardMain {
+        .W_info2ButtonCardBigMain {
+          gap: 2.414vw;
+          padding-left: 3.772vw;
+
+          .W_tagsCardsArticles {
+            gap: 0.756vw;
+
+            .A_subTagNewMain {
+              padding: 0.471vw 2.351vw;
+              gap: 0.541vw;
+              border-radius: 4.225vw;
+              border: 0.151vw solid #888;
+
+              > p {
+                font-size: 2.414vw;
+              }
+            }
+          }
+
+          .W_Title2Subtitl2Main {
+            gap: 1.508vw;
+          }
+        }
+      }
+    }
+    .O_headerBar {
+      display: none;
     }
   }
 }

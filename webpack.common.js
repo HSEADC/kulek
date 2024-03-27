@@ -227,6 +227,26 @@ module.exports = {
       filename: './tens.html',
       chunks: ['index']
     }),
+    new HtmlWebpackPlugin({
+      template: './src/health.html',
+      filename: './health.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/model.html',
+      filename: './model.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/alfa.html',
+      filename: './alfa.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/graffiti.html',
+      filename: './graffiti.html',
+      chunks: ['index']
+    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([

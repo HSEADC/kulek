@@ -1272,6 +1272,10 @@
   display: none;
 }
 
+.A_lineBarTablet {
+  display: none;
+}
+
 #A_guideBackground1Section2,
 #A_guideBackground2Section2 {
   border-right: none;
@@ -1313,6 +1317,10 @@
   width: 33.264vw;
 }
 
+#A_subTagNewMainTablet {
+  display: none;
+}
+
 #A_pictureSlang10 {
   width: 18.333vw;
   height: 18.333vw;
@@ -1337,6 +1345,19 @@
 
   .A_titleName {
     font-size: 3.296vw;
+  }
+
+  .A_title2MainPage {
+    font-size: 2.813vw;
+  }
+
+  .A_imageLongCardMain {
+    width: 25.391vw;
+    height: 19.844vw;
+  }
+
+  .A_subtitle2MainPage {
+    font-size: 1.406vw;
   }
 
   .A_mainText {
@@ -1393,9 +1414,20 @@
     width: 24.531vw;
     height: 11.25vw;
   }
+  .A_Input {
+    width: 19.144vw;
+    height: 2.578vw;
+    border: 0.117vw solid var(--black);
+    border-radius: 1.956vw;
+
+    > input {
+      padding: 0.278vw 0.817vw 0.278vw 1.042vw;
+      font-size: 1.406vw;
+    }
+  }
   .A_pictureSection4Fashion33 {
-    width: 314px;
-    height: 144px;
+    width: 24.831vw;
+    height: 11.25vw;
   }
 
   .A_lineSection5 {
@@ -1428,6 +1460,14 @@
       left: -3.828vw;
     }
   }
+
+  #A_subTagNewMainTablet {
+    display: flex;
+  }
+
+  #A_subTagNewMainNoneTablet {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -1444,6 +1484,37 @@
       height: 1.58vw;
     }
   }
+  .A_Input {
+    width: 54.097vw;
+    height: 6.667vw;
+    border: 0.303vw solid var(--black);
+    border-radius: 6.956vw;
+
+    > input {
+      border-radius: 3.472vw;
+      padding: 1.111vw 0.417vw 1.667vw 3.056vw;
+      font-size: 3.65vw;
+    }
+    ::-webkit-input-placeholder {
+      font-size: 3.65vw;
+    }
+    ::-moz-placeholder {
+      font-size: 3.65vw;
+    }
+    :-ms-input-placeholder {
+      font-size: 3.65vw;
+    }
+    :-moz-placeholder {
+      font-size: 3.65vw;
+    }
+
+    > img {
+      top: 1.956vw !important;
+      right: 1.894vw !important;
+      width: 2.838vw;
+      height: 2.838vw;
+    }
+  }
   .A_bigLogoFooter {
     width: 47.222vw;
     height: 18.315vw;
@@ -1452,6 +1523,7 @@
     width: 2.371vw;
     height: 2.371vw;
   }
+
   .A_logoHSE {
     width: 12.723vw;
     height: 5.275vw;
@@ -1467,6 +1539,10 @@
     line-height: 95.092%;
     letter-spacing: -0.02vw;
   }
+  .A_imageLongCardMain {
+    width: 49.041vw;
+    height: 38.327vw;
+  }
   .A_titleSectionFooter {
     font-size: 2.712vw;
     line-height: 95.092%;
@@ -1479,6 +1555,57 @@
   .A_lineSection5 {
     width: 79.448vw;
     height: 45.598vw;
+  }
+  .A_namingBar {
+    margin-top: 61.478vw;
+    margin-left: 11.111vw;
+    width: 77.778vw;
+    height: 14.753vw;
+  }
+  .A_image5BarHeaderMobile {
+    position: absolute;
+    top: 4.811vw;
+    left: 12.778vw;
+    width: 28.871vw;
+    height: 27.915vw;
+    z-index: 5;
+  }
+  .A_image3BarHeaderMobile {
+    width: 34.607vw;
+    height: 34.607vw;
+    top: 22.811vw;
+    left: 57.778vw;
+    position: absolute;
+    z-index: 5;
+  }
+  .A_image4BarHeaderMobile {
+    width: 49.999vw;
+    height: 49.999vw;
+    top: 87.811vw;
+    left: -1.222vw;
+    position: absolute;
+    z-index: 5;
+  }
+  .A_image1BarHeaderMobile {
+    width: 42.403vw;
+    height: 42.403vw;
+    top: 91.811vw;
+    left: 50.778vw;
+    position: absolute;
+    z-index: 5;
+  }
+  .A_lineMobile {
+    position: absolute;
+    width: 136.525vw;
+    height: 160.278vw;
+    top: -20.917vw;
+    left: -19.278vw;
+  }
+  .A_title2MainPage {
+    font-size: 5.432vw;
+  }
+  .A_subtitle2MainPage {
+    font-size: 2.716vw;
   }
   .A_innerPicture {
     width: 25.075vw;
@@ -1678,6 +1805,14 @@
     position: absolute;
     top: 151.35vw;
     left: -5.45vw;
+  }
+
+  #A_subTagNewMainTablet {
+    display: flex;
+  }
+
+  #A_subTagNewMainNoneTablet {
+    display: none;
   }
 
   #A_pictureAcca2 {

@@ -1,7 +1,29 @@
+html.S_mainPage {
+  overflow-x: hidden;
+}
+
 body.S_mainPage {
   background-color: #f4f3ef;
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
+
+  .A_imageBigCardMainIpad {
+    display: none;
+  }
+  .A_lineCollectorMainMobile {
+    display: none;
+  }
+  .A_lineMainMobile {
+    display: none;
+  }
+
+  .M_bigCardMain {
+    .W_info2ButtonCardBigMain {
+      .W_Title2Subtitl2Main {
+        width: 17.734vw;
+      }
+    }
+  }
 
   .O_headerMainNavigation {
     margin-top: 1.944vw;
@@ -206,7 +228,556 @@ body.S_mainPage {
       right: 18.404vw;
     }
   }
+  #M_middleCardMainTestsIphone {
+    display: none;
+  }
   .O_Footer {
     margin-top: 9.097vw;
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .A_title2MainPage {
+      font-size: 2.5vw;
+    }
+
+    .A_subtitle2MainPage {
+      font-size: 1.389vw;
+    }
+
+    .A_imageLongCardMain {
+      width: 100%;
+      height: auto;
+    }
+
+    .M_LongCardMain {
+      display: flex;
+      width: 22.569vw;
+      height: 30.903vw;
+      flex-direction: column;
+      gap: 2.153vw;
+      border-radius: 0.347vw;
+      background: #e7e6e0;
+      box-shadow: 0vw 0.156vw 0.312vw 0vw rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+    }
+
+    .W_info2ButtonCardBigMain {
+      display: flex;
+      padding-top: 2.778vw;
+      flex-direction: column;
+      gap: 22.22px;
+    }
+
+    .A_title2MainPage {
+      font-size: 2.813vw;
+    }
+
+    .A_subtitle2MainPage {
+      font-size: 1.406vw;
+    }
+  }
+
+  @media screen and (min-width: 361px) and (max-width: 1024px) {
+    .O_selectionDayMain,
+    .O_bestSectionMain,
+    .O_testsSectionMain,
+    .O_CardsSectionMain {
+      margin-left: 4.102vw;
+    }
+    .A_title2MainPage {
+      font-size: 3.516vw;
+    }
+    .A_titleMainPage {
+      font-size: 4.297vw;
+    }
+    .A_subtitle2MainPage {
+      font-size: 1.953vw;
+    }
+    #M_LongCardMainTablet {
+      display: none;
+    }
+    .M_bigCardMain {
+      .W_info2ButtonCardBigMain {
+        .W_Title2Subtitl2Main {
+          width: 24.414vw;
+        }
+      }
+    }
+    .A_buttonFollowMain {
+      padding: 0.488vw 1.953vw;
+      gap: 0.694vw;
+      border-radius: 1.77vw;
+      border: 0.146vw solid #000;
+      font-size: 1.953vw;
+    }
+    .O_CardsSectionMain {
+      .C_Cards {
+        width: 82.129vw;
+        grid-template-columns: 18.848vw 18.848vw 18.848vw 18.848vw;
+        grid-column-gap: 1.953vw;
+        grid-row-gap: 2.441vw;
+
+        .M_Card {
+          box-sizing: border-box;
+          border-radius: 0.293vw;
+          width: 18.848vw;
+          height: 22.949vw;
+          padding: 1.465vw 1.563vw 1.758vw 1.563vw;
+
+          .W_ageTitle {
+            gap: 1.953vw;
+
+            .A_ageTag {
+              width: 4.883vw;
+              height: 2.93vw;
+              border-radius: 2.445vw;
+              .A_ageTagText {
+                font-size: 1.367vw;
+              }
+            }
+            .A_nameCard {
+              font-size: 3.516vw;
+            }
+          }
+        }
+      }
+    }
+    .A_descCard {
+      width: 14.16vw;
+      font-size: 1.563vw;
+    }
+    .C_cardsAllSelectionDayMain {
+      gap: 1.953vw;
+    }
+    .M_middle2CardMain {
+      width: 92.09vw;
+      height: 44.922vw;
+      gap: 4.199vw;
+      border-radius: 0.488vw;
+      box-shadow: 0vw 0.219vw 0.439vw 0vw rgba(0, 0, 0, 0.15);
+      .A_middle2CardMain {
+        width: 31.641vw;
+        height: 44.922vw;
+      }
+    }
+    .W_infoMiddle2CardMain {
+      gap: 14.853vw;
+    }
+    .C_subTagsMain {
+      width: 27.93vw;
+      height: 5.068vw;
+      gap: 0.486vw 0.417vw;
+    }
+    .A_subTagNewMain {
+      padding: 0.228vw 1.522vw 0.304vw 1.522vw;
+      gap: 0.541vw;
+      border-radius: 1.38vw;
+      border: 0.098vw solid #888;
+
+      .Q_subTagNewMain {
+        font-size: 1.563vw;
+      }
+    }
+    .M_middleCardMainTests {
+      width: 44.922vw;
+      height: 21.484vw;
+      gap: 2.441vw;
+      border-radius: 0.488vw;
+      box-shadow: 0vw 0.219vw 0.439vw 0vw rgba(0, 0, 0, 0.15);
+      .A_imageMiddleCardMainTests {
+        width: 18.652vw;
+        height: 100%;
+      }
+      .W_info2ButtonCardBigMain {
+        padding-top: 3.906vw;
+        gap: 2.344vw;
+      }
+    }
+    .O_testsSectionMain {
+      .W_infoLookMain {
+        gap: 41.667vw;
+      }
+      .W_middleCardMainTests {
+        flex-direction: column;
+        gap: 1.953vw;
+
+        .C_middleCardMainTests {
+          flex-direction: row;
+          gap: 1.953vw;
+        }
+      }
+    }
+
+    .A_subtitleMainPage {
+      width: 39.063vw !important;
+      font-size: 1.974vw;
+      line-height: 2.632vw;
+      letter-spacing: -0.02vw;
+    }
+    .W_infoLookMain {
+      gap: 39.567vw;
+    }
+    .A_buttonWatchAllMain {
+      font-size: 1.953vw;
+    }
+    .M_bigCardMain {
+      width: 88.502vw;
+      height: 21.484vw;
+      padding-left: 3.906vw;
+      gap: 13.965vw;
+      border-radius: 0.488vw;
+      box-shadow: 0vw 0.219vw 0.439vw 0vw rgba(0, 0, 0, 0.15);
+
+      .W_info2ButtonCardBigMain {
+        padding-top: 3.906vw;
+        gap: 2.441vw;
+
+        .W_Title2Subtitl2Main {
+          gap: 0.977vw;
+        }
+      }
+
+      .A_imageBigCardMainIpad {
+        display: block;
+        width: 50.391vw;
+        height: auto;
+      }
+
+      .A_imageBigCardMain {
+        display: none;
+      }
+    }
+    .C_cardsSelectionDayMain {
+      gap: 1.953vw;
+    }
+    .M_LongCardMain {
+      width: 29.492vw;
+      height: 43.457vw;
+      gap: 3.516vw;
+      border-radius: 0.488vw;
+      box-shadow: 0vw 0.219vw 0.439vw 0vw rgba(0, 0, 0, 0.15);
+
+      .A_imageLongCardMain {
+        width: 31.738vw;
+        height: 24.414vw;
+      }
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .A_titleMainPage {
+      font-size: 8.889vw;
+    }
+    .O_selectionDayMain,
+    .O_bestSectionMain,
+    .O_testsSectionMain,
+    .O_CardsSectionMain {
+      margin-left: 5.556vw;
+      gap: 6.944vw;
+      margin-top: 19.444vw;
+    }
+    .O_selectionDayMain {
+      margin-top: 143.144vw;
+    }
+    .C_cardsAllSelectionDayMain {
+      gap: 4.167vw;
+      .W_info2ButtonCardBigMain {
+        padding-top: 6.064vw;
+        gap: 4.047vw;
+      }
+    }
+    .C_cardsSelectionDayMain {
+      flex-wrap: wrap;
+      gap: 3.889vw;
+      .M_LongCardMain {
+        .W_info2ButtonCardBigMain {
+          margin-left: 0;
+        }
+      }
+    }
+    .W_infoCollectorMain {
+      top: 4.583vw;
+      left: 3.66vw;
+
+      .W_titleCollectorMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .A_lineCollectorMain {
+      display: none;
+    }
+    .O_CollectorMain {
+      margin-left: 5vw;
+      margin-top: 36.944vw;
+
+      .W_infoCollectorMain {
+        top: 20.347vw;
+        left: 0;
+
+        .W_collectEmails {
+          gap: 1.394vw;
+
+          .A_inputEmailMain {
+            box-sizing: border-box;
+            width: 59.174vw;
+            height: 6.9vw;
+            padding: 1.667vw 2.778vw;
+            gap: 16.36vw;
+            border-radius: 4.182vw;
+            border: 0.212vw solid #131313;
+
+            > input {
+              font-size: 3.399vw;
+              width: 50.056vw;
+              margin-left: 0.694vw;
+            }
+          }
+          .A_ButtonEmailMain {
+            padding: 1.133vw 4.25vw;
+            gap: 17.225vw;
+            border-radius: 15.055px;
+            border: 0.086vw #332d26 solid;
+            font-size: 3.399vw;
+          }
+        }
+
+        .A_subEmailMain {
+          font-size: 3.399vw;
+          line-height: 4.249vw;
+          letter-spacing: -0.034vw;
+        }
+      }
+
+      .A_image1EmailMain {
+        width: 68.385vw;
+        height: 68.385vw;
+        top: -25.972vw;
+        left: -11.757vw;
+      }
+
+      .A_image2EmailMain {
+        width: 32.5vw;
+        height: 24.444vw;
+        top: 0.347vw;
+        right: -0.463vw;
+      }
+
+      .A_image3EmailMain {
+        width: 21.573vw;
+        height: 21.676vw;
+        top: 54.889vw;
+        left: -0.826vw;
+      }
+
+      .A_image4EmailMain {
+        width: 27.747vw;
+        height: 26.55vw;
+        top: 49.778vw;
+        right: 4.404vw;
+      }
+    }
+    .A_lineCollectorMainMobile {
+      display: block;
+      width: 78.814vw;
+      height: 68.883vw;
+    }
+    .O_Footer {
+      margin-top: 41.667vw;
+    }
+    .A_namingEmailMain {
+      width: 74.967vw;
+      height: auto;
+    }
+    .W_infoLookMain {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5.556vw !important;
+    }
+    .A_lineMainMobile {
+      width: 79.041vw;
+      height: 68.883vw;
+      left: 5.278vw;
+      top: 34.308vw;
+      display: block;
+      position: absolute;
+    }
+    .O_headerMain {
+      .A_image7MainHeader {
+        width: 49.133vw;
+        height: 37.537vw;
+        top: 11.767vw;
+        right: 52.449vw;
+      }
+
+      .A_image3MainHeader {
+        top: 2.744vw;
+        left: 44.653vw;
+        width: 54.749vw;
+        height: 54.534vw;
+      }
+
+      .A_image5MainHeader {
+        width: 38.545vw;
+        height: 30.806vw;
+        top: 87.167vw;
+        right: 57.583vw;
+      }
+
+      .A_image2MainHeader {
+        width: 34.369vw;
+        height: 30.085vw;
+        top: 90.719vw;
+        left: 60.758vw;
+      }
+    }
+
+    .A_imageBigCardMain {
+      display: none;
+    }
+    .W_Title2Subtitl2Main {
+      gap: 1.394vw;
+    }
+    .W_titleSubtitleMain {
+      gap: 5.556vw;
+    }
+    .A_buttonWatchAllMain {
+      font-size: 4.444vw;
+    }
+    .M_middleCardMainTests {
+      width: 89.444vw;
+      height: 33.333vw;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      border-radius: 0.758vw;
+      box-shadow: 0vw 0.341vw 0.681vw 0vw rgba(0, 0, 0, 0.15);
+    }
+    .W_info2ButtonCardBigMain {
+      padding-top: 6.064vw;
+      gap: 4.006vw;
+      margin-left: 5.556vw;
+    }
+    .A_imageMiddleCardMainTests {
+      width: 30.556vw;
+      height: 33.333vw;
+    }
+    .A_subtitleMainPage {
+      width: 87.222vw !important;
+      font-size: 4.444vw;
+      line-height: 6.667vw;
+      letter-spacing: -0.044vw;
+    }
+    .A_buttonFollowMain {
+      padding: 0.455vw 3.033vw 0.758vw 3.033vw;
+      gap: 0.694vw;
+      border-radius: 2.749vw;
+      border: 0.227vw solid #000;
+      font-size: 3.033vw;
+    }
+    .C_middleCardMainTests {
+      gap: 4.167vw;
+    }
+    .C_cardsAllSelectionDayMain {
+      .M_bigCardMain {
+        .W_info2ButtonCardBigMain {
+          margin-left: 0;
+        }
+      }
+    }
+    .O_CardsSectionMain {
+      .C_Cards {
+        width: 89.117vw;
+        grid-template-columns: 43.169vw 43.169vw;
+        grid-column-gap: 2.778vw;
+        grid-row-gap: 4.167vw;
+
+        .M_Card {
+          box-sizing: border-box;
+          border-radius: 0.617vw;
+          width: 43.17vw;
+          height: 48.309vw;
+          padding: 3.083vw 3.289vw;
+
+          .W_ageTitle {
+            gap: 4.111vw;
+          }
+
+          .A_ageTag {
+            width: 10.279vw;
+            height: 6.167vw;
+            border-radius: 5.147vw;
+
+            > p {
+              font-size: 2.878vw;
+            }
+          }
+
+          .A_nameCard {
+            font-size: 7.401vw;
+          }
+
+          .A_descCard {
+            width: 29.808vw;
+            font-size: 3.289vw;
+            letter-spacing: -0.033vw;
+          }
+        }
+      }
+    }
+    .A_imageBigCardMainIphone {
+      width: 30.833vw;
+      height: auto;
+    }
+    .M_bigCardMain {
+      width: 83.38vw;
+      height: 33.333vw;
+      padding-left: 6.064vw;
+      gap: 15.981vw;
+      border-radius: 0.758vw;
+      box-shadow: 0vw 0.341vw 0.681vw 0vw rgba(0, 0, 0, 0.15);
+    }
+    .O_headerMain {
+      .M_infoHeader {
+        top: 50.556vw;
+        left: 58px;
+
+        .A_aboutPage {
+          margin-left: 11.111vw;
+          margin-top: 0;
+          width: 38.611vw;
+          padding: 1.912vw 3.187vw 1.912vw 3.187vw;
+          border-radius: 3.697vw;
+          border: 0.191vw solid #131313;
+
+          > p {
+            font-size: 2.886vw !important;
+            line-height: 95% !important;
+          }
+        }
+
+        .A_namingMain {
+          width: 67.546vw;
+          height: 29.295vw;
+        }
+      }
+    }
+    .A_lineMain,
+    .A_descMain,
+    .A_image1MainHeader,
+    .A_image4MainHeader,
+    .A_image6MainHeader {
+      display: none;
+    }
+    #M_middle2CardMainIphone {
+      display: none;
+    }
+    #M_middleCardMainTestsIphone {
+      display: flex;
+      height: 40.833vw;
+
+      > img {
+        height: 40.833vw;
+      }
+    }
   }
 }
