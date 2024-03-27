@@ -7,6 +7,11 @@ body.S_Dictionary {
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
+  .A_Logo {
+    position: relative;
+    z-index: 100;
+  }
+
   .A_Overlay {
     position: fixed;
     top: 0;
@@ -148,10 +153,10 @@ body.S_Dictionary {
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 912px) {
     .O_Words {
       width: 89.117vw;
-      margin-top: 280.87px;
+      margin-top: 78.019vw;
       margin-bottom: 41.667vw;
 
       .M_searchYear {
@@ -234,7 +239,7 @@ body.S_Dictionary {
       .A_backgroundTitleMobile {
         position: absolute;
         width: 100vw;
-        height: 1000px;
+        height: 155.556vw;
         top: 0;
         overflow: hidden;
 

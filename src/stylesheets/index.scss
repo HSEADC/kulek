@@ -277,7 +277,7 @@ body.S_mainPage {
     }
   }
 
-  @media screen and (min-width: 361px) and (max-width: 1024px) {
+  @media screen and (min-width: 913px) and (max-width: 1024px) {
     .O_selectionDayMain,
     .O_bestSectionMain,
     .O_testsSectionMain,
@@ -463,7 +463,7 @@ body.S_mainPage {
       }
     }
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 912px) {
     .A_titleMainPage {
       font-size: 8.889vw;
     }
@@ -506,6 +506,13 @@ body.S_mainPage {
     }
     .A_lineCollectorMain {
       display: none;
+    }
+    .M_bigCardMain {
+      .W_info2ButtonCardBigMain {
+        .W_Title2Subtitl2Main {
+          width: 36.734vw;
+        }
+      }
     }
     .O_CollectorMain {
       margin-left: 5vw;

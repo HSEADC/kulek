@@ -1,7 +1,23 @@
+html.S_Tests {
+  overflow-x: hidden;
+}
+
 body.S_Tests {
   background-color: #f4f3ef;
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
+
+  .O_headerTestsMobile {
+    display: none;
+  }
+
+  .C_subTagsMain {
+    height: 1.597vw;
+  }
+
+  #M_middleCardMainTestsIphone {
+    display: none;
+  }
 
   .O_headerMainNavigation {
     margin-top: 1.944vw;
@@ -64,10 +80,14 @@ body.S_Tests {
     }
   }
 
+  .C_subTagsMain {
+    width: 23.621vw;
+  }
+
   .M_chooseTagTest {
     width: fit-content;
     margin-top: 7.5vw;
-    margin-left: 2.708vw;
+    margin-left: 3.056vw;
     display: flex;
     flex-direction: column;
     gap: 0.972vw;
@@ -98,7 +118,7 @@ body.S_Tests {
 
     .W_allTagsTests {
       display: flex;
-      gap: 0.58vw;
+      gap: 0.95vw;
 
       .A_subTagNewMain {
         cursor: pointer;
@@ -133,6 +153,175 @@ body.S_Tests {
           }
         }
       }
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .M_chooseTagTest {
+      .W_allTagsTests {
+        display: flex;
+        gap: 1vw;
+        width: 93.75vw;
+        flex-wrap: wrap;
+
+        .A_subTagNewMain {
+          border-radius: 2.188vw;
+          border: 0.117vw solid #888;
+          padding: 0.469vw 1.252vw 0.469vw 1.252vw;
+          font-size: 1.406vw;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 913px) and (max-width: 1024px) {
+    .M_chooseTagTest {
+      .W_allTagsTests {
+        display: flex;
+        gap: 0.87vw;
+        width: 93.75vw;
+        flex-wrap: wrap;
+
+        .A_subTagNewMain {
+          border-radius: 2.734vw;
+          border: 0.146vw solid #888;
+          padding: 0.646vw 1.722vw 0.646vw 1.722vw;
+          font-size: 1.758vw;
+        }
+      }
+    }
+    .A_Input {
+      width: 27.832vw;
+      height: 3.223vw;
+
+      .Q_SearchHeader {
+        top: 0.856vw !important;
+        right: 0.894vw !important;
+        width: 1.367vw;
+        height: 1.367vw;
+      }
+
+      > input {
+        width: 90%;
+        height: 100%;
+        border: none;
+        background-color: #f4f3ef;
+        border-radius: 3.472vw;
+        padding: 0.278vw 0.417vw 0.278vw 1.742vw;
+        outline: none;
+        font-size: 1.758vw;
+      }
+      ::-webkit-input-placeholder {
+        font-size: 1.758vw;
+      }
+      ::-moz-placeholder {
+        font-size: 1.758vw;
+      }
+      :-ms-input-placeholder {
+        font-size: 1.758vw;
+      }
+      :-moz-placeholder {
+        font-size: 1.758vw;
+      }
+    }
+  }
+  @media screen and (max-width: 912px) {
+    .M_chooseTagTest {
+      gap: 1.08vw;
+      margin-left: 5.556vw;
+      margin-top: 79.414vw;
+      .W_allTagsTests {
+        flex-wrap: wrap;
+        width: 89.167vw;
+        gap: 1.08vw;
+
+        .A_subTagNewMain {
+          border-radius: 7.778vw;
+          border: 0.303vw solid #888;
+          padding: 1.389vw 3.889vw;
+          font-size: 3.65vw;
+        }
+      }
+    }
+    .M_middleCardMainTests {
+      width: 88.808vw;
+      height: 42.198vw;
+      gap: 5.011vw;
+      border-radius: 0.959vw;
+      box-shadow: 0vw 0.431vw 0.861vw 0vw rgba(0, 0, 0, 0.15);
+    }
+    .A_imageMiddleCardMainTests {
+      width: 37.222vw;
+      height: 100%;
+    }
+    .A_subtitle2MainPage {
+      font-size: 3.877vw;
+    }
+    .A_title2MainPage {
+      font-size: 6.905vw;
+    }
+    .C_subTagsMain {
+      gap: 0.958vw;
+      width: fit-content;
+      height: fit-content;
+    }
+    .O_headerTests {
+      display: none;
+    }
+    .O_headerTestsMobile {
+      display: block;
+
+      .A_backTestsMobile {
+        position: absolute;
+        width: 100vw;
+        height: 147.222vw;
+        top: -5.278vw;
+        overflow: hidden;
+
+        > img {
+          width: 215.556vw;
+          height: 188.056vw;
+          position: absolute;
+          left: -60.236vw;
+        }
+      }
+
+      .A_namingTestMobile {
+        width: 59.167vw;
+        height: 12.778vw;
+        margin-top: 63.792vw;
+        margin-left: 20.178vw;
+      }
+    }
+    .A_subTagNewMain {
+      padding: 0.448vw 2.989vw 0.598vw 2.989vw;
+      gap: 0.541vw;
+      border-radius: 2.71vw;
+      border: 0.192vw solid #888;
+
+      > p {
+        font-size: 3.069vw;
+      }
+    }
+    .O_Tests {
+      margin: 6.944vw 0 41.667vw 5.556vw;
+    }
+    .C_middleCardMainTests,
+    .W_allvariantsTests {
+      gap: 4.444vw;
+    }
+    .W_info2ButtonCardBigMain {
+      padding-top: 8.353vw;
+      gap: 2.614vw;
+    }
+    .W_Title2Subtitl2Main {
+      gap: 1.461vw;
+    }
+    #M_middle2CardMainIphone {
+      display: none;
+    }
+    #M_middleCardMainTestsIphone {
+      display: flex;
     }
   }
 }

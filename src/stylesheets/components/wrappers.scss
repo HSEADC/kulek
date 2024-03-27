@@ -349,7 +349,6 @@
 
 .W_allvariantsTests {
   display: flex;
-  padding-left: 7.639vw;
   flex-direction: column;
   gap: 1.736vw;
 }
@@ -412,7 +411,7 @@
   background-color: #d4d4d4;
 }
 
-@media all and (min-width: 361px) and (max-width: 1280px) {
+@media all and (min-width: 913px) and (max-width: 1280px) {
   .W_titleSubtitle {
     gap: 2.084vw;
   }
@@ -463,7 +462,7 @@
     gap: 1.328vw;
   }
 }
-@media all and (max-width: 360px) {
+@media all and (max-width: 912px) {
   .W_titleSubtitle,
   .W_titleDesc {
     gap: 4.164vw;
