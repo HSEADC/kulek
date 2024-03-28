@@ -7,6 +7,208 @@ body.S_Tests {
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
+  .M_middle2CardMain,
+  .M_middleCardMainTests {
+    cursor: pointer;
+  }
+  .A_headerStartTest {
+    margin-top: 23.611vw;
+    margin-left: 5.139vw;
+    margin-bottom: 1.736vw;
+    color: #000;
+    font-family: 'PP Radio Grotesk';
+    font-size: 2.5vw;
+    font-style: normal;
+    width: 29.097vw;
+    line-height: 100%;
+  }
+  .A_header2StartTest {
+    color: #000;
+    margin-left: 5.139vw;
+    margin-bottom: 1.736vw;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.404vw;
+    font-style: normal;
+    width: 15.486vw;
+    line-height: 105.092%;
+  }
+  .A_buttonStartTest {
+    cursor: pointer;
+    border-radius: 1.259vw;
+    margin-left: 5.139vw;
+    border: 0.064vw solid #000;
+    color: #000;
+    text-align: center;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.404vw;
+    line-height: 105.092%;
+    width: 10.137vw;
+    height: 2.261vw;
+    background-color: transparent;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+
+    &:hover {
+      background-color: #000;
+      color: white;
+    }
+  }
+  .A_h1Question,
+  .A_h2Question {
+    color: #353535;
+    font-size: 2.5vw;
+    line-height: 100%;
+  }
+  .A_h2Question {
+    width: 48.681vw;
+  }
+  .A_QuestionTitle {
+    margin-top: 4.167vw;
+    margin-left: 3.264vw;
+    margin-bottom: 2.361vw;
+    display: flex;
+    gap: 2.569vw;
+  }
+  .A_answerBtn {
+    cursor: pointer;
+    width: 17.708vw;
+    height: 3.928vw;
+    color: #000;
+    text-align: center;
+    font-size: 1.404vw;
+    line-height: 105.092%;
+    outline: none;
+    border-radius: 18.129px;
+    border: 0.917px solid #000;
+    background-color: #f4f3ef;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+
+    &:hover {
+      color: white;
+      background-color: #000;
+    }
+  }
+  .A_nextQuestionBtn {
+    position: absolute;
+    bottom: 4.197vw;
+    right: 3.544vw;
+    cursor: pointer;
+    background-color: #f4f3ef;
+    z-index: 5;
+    width: 10.137vw;
+    height: 2.261vw;
+    color: #000;
+    text-align: center;
+    font-size: 1.404vw;
+    line-height: 105.092%;
+    border-radius: 18.129px;
+    border: 0.917px solid #000;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+
+    &:hover {
+      color: white;
+      background-color: #000;
+    }
+  }
+  .A_questionLine {
+    width: 122.278vw;
+    height: auto;
+    top: -2.861vw;
+    left: -32.167vw;
+    position: absolute;
+  }
+  .A_wrapperAnswers {
+    position: relative;
+    z-index: 5;
+    width: 36.458vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.042vw;
+    margin: 2.346vw auto 0 auto;
+  }
+  .A_Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(184, 183, 179, 0.46);
+    backdrop-filter: blur(4.449999809265137px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    .A_Modal {
+      position: relative;
+      width: 69.444vw;
+      height: 41.667vw;
+      border-radius: 0.888vw;
+      background: #f4f3ef;
+      box-shadow: 0vw 0.278vw 0.278vw 0vw rgba(0, 0, 0, 0.25);
+      display: none;
+      z-index: 1001;
+      overflow: hidden;
+    }
+  }
+
+  .A_resultHeader {
+    margin: 6.736vw auto 15.625vw auto;
+    color: #000;
+    font-size: 2.5vw;
+    line-height: 100%;
+  }
+
+  .A_scoreText {
+    margin: 0 auto;
+    color: #000;
+    font-family: 'PP Radio Grotesk';
+    font-size: 6.667vw;
+    line-height: 100%;
+  }
+
+  .A_lineFinalTestLine {
+    width: 71.422vw;
+    height: 46.121vw;
+    top: -2.222vw;
+    left: -1.528vw;
+    position: absolute;
+  }
+
+  .A_resultImage {
+    top: 10.139vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    height: 13.056vw;
+    width: auto;
+  }
+
+  .A_cancelTest {
+    width: 1.042vw;
+    cursor: pointer;
+    height: 1.042vw;
+    position: absolute;
+    z-index: 6;
+    top: 1.458vw;
+    right: 1.458vw;
+  }
+
+  .A_resultMessage {
+    margin: 0.625vw auto 0 auto;
+    color: #000;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.667vw;
+    line-height: 105.092%;
+  }
+
+  .A_imgQuestion {
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+    width: auto;
+    height: 14.668vw;
+  }
+
   .O_headerTestsMobile {
     display: none;
   }

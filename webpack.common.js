@@ -13,7 +13,10 @@ module.exports = {
     guideline: './src/javascript/guideline.js',
     wordsMain: './src/javascript/wordsMain.js',
     choseTag: './src/javascript/choseTag.js',
-    searchArticle: './src/javascript/searchArticle.js'
+    choseTag2: './src/javascript/choseTag2.js',
+    searchArticle: './src/javascript/searchArticle.js',
+    testsList: './src/javascript/testsList.js',
+    testsSystem: './src/javascript/testsSystem.js'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -185,7 +188,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/tests.html',
       filename: './tests.html',
-      chunks: ['index']
+      chunks: ['index', 'testsList', 'testsSystem', 'choseTag2']
     }),
     new HtmlWebpackPlugin({
       template: './src/fleamarket.html',
