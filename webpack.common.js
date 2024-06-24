@@ -5,6 +5,33 @@ const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const webpack = require('webpack')
 const path = require('path')
+const SitemapPlugin = require('sitemap-webpack-plugin').default
+
+const paths = [
+  '/index.html',
+  '/about.html',
+  '/acca.html',
+  '/alfa.html',
+  '/blogger.html',
+  '/dictionary.html',
+  '/fashion.html',
+  '/fleamarket.html',
+  '/games90.html',
+  '/graffiti.html',
+  '/guideline.html',
+  '/health.html',
+  '/internet.html',
+  '/journal.html',
+  '/leisureUSSR.html',
+  '/model.html',
+  '/rock.html',
+  '/slang10.html',
+  '/subculture.html',
+  '/teaser.html',
+  '/tens.html',
+  '/tests.html',
+  '/tv.html'
+]
 
 module.exports = {
   entry: {
@@ -16,7 +43,11 @@ module.exports = {
     choseTag2: './src/javascript/choseTag2.js',
     searchArticle: './src/javascript/searchArticle.js',
     testsList: './src/javascript/testsList.js',
-    testsSystem: './src/javascript/testsSystem.js'
+    indexMain: './src/javascript/indexMain.jsx',
+    testsSystem: './src/javascript/testsSystem.jsx',
+    cardsSearchSort: './src/javascript/cardsSearchSort.jsx',
+    dayWord: './src/components/A_Modal/A_Modal.jsx',
+    searchCard: './src/components/M_cardSearch/M_cardSearch.jsx'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -106,9 +137,27 @@ module.exports = {
         {
           from: path.resolve(__dirname, 'src/share/'),
           to: path.resolve(__dirname, 'docs/share/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/footer/'),
+          to: path.resolve(__dirname, 'dev_build/images/footer/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/footer/'),
+          to: path.resolve(__dirname, 'docs/images/footer/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/main/'),
+          to: path.resolve(__dirname, 'dev_build/images/main/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/main/'),
+          to: path.resolve(__dirname, 'docs/images/main/')
         }
       ]
     }),
+
+    new SitemapPlugin({ base: 'https://mysite.com', paths }),
 
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
@@ -119,7 +168,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'wordsMain']
+      chunks: ['index', 'wordsMain', 'dayWord', 'indexMain']
     }),
 
     //Section
@@ -145,6 +194,11 @@ module.exports = {
       template: './src/guideline.html',
       filename: './guideline.html',
       chunks: ['index', 'guideline']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/search.html',
+      filename: './search.html',
+      chunks: ['index', 'searchCard', 'cardsSearchSort']
     }),
 
     // Article
@@ -256,6 +310,12 @@ module.exports = {
       {
         path: path.join(__dirname, './src/partials/analytics.html'),
         location: 'analytics',
+        template_filename: '*',
+        priority: 'replace'
+      },
+      {
+        path: path.join(__dirname, './src/partials/footer.html'),
+        location: 'footer',
         template_filename: '*',
         priority: 'replace'
       }

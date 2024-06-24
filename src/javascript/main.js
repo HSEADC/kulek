@@ -47,6 +47,7 @@ function getCardStylesAndTag(card) {
 
   return styles
 }
+const A_buttonFollowMain = document.getElementById('A_buttonFollowMain')
 
 function loadCards() {
   shuffleArray(words)

@@ -348,9 +348,18 @@
 }
 
 .W_allvariantsTests {
+  // display: grid;
+  // grid-template-columns: 54.514vw 38.403vw;
+  // grid-template-rows: auto auto;
+  // gap: 1.25vw;
+  // gap: 1.736vw;
+}
+
+.W_allTextSearch {
   display: flex;
   flex-direction: column;
-  gap: 1.736vw;
+  gap: 0.833vw;
+  width: 37.361vw;
 }
 
 .W_middleCardTests {

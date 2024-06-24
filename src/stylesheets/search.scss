@@ -1,0 +1,122 @@
+html.S_Search {
+  overflow-x: hidden;
+}
+
+body.S_Search {
+  background-color: #f4f3ef;
+  font-family: 'PP Radio Grotesk';
+  overflow-x: hidden;
+
+  .O_headerMainNavigation {
+    margin-top: 1.944vw;
+    margin-left: 2.778vw;
+
+    .M_linksInputHeader {
+      .A_InputHeader {
+        .Q_SearchHeader {
+          position: absolute;
+          top: 0.662vw;
+          right: 0.935vw;
+        }
+      }
+    }
+  }
+
+  .O_headerSearch {
+    position: relative;
+    width: 100vw;
+    height: 16vw;
+    overflow: hidden;
+    .A_lineSearch {
+      position: absolute;
+      width: 103.449vw;
+      height: 53.166vw;
+      top: -33.819vw;
+      left: -3.333vw;
+    }
+    .A_image1SearchHeader {
+      position: absolute;
+      width: 11.465vw;
+      height: 11.465vw;
+      top: 3.497vw;
+      left: 4.861vw;
+    }
+    .A_image2SearchHeader {
+      position: absolute;
+      width: 12.554vw;
+      height: 16.283vw;
+      top: 0.223vw;
+      left: 23.767vw;
+    }
+    .A_image3SearchHeader {
+      position: absolute;
+      width: 20.784vw;
+      height: 20.702vw;
+      top: -1.417vw;
+      left: 40.208vw;
+    }
+    .A_image4SearchHeader {
+      position: absolute;
+      width: 8.626vw;
+      height: 8.687vw;
+      top: 1.431vw;
+      left: 68.681vw;
+    }
+    .A_image5SearchHeader {
+      position: absolute;
+      width: 25.638vw;
+      height: 25.638vw;
+      top: -6.178vw;
+      left: 83.403vw;
+    }
+  }
+
+  .O_tagsSearch {
+    display: flex;
+    flex-direction: column;
+    gap: 0.833vw;
+    margin-left: 2.778vw;
+
+    .A_nameSearch {
+      color: #000;
+      font-size: 1.389vw;
+      line-height: 105.092%;
+    }
+
+    .W_allSearch {
+      display: flex;
+      gap: 53.264vw;
+
+      .W_allTagsSearch {
+        display: flex;
+        gap: 0.625vw;
+
+        .A_subTagNewMain {
+          cursor: pointer;
+          display: flex;
+          padding: 0.162vw 1.082vw 0.216vw 1.082vw;
+          justify-content: center;
+          align-items: center;
+          background-color: transparent;
+          color: #888;
+          text-align: center;
+          font-size: 1.25vw;
+          line-height: 105.092%;
+          border-radius: 1.944vw;
+          border: 0.104vw solid #888;
+          transition: border 0.3s ease-out, color 0.3s ease-out;
+
+          &:hover {
+            border: 0.104vw solid black;
+            color: black;
+          }
+        }
+      }
+
+      .Q_filterType {
+        display: flex;
+        gap: 0.556vw;
+      }
+    }
+  }
+}

@@ -7,6 +7,106 @@ body.S_mainPage {
   font-family: 'PP Radio Grotesk';
   overflow-x: hidden;
 
+  .A_Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(184, 183, 179, 0.46);
+    backdrop-filter: blur(4.449999809265137px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    .A_Modal {
+      position: relative;
+      width: 68.056vw;
+      height: 41.667vw;
+      border-radius: 0.888vw;
+      background: #f4f3ef;
+      box-shadow: 0vw 0.278vw 0.278vw 0vw rgba(0, 0, 0, 0.25);
+      display: none;
+      z-index: 1001;
+      overflow: hidden;
+    }
+  }
+
+  .A_headerStartTest {
+    margin-top: 23.611vw;
+    margin-left: 5.139vw;
+    margin-bottom: 1.736vw;
+    color: #000;
+    font-family: 'PP Radio Grotesk';
+    font-size: 2.5vw;
+    font-style: normal;
+    width: 31.097vw;
+    line-height: 100%;
+  }
+
+  .A_newHeader {
+    margin-left: 3.702vw;
+    color: #000;
+    font-size: 1.528vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.015vw;
+  }
+
+  .W_textsWord {
+    height: 26.944vw;
+  }
+
+  .A_header2StartTest {
+    color: #000;
+    margin-left: 5.139vw;
+    margin-bottom: 1.736vw;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.404vw;
+    font-style: normal;
+    width: 22.486vw;
+    line-height: 105.092%;
+  }
+  .A_imageWordMain2 {
+    display: flex;
+    width: 17.793vw;
+    height: 31.526vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+      width: 24.361vw;
+      height: 31.526vw;
+    }
+  }
+  .A_imageWordMain {
+    width: 33.295vw;
+    height: 41.667vw;
+  }
+  .A_buttonStartTest {
+    cursor: pointer;
+    border-radius: 1.259vw;
+    margin-left: 5.139vw;
+    border: 0.064vw solid #000;
+    color: #000;
+    text-align: center;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.404vw;
+    line-height: 105.092%;
+    width: 11.582vw;
+    height: 2.261vw;
+    background-color: transparent;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+
+    &:hover {
+      background-color: #000;
+      color: white;
+    }
+  }
+
   .A_imageBigCardMainIpad {
     display: none;
   }
