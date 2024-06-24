@@ -297,7 +297,9 @@
 }
 
 .M_middleCardMainTests {
+  float: left;
   display: flex;
+  // margin-bottom: 1.389vw;
   width: 38.403vw;
   height: 15.278vw;
   gap: 2.917vw;
@@ -305,6 +307,17 @@
   background: #e4e3df;
   box-shadow: 0vw 0.156vw 0.312vw 0vw rgba(0, 0, 0, 0.15);
   overflow: hidden;
+}
+
+.M_cardSearch {
+  display: flex;
+  gap: 3.542vw;
+  width: 94.444vw;
+  height: 13.333vw;
+  align-items: center;
+  border-radius: 0.347vw;
+  background: #e7e6e0;
+  box-shadow: 0vw 0.156vw 0.312vw 0vw rgba(0, 0, 0, 0.15);
 }
 
 .M_middleCardTests {
