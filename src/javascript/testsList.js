@@ -267,7 +267,7 @@ export const testsList = {
     start: {
       pic: img3,
       picMobile: imgMobile3,
-      header1: 'Тест: Хайп или кринж? Мода у зумеров',
+      header1: 'Тест: Хайп или кринж? Мода у&nbsp;зумеров',
       header2: 'Насколько хорошо ты разбираешься в трендах?'
     },
     end: {
@@ -608,7 +608,7 @@ export const testsList = {
     start: {
       pic: img7,
       picMobile: imgMobile7,
-      header1: 'Тест: Хорошо ли ты разбираешься в журналах?',
+      header1: 'Тест: Хорошо&nbsp;ли ты&nbsp;разбираешься в&nbsp;журналах?',
       header2:
         'Знаешь&nbsp;ли ты&nbsp;что-то о&nbsp;журналах, которые были популярны в&nbsp;СССР?'
     },

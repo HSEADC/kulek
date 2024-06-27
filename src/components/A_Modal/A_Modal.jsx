@@ -73,8 +73,6 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
       const A_imageWordMain = document.querySelector('.A_imageWordMain3')
       if (A_imageWordMain) {
         A_imageWordMain.src = words[0]['img']
-      } else {
-        console.error('Element with class A_imageWordMain3 not found')
       }
     } else {
       const initialImage = document.querySelector('.A_imageWordMain')
@@ -91,10 +89,32 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
         justifyContent: 'center'
       }
     : { display: 'flex' }
+  const [header2Style, setHeader2Style] = useState({
+    width: window.innerWidth > 912 ? '22.486vw' : '56.821vw'
+  })
 
-  const header2Style = wordGenerated
-    ? { width: '31.097vw' }
-    : { width: '22.486vw' }
+  const updateHeader2Style = () => {
+    if (window.innerWidth > 912) {
+      setHeader2Style((prevState) => ({
+        ...prevState,
+        width: '22.486vw'
+      }))
+    } else {
+      setHeader2Style((prevState) => ({
+        ...prevState,
+        width: '56.821vw'
+      }))
+    }
+  }
+
+  useEffect(() => {
+    updateHeader2Style()
+    window.addEventListener('resize', updateHeader2Style)
+
+    return () => {
+      window.removeEventListener('resize', updateHeader2Style)
+    }
+  }, [])
 
   return (
     <div className="A_Overlay" id="overlay" onClick={handleOverlayClick}>
@@ -104,11 +124,19 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
         ref={onModalRef}
         style={modalStyle}
       >
-        <img
-          src="../../images/main/A_Cancel.svg"
-          className="A_Cancel"
-          alt="Close"
-        />
+        {window.innerWidth > 912 ? (
+          <img
+            src="../../images/main/A_Cancel.svg"
+            className="A_Cancel"
+            alt="Close"
+          />
+        ) : (
+          <img
+            src="../../images/main/A_Cancel2.svg"
+            className="A_Cancel"
+            alt="Close"
+          />
+        )}
         {showImageInDiv ? (
           <div className="A_imageWordMain2" ref={onModalRef2}>
             <img

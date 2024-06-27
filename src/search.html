@@ -21,7 +21,7 @@
           <a href="./tests.html" class="A_linkHeader">Тесты</a>
         </div>
         <div class="A_InputHeader">
-          <input type="text" placeholder="Поиск" />
+          <input type="text" placeholder="Поиск" id="A_searchInput" />
           <img
             src="./images/Q_SearchHeader.svg"
             alt="Картинка лупы для поиска"
@@ -63,14 +63,8 @@
       />
     </div>
     <div class="O_tagsSearch">
-      <h2 class="A_nameSearch">По запросу нашлось материалов</h2>
-      <div class="W_allSearch">
-        <div class="W_allTagsSearch">
-          <button class="A_subTagNewMain">все результаты</button>
-          <button class="A_subTagNewMain">статьи</button>
-          <button class="A_subTagNewMain">тесты</button>
-          <button class="A_subTagNewMain">слова</button>
-        </div>
+      <div class="M_typeSearch">
+        <h2 class="A_nameSearch">По запросу нашлось материалов</h2>
         <div class="Q_filterType">
           <p>По времени</p>
           <svg
@@ -91,7 +85,33 @@
           </svg>
         </div>
       </div>
+
+      <div class="W_allSearch">
+        <div class="W_allTagsTests">
+          <button class="A_subTagNewMain">#мода</button>
+          <button class="A_subTagNewMain">#культура</button>
+          <button class="A_subTagNewMain">#сленг</button>
+          <button class="A_subTagNewMain">#детство</button>
+          <button class="A_subTagNewMain">#музыка</button>
+          <button class="A_subTagNewMain" id="A_subTagNewMainNoneTablet">
+            #прогресс
+          </button>
+          <button class="A_subTagNewMain" id="A_subTagNewMainTablet">
+            #техно
+          </button>
+          <button class="A_subTagNewMain">#зумеры</button>
+          <button class="A_subTagNewMain">#миллениалы</button>
+          <button class="A_subTagNewMain">#поколениеX</button>
+          <button class="A_subTagNewMain">#бумеры</button>
+          <button class="A_subTagNewMain">#навсевремена</button>
+        </div>
+      </div>
     </div>
-    <div class="O_allCardsSearch"></div>
+    <div class="O_allCardsSearch">
+      <div class="A_Overlay" id="overlay">
+        <div class="A_Modal" id="modal">Здесь будет ваш тест</div>
+      </div>
+    </div>
+    <footer></footer>
   </body>
 </html>

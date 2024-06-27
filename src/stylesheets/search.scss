@@ -70,12 +70,64 @@ body.S_Search {
       left: 83.403vw;
     }
   }
+  .M_tagsType {
+    display: flex;
+    gap: 0.347vw;
+
+    .A_tagButton {
+      padding: 0.162vw 1.082vw 0.216vw 1.082vw;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.981vw;
+      border: 0.069vw solid #888;
+      color: #888;
+      text-align: center;
+      font-size: 1.111vw;
+      line-height: 105.092%;
+    }
+  }
+
+  .W_allTagsTests {
+    display: flex;
+    gap: 0.74vw;
+
+    .A_subTagNewMain {
+      cursor: pointer;
+      border-radius: 1.944vw;
+      border: 0.104vw solid #888;
+      background-color: transparent;
+      padding: 0.459vw 1.03vw 0.513vw 1.03vw;
+      color: #888;
+      text-align: center;
+      font-family: 'PP Radio Grotesk';
+      font-size: 1.25vw;
+      font-style: normal;
+      line-height: 105.092%;
+      transition: border 0.3s ease-out, color 0.3s ease-out;
+
+      &:hover {
+        border: 0.104vw solid #000 !important;
+        color: #000 !important;
+      }
+    }
+  }
+  .M_typeSearch {
+    display: flex;
+    gap: 62.494vw;
+    align-items: center;
+
+    .Q_filterType {
+      display: flex;
+      gap: 0.556vw;
+    }
+  }
 
   .O_tagsSearch {
     display: flex;
     flex-direction: column;
     gap: 0.833vw;
-    margin-left: 2.778vw;
+    margin: 0 auto;
+    width: fit-content;
 
     .A_nameSearch {
       color: #000;
@@ -85,7 +137,7 @@ body.S_Search {
 
     .W_allSearch {
       display: flex;
-      gap: 53.264vw;
+      gap: 55.864vw;
 
       .W_allTagsSearch {
         display: flex;
@@ -116,6 +168,139 @@ body.S_Search {
       .Q_filterType {
         display: flex;
         gap: 0.556vw;
+      }
+    }
+  }
+
+  .O_allCardsSearch {
+    margin: 4.028vw auto 20.833vw auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1.389vw;
+  }
+
+  @media all and (min-width: 913px) and (max-width: 1280px) {
+    // .O_Footer {
+    //   bottom: 0;
+    //   position: absolute;
+    // }
+    .M_typeSearch {
+      gap: 61.294vw;
+    }
+    .W_allTagsTests {
+      width: 94.063vw;
+      height: 6.328vw;
+      flex-wrap: wrap;
+      gap: 1.02vw;
+
+      .A_subTagNewMain {
+        border-radius: 2.188vw;
+        border: 0.117vw solid #888;
+        padding: 0.516vw 1.217vw 0.577vw 1.217vw;
+        font-size: 1.406vw;
+        line-height: 105.092%;
+        gap: 0.541vw;
+      }
+    }
+  }
+
+  @media screen and (max-width: 912px) {
+    .O_headerSearch {
+      height: 54vw;
+      .A_lineSearch {
+        width: 378.743vw;
+        height: 202.69vw;
+        top: -144.819vw;
+        left: -96.333vw;
+      }
+      .A_image4SearchHeader,
+      .A_image5SearchHeader {
+        display: none;
+      }
+      .A_image2SearchHeader {
+        width: 36.408vw;
+        height: 47.222vw;
+        top: -11.777vw;
+        left: 33.767vw;
+      }
+      .A_image3SearchHeader {
+        width: 62.491vw;
+        height: 62.246vw;
+        top: -5.417vw;
+        left: 62.208vw;
+      }
+      .A_image1SearchHeader {
+        width: 32.306vw;
+        height: 32.306vw;
+        left: -5.139vw;
+        transform: scaleX(-1) rotate(30deg);
+      }
+    }
+
+    .O_tagsSearch {
+      gap: 3.286vw;
+    }
+
+    .M_typeSearch {
+      .Q_filterType {
+        display: none;
+      }
+      .A_nameSearch {
+        font-size: 3.889vw;
+      }
+    }
+    .W_allTagsTests {
+      flex-wrap: wrap;
+      width: 89.167vw;
+      gap: 1.08vw;
+
+      .A_subTagNewMain {
+        border-radius: 7.778vw;
+        border: 0.303vw solid #888;
+        padding: 1.389vw 3.889vw;
+        font-size: 3.65vw;
+      }
+    }
+    .O_allCardsSearch {
+      margin: 6.619vw auto 55.556vw auto;
+      gap: 3.261vw;
+
+      .M_cardSearch {
+        gap: 5.833vw;
+        width: 88.333vw;
+        height: 29.167vw;
+        border-radius: 0.816vw;
+        box-shadow: 0vw 0.366vw 0.732vw 0vw rgba(0, 0, 0, 0.15);
+
+        .A_pictureCardSearch {
+          width: 27.222vw;
+          height: 29.167vw;
+        }
+
+        .W_allTextSearch {
+          width: 55.556vw;
+          gap: 1.957vw;
+
+          .M_tagsType {
+            gap: 0.958vw;
+
+            .A_tagButton {
+              padding: 0.448vw 2.989vw 0.598vw 2.989vw;
+              border-radius: 2.71vw;
+              border: 0.192vw solid #888;
+              font-size: 3.069vw;
+            }
+          }
+
+          .A_nameArticleSearch {
+            font-size: 4.893vw;
+          }
+
+          .A_subArticleSearch {
+            font-size: 3.262vw;
+          }
+        }
       }
     }
   }

@@ -321,6 +321,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   cards.forEach((card) => {
     card.addEventListener('click', function () {
+      console.log('1')
       let testId = this.getAttribute('data-test-id')
       openModal(testId)
     })

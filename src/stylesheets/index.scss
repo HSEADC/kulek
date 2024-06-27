@@ -564,6 +564,63 @@ body.S_mainPage {
     }
   }
   @media screen and (max-width: 912px) {
+    .A_Overlay {
+      .A_Modal {
+        width: 88.889vw;
+        height: 180vw;
+        border-radius: 2.778vw;
+        box-shadow: 0vw 0.624vw 1.247vw 0vw rgba(0, 0, 0, 0.15);
+        flex-direction: column;
+
+        .A_imageWordMain {
+          width: 88.889vw;
+          height: 111.238vw;
+        }
+
+        .A_headerStartTest {
+          margin-top: 7.736vw;
+          margin-left: 4.492vw;
+          margin-bottom: 4.444vw;
+          font-size: 7.778vw;
+          width: 76.978vw;
+        }
+        .A_header2StartTest {
+          margin-left: 4.492vw;
+          margin-bottom: 4.5vw;
+          font-size: 5vw;
+          width: 56.821vw;
+        }
+        .A_buttonStartTest {
+          margin-left: 3.658vw;
+          border-radius: 5.036vw;
+          border: 0.255vw solid #000;
+          font-size: 5vw;
+          width: 42.332vw;
+          height: 9.045vw;
+        }
+      }
+    }
+    .A_Cancel {
+      width: 4.15vw;
+      height: 4.068vw;
+      right: 4.669vw;
+      top: 4.525vw;
+    }
+    .A_imageWordMain2 {
+      width: 67.491vw;
+      height: 87.342vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      > img {
+        width: 67.491vw;
+        height: 87.342vw;
+      }
+    }
+    .A_newHeader {
+      margin-left: 4.492vw;
+      font-size: 4.444vw;
+    }
     .A_titleMainPage {
       font-size: 8.889vw;
     }

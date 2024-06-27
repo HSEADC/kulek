@@ -10,6 +10,7 @@ const SitemapPlugin = require('sitemap-webpack-plugin').default
 const paths = [
   '/index.html',
   '/about.html',
+  '/search.html',
   '/acca.html',
   '/alfa.html',
   '/blogger.html',
@@ -41,6 +42,7 @@ module.exports = {
     wordsMain: './src/javascript/wordsMain.js',
     choseTag: './src/javascript/choseTag.js',
     choseTag2: './src/javascript/choseTag2.js',
+    choseTag3: './src/javascript/choseTag3.js',
     searchArticle: './src/javascript/searchArticle.js',
     testsList: './src/javascript/testsList.js',
     indexMain: './src/javascript/indexMain.jsx',
@@ -153,6 +155,14 @@ module.exports = {
         {
           from: path.resolve(__dirname, 'src/images/main/'),
           to: path.resolve(__dirname, 'docs/images/main/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/searchArt/'),
+          to: path.resolve(__dirname, 'dev_build/images/searchArt/')
+        },
+        {
+          from: path.resolve(__dirname, 'src/images/searchArt/'),
+          to: path.resolve(__dirname, 'docs/images/searchArt/')
         }
       ]
     }),
@@ -198,7 +208,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/search.html',
       filename: './search.html',
-      chunks: ['index', 'searchCard', 'cardsSearchSort']
+      chunks: ['index', 'searchCard', 'cardsSearchSort', 'choseTag3']
     }),
 
     // Article
