@@ -21,6 +21,7 @@ const O_Footer = () => {
                         src="../../images/footer/A_iconInstFooter.svg"
                         alt=""
                         className="A_iconFooter"
+                        id="A_iconFooterInst"
                       />
                       <a href="https://clck.ru/36HCrm">
                         <p className="A_linkTextFooter">eto.kulek*</p>
