@@ -8,11 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     button.addEventListener('click', function () {
       const tag = this.innerText
 
-      console.log(tag)
-
       if (selectedTags.includes(tag)) {
         selectedTags = selectedTags.filter((t) => t !== tag)
-        console.log(selectedTags)
         this.style.color = '#888888'
         this.style.border = '0.104vw solid #888888'
       } else {
@@ -27,8 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function filterCards() {
     const cards = document.querySelectorAll('.M_cardSearch')
-
-    console.log(cards)
 
     cards.forEach((card) => {
       const tagsInCard = Array.from(card.querySelectorAll('.A_tagButton')).map(

@@ -27,79 +27,83 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentQuestionIndex = 0
     let correctAnswersCount = 0
 
+    function renderFooter() {
+      const footerContainer = document.createElement('div')
+      footerContainer.style.marginTop = '15.278vw'
+      modal.appendChild(footerContainer)
+      const root = createRoot(footerContainer)
+      root.render(<O_Footer />)
+    }
+
     function showCurrentQuestion() {
       const modal2 = document.getElementById('modal')
       const questionKeys = Object.keys(test).filter((k) => k.startsWith('q'))
       if (currentQuestionIndex >= questionKeys.length) {
-        if (currentQuestionIndex >= questionKeys.length) {
-          modal.innerHTML = ''
+        modal.innerHTML = ''
 
-          if (window.innerWidth <= 912) {
-            const imgLogo = document.createElement('img')
-            const linkLogo = document.createElement('a')
-            linkLogo.href = '/'
-            imgLogo.src = imgLogoP
-            imgLogo.className = 'A_imgLink'
-            imgLogo.alt = 'Изображение логотипа'
-            linkLogo.appendChild(imgLogo)
-            modal.appendChild(linkLogo)
-          }
-
-          const resultHeader = document.createElement('h1')
-          resultHeader.textContent = test.end.low[0]
-          resultHeader.className = 'A_resultHeader'
-          modal.appendChild(resultHeader)
-
-          const imgCancel = document.createElement('img')
-          imgCancel.src = cancelTest
-          imgCancel.className = 'A_cancelTest'
-          imgCancel.alt = 'Изображение крестика'
-          modal.appendChild(imgCancel)
-
-          imgCancel.addEventListener('click', function () {
-            overlay.style.display = 'none'
-            modal.style.display = 'none'
-          })
-
-          const scoreText = document.createElement('p')
-          scoreText.textContent = `${correctAnswersCount}/${questionKeys.length}
-					`
-          scoreText.className = 'A_scoreText'
-          modal.appendChild(scoreText)
-
-          const lineFinalTest = document.createElement('img')
-          if (window.innerWidth > 912) {
-            lineFinalTest.src = lineFinalTestLink
-          } else {
-            lineFinalTest.src = lineFinalTestLinkMobile
-          }
-          lineFinalTest.className = 'A_lineFinalTestLine'
-          lineFinalTest.alt = 'Изображение линии'
-          modal.appendChild(lineFinalTest)
-
-          let resultImageSrc
-          const resultMessage = document.createElement('p')
-          if (correctAnswersCount < 4) {
-            resultMessage.textContent = test.end.low[1]
-            resultImageSrc = imgLowScore
-          } else if (correctAnswersCount < 6) {
-            resultMessage.textContent = test.end.med[1]
-            resultImageSrc = imgMediumScore
-          } else {
-            resultMessage.textContent = test.end.high[1]
-            resultImageSrc = imgHighScore
-          }
-          resultMessage.className = 'A_resultMessage'
-          modal.appendChild(resultMessage)
-
-          const resultImage = document.createElement('img')
-          resultImage.src = resultImageSrc
-          resultImage.alt = 'Результат теста'
-          resultImage.className = 'A_resultImage'
-          modal.appendChild(resultImage)
-
-          return
+        if (window.innerWidth <= 912) {
+          const imgLogo = document.createElement('img')
+          const linkLogo = document.createElement('a')
+          linkLogo.href = '/'
+          imgLogo.src = imgLogoP
+          imgLogo.className = 'A_imgLink'
+          imgLogo.alt = 'Изображение логотипа'
+          linkLogo.appendChild(imgLogo)
+          modal.appendChild(linkLogo)
         }
+
+        const resultHeader = document.createElement('h1')
+        resultHeader.textContent = test.end.low[0]
+        resultHeader.className = 'A_resultHeader'
+        modal.appendChild(resultHeader)
+
+        const imgCancel = document.createElement('img')
+        imgCancel.src = cancelTest
+        imgCancel.className = 'A_cancelTest'
+        imgCancel.alt = 'Изображение крестика'
+        modal.appendChild(imgCancel)
+
+        imgCancel.addEventListener('click', function () {
+          overlay.style.display = 'none'
+          modal.style.display = 'none'
+        })
+
+        const scoreText = document.createElement('p')
+        scoreText.textContent = `${correctAnswersCount}/${questionKeys.length}
+          `
+        scoreText.className = 'A_scoreText'
+        modal.appendChild(scoreText)
+
+        const lineFinalTest = document.createElement('img')
+        if (window.innerWidth > 912) {
+          lineFinalTest.src = lineFinalTestLink
+        } else {
+          lineFinalTest.src = lineFinalTestLinkMobile
+        }
+        lineFinalTest.className = 'A_lineFinalTestLine'
+        lineFinalTest.alt = 'Изображение линии'
+        modal.appendChild(lineFinalTest)
+
+        let resultImageSrc
+        const resultMessage = document.createElement('p')
+        if (correctAnswersCount < 4) {
+          resultMessage.textContent = test.end.low[1]
+          resultImageSrc = imgLowScore
+        } else if (correctAnswersCount < 6) {
+          resultMessage.textContent = test.end.med[1]
+          resultImageSrc = imgMediumScore
+        } else {
+          resultMessage.textContent = test.end.high[1]
+          resultImageSrc = imgHighScore
+        }
+        resultMessage.className = 'A_resultMessage'
+        modal.appendChild(resultMessage)
+
+        const resultImage = document.createElement('img')
+        resultImage.src = resultImageSrc
+        resultImage.alt = 'Результат теста'
+        resultImage.className = 'A_resultImage'
+        modal.appendChild(resultImage)
 
         return
       }
@@ -116,7 +120,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const h1Question = document.createElement('h1')
         h1Question.className = 'A_h1Question'
         const h2Question = document.createElement('h2')
-        h2Question.className = 'A_h2Question'
         h1Question.textContent = `${currentQuestionIndex + 1}/10`
         h2Question.innerHTML = `${currentQuestion.q}`
         questionTitle.appendChild(h1Question)
@@ -186,14 +189,6 @@ document.addEventListener('DOMContentLoaded', function () {
         answerBtn.className = 'A_answerBtn'
         wrapperAnswers.appendChild(answerBtn)
       })
-
-      if (window.innerWidth <= 912) {
-        const footerContainer = document.createElement('div')
-        footerContainer.style.marginTop = '15.278vw'
-        modal.appendChild(footerContainer)
-        const root = createRoot(footerContainer)
-        root.render(<O_Footer />)
-      }
 
       function handleAnswer(selectedAnswer, correctAnswer) {
         Array.from(wrapperAnswers.children).forEach((child, index) => {
@@ -266,6 +261,14 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         nextQuestionBtn.className = 'A_nextQuestionBtn'
         modal.appendChild(nextQuestionBtn)
+
+        if (window.innerWidth <= 912) {
+          renderFooter()
+        }
+      }
+
+      if (window.innerWidth <= 912) {
+        renderFooter()
       }
     }
 
@@ -307,6 +310,7 @@ document.addEventListener('DOMContentLoaded', function () {
     startBtn.textContent = 'Начать тест'
     startBtn.addEventListener('click', function () {
       showCurrentQuestion()
+      modal.scrollIntoView({ behavior: 'smooth' })
     })
     startBtn.className = 'A_buttonStartTest'
     wrap1.appendChild(startBtn)
@@ -321,7 +325,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   cards.forEach((card) => {
     card.addEventListener('click', function () {
-      console.log('1')
       let testId = this.getAttribute('data-test-id')
       openModal(testId)
     })

@@ -7,7 +7,7 @@ const O_Footer = () => {
         <div className="W_allInfoFooter">
           <div className="M_logoInfoMain">
             <img
-              src="../../images/footer/A_bigLogoFooter.svg"
+              src="images/footer/A_bigLogoFooter.svg"
               alt=""
               className="A_bigLogoFooter"
             />
@@ -18,7 +18,7 @@ const O_Footer = () => {
                   <div className="C_linksFooter">
                     <div className="W_linkIconTextFooter">
                       <img
-                        src="../../images/footer/A_iconInstFooter.svg"
+                        src="images/footer/A_iconInstFooter.svg"
                         alt=""
                         className="A_iconFooter"
                         id="A_iconFooterInst"
@@ -29,7 +29,7 @@ const O_Footer = () => {
                     </div>
                     <div className="W_linkIconTextFooter">
                       <img
-                        src="../../images/footer/A_iconTelFooter.svg"
+                        src="images/footer/A_iconTelFooter.svg"
                         alt=""
                         className="A_iconFooter"
                       />
@@ -39,7 +39,7 @@ const O_Footer = () => {
                     </div>
                     <div className="W_linkIconTextFooter">
                       <img
-                        src="../../images/footer/A_iconOdFooter.svg"
+                        src="images/footer/A_iconOdFooter.svg"
                         alt=""
                         className="A_iconFooter"
                       />
@@ -80,7 +80,7 @@ const O_Footer = () => {
           </div>
           <div className="W_logoInfoHSE">
             <img
-              src="../../images/footer/A_logoHSE.svg"
+              src="images/footer/A_logoHSE.svg"
               alt=""
               className="A_logoHSE"
             />

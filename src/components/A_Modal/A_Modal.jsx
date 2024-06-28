@@ -148,10 +148,10 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
         <img
           src={
             wordGenerated
-              ? '../../images/main/A_Cancel.svg'
+              ? 'images/main/A_Cancel.svg'
               : window.innerWidth > 912
-              ? '../../images/main/A_Cancel.svg'
-              : '../../images/main/A_Cancel2.svg'
+              ? 'images/main/A_Cancel.svg'
+              : 'images/main/A_Cancel2.svg'
           }
           className="A_Cancel"
           alt="Close"
@@ -166,7 +166,7 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
           </div>
         ) : (
           <img
-            src="../../images/main/A_imageWordMain.png"
+            src="images/main/A_imageWordMain.png"
             alt="Обложка теста"
             className="A_imageWordMain"
             ref={onModalRef2}

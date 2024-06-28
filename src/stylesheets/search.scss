@@ -113,8 +113,8 @@ body.S_Search {
   }
   .M_typeSearch {
     display: flex;
-    gap: 62.494vw;
     align-items: center;
+    justify-content: space-between;
 
     .Q_filterType {
       display: flex;
@@ -125,6 +125,7 @@ body.S_Search {
   .O_tagsSearch {
     display: flex;
     flex-direction: column;
+    width: 94.444vw;
     gap: 0.833vw;
     margin: 0 auto;
     width: fit-content;
@@ -181,10 +182,6 @@ body.S_Search {
   }
 
   @media all and (min-width: 913px) and (max-width: 1280px) {
-    // .O_Footer {
-    //   bottom: 0;
-    //   position: absolute;
-    // }
     .M_typeSearch {
       gap: 61.294vw;
     }

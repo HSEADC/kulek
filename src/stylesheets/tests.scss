@@ -11,11 +11,7 @@ body.S_Tests {
   .M_middleCardMainTests {
     cursor: pointer;
   }
-  .M_middle2CardMain {
-    // float: left;
-    // margin-right: 1.389vw;
-    // margin-bottom: 1.389vw;
-  }
+
   .A_headerStartTest {
     margin-top: 23.611vw;
     margin-left: 5.139vw;
@@ -64,7 +60,6 @@ body.S_Tests {
     align-items: center;
     gap: 25px;
     justify-content: start;
-    // margin-left: 45px;
 
     > h1 {
       margin: 0 auto;
@@ -333,13 +328,6 @@ body.S_Tests {
 
   .C_subTagsMain {
     width: 23.621vw;
-  }
-
-  .left,
-  .right,
-  .top,
-  .bottom {
-    // flex: 1;
   }
 
   .item {
