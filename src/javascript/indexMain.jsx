@@ -77,7 +77,11 @@ document.addEventListener('DOMContentLoaded', function () {
             A_buttonStartTest.style.display = 'none'
 
             A_headerStartTest.innerText = words[0]['word']
-            A_headerStartTest.style.fontSize = '5.556vw'
+            if (window.innerWidth > 912) {
+              A_headerStartTest.style.fontSize = '5.556vw'
+            } else {
+              A_headerStartTest.style.fontSize = '15.556vw'
+            }
             A_headerStartTest.style.marginTop = '0.717vw'
             A_headerStartTest.style.marginLeft = '3.702vw'
             A_headerStartTest.style.marginBottom = '2.627vw'

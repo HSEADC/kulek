@@ -22,6 +22,7 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
       ...word,
       tag: getTag(word.sub)
     })
+    updateModalStyle()
   }
 
   const getTag = (sub) => {
@@ -46,6 +47,7 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
       setShowImageInDiv(false)
       setWordGenerated(false)
       setSelectedWord(null)
+      updateModalStyle()
     }
   }
 
@@ -53,6 +55,7 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
     setShowImageInDiv(false)
     setWordGenerated(false)
     setSelectedWord(null)
+    updateModalStyle()
   }
 
   useEffect(() => {
@@ -82,13 +85,26 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
     }
   }, [showImageInDiv, initialImageSrc, words])
 
-  const modalStyle = wordGenerated
-    ? {
+  const [modalStyle, setModalStyle] = useState({
+    display: 'flex'
+  })
+
+  const updateModalStyle = () => {
+    if (wordGenerated && window.innerWidth > 912) {
+      setModalStyle({
         display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }
-    : { display: 'flex' }
+        alignItems: wordGenerated ? 'center' : 'initial',
+        justifyContent: wordGenerated ? 'center' : 'initial'
+      })
+    } else {
+      setModalStyle({
+        display: 'flex',
+        alignItems: wordGenerated ? 'center' : 'initial',
+        paddingTop: wordGenerated ? '8.606vw' : '0',
+        boxSizing: 'border-box'
+      })
+    }
+  }
   const [header2Style, setHeader2Style] = useState({
     width: window.innerWidth > 912 ? '22.486vw' : '56.821vw'
   })
@@ -108,13 +124,18 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
   }
 
   useEffect(() => {
-    updateHeader2Style()
-    window.addEventListener('resize', updateHeader2Style)
-
-    return () => {
-      window.removeEventListener('resize', updateHeader2Style)
+    const handleResize = () => {
+      updateModalStyle()
+      updateHeader2Style()
     }
-  }, [])
+
+    window.addEventListener('resize', handleResize)
+
+    handleResize()
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [wordGenerated])
 
   return (
     <div className="A_Overlay" id="overlay" onClick={handleOverlayClick}>
@@ -124,19 +145,17 @@ const A_Modal = ({ onModalRef, onModalRef2, words }) => {
         ref={onModalRef}
         style={modalStyle}
       >
-        {window.innerWidth > 912 ? (
-          <img
-            src="../../images/main/A_Cancel.svg"
-            className="A_Cancel"
-            alt="Close"
-          />
-        ) : (
-          <img
-            src="../../images/main/A_Cancel2.svg"
-            className="A_Cancel"
-            alt="Close"
-          />
-        )}
+        <img
+          src={
+            wordGenerated
+              ? '../../images/main/A_Cancel.svg'
+              : window.innerWidth > 912
+              ? '../../images/main/A_Cancel.svg'
+              : '../../images/main/A_Cancel2.svg'
+          }
+          className="A_Cancel"
+          alt="Close"
+        />
         {showImageInDiv ? (
           <div className="A_imageWordMain2" ref={onModalRef2}>
             <img

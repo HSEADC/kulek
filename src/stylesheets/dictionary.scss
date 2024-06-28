@@ -181,52 +181,52 @@ body.S_Dictionary {
     .O_cradDescription {
       box-sizing: border-box;
       width: 89.167vw;
-      padding: 5.144vw 7.015vw;
-      gap: 4.832vw;
-      border-radius: 1.994vw;
-      box-shadow: 0vw 0.624vw 0.624vw 0vw rgba(0, 0, 0, 0.25);
+      padding-top: 8.606vw;
+      height: 180vw;
+      // gap: 4.832vw;
+      flex-direction: column;
+      border-radius: 2.778vw;
+      box-shadow: 0vw 0.624vw 1.247vw 0vw rgba(0, 0, 0, 0.15);
 
       .A_imgCard {
-        width: 23.227vw;
-        height: 41.154vw;
+        width: 67.491vw;
+        height: 87.342vw;
 
         > img {
-          width: 31.801vw;
-          height: 41.154vw;
+          width: 67.491vw;
+          height: 87.342vw;
         }
       }
 
       .M_mainPlot {
         gap: 3.431vw;
-        width: 46.667vw;
+        width: 76.978vw;
         min-height: 16.806vw;
 
         .C_headerName {
           gap: 0.936vw;
 
           .A_tagCard {
-            font-size: 2.494vw;
-            letter-spacing: -0.025vw;
+            font-size: 4.444vw;
           }
 
           .A_cardTitle {
-            font-size: 9.977vw;
-            letter-spacing: -0.1vw;
+            font-size: 15.556vw;
+            // line-height: normal;
           }
         }
 
         .A_Plot {
-          font-size: 2.806vw;
-          letter-spacing: -0.028vw;
+          font-size: 5vw;
         }
       }
     }
 
     .A_Cancel {
-      width: 2.329vw;
-      height: 2.283vw;
-      right: 3.128vw;
-      top: 3.067vw;
+      width: 4.15vw;
+      height: 4.068vw;
+      right: 4.467vw;
+      top: 4.525vw;
     }
 
     .M_pageTitleMobile {
