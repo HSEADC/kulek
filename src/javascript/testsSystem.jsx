@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (window.innerWidth <= 912) {
           const imgLogo = document.createElement('img')
           const linkLogo = document.createElement('a')
-          linkLogo.href = '/'
+          linkLogo.href = 'index.html'
           imgLogo.src = imgLogoP
           imgLogo.className = 'A_imgLink'
           imgLogo.alt = 'Изображение логотипа'
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (window.innerWidth <= 912) {
         const imgLogo = document.createElement('img')
         const linkLogo = document.createElement('a')
-        linkLogo.href = '/'
+        linkLogo.href = 'index.html'
         imgLogo.src = imgLogoP
         imgLogo.className = 'A_imgLink'
         imgLogo.alt = 'Изображение логотипа'
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function () {
       img.src = test.start.picMobile
       const imgL = document.createElement('img')
       const LinkL = document.createElement('a')
-      LinkL.href = '/'
+      LinkL.href = 'index.html'
       imgL.alt = 'Логотип'
       imgL.src = imgLogoPW
       imgL.className = 'A_headerLogo'

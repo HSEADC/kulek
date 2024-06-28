@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
               const A_imageWordMain = document.querySelector('.A_imageWordMain')
               if (A_imageWordMain) {
-                A_imageWordMain.src = '../../images/main/A_imageWordMain.png'
+                A_imageWordMain.src = 'images/main/A_imageWordMain.png'
               }
             }
           })
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
               const A_imageWordMain = document.querySelector('.A_imageWordMain')
               if (A_imageWordMain) {
-                A_imageWordMain.src = '../../images/main/A_imageWordMain.png'
+                A_imageWordMain.src = 'images/main/A_imageWordMain.png'
               }
             })
           }
